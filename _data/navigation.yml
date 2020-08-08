@@ -3,9 +3,12 @@ main:
    - title: "Home"
      url: https://Lightdrifter.github.io/
    - title: "My Notes"
+     description: "Notes that I've written."
    - title: "My Project Ideas & Random Thoughts"
-   - title: "Contact Me"
+     description: "A MemoryBank of ideas which I felt worthy enough to hold onto." 
+   - title: "Feedback & Contact Me"
      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+     description: "Anonymously send feedback to me."
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
