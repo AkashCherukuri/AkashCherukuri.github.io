@@ -2,9 +2,10 @@
 main:
    - title: "Home"
      url: https://Lightdrifter.github.io/
-   - title: "Notes"
-   - title: "Project Ideas"
+   - title: "My Notes"
+   - title: "My Project Ideas & Random Thoughts"
    - title: "Contact Me"
+     url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
