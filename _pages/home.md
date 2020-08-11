@@ -1,1 +1,5 @@
-###This is the homepage of the website
+---
+permalink: /
+---
+
+### This is the homepage of the website
