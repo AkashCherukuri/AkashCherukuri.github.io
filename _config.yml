@@ -23,9 +23,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Akash Cherukuri"
 description              : " "
-url                      : "https://lightDrifter.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://AkashCherukuri.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "LightDrifter/LightDrifter.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "AkashCherukuri/AkashCherukuri.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
@@ -115,7 +115,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/LightDrifter"
+      url: "https://github.com/AkashCherukuri"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -131,7 +131,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/LightDrifter"
+      url: "https://github.com/AkashCherukuri"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
