@@ -11,4 +11,6 @@ I am aware that the notes might have many typos which might've been missed by me
 
 2) Notes for Python written during CS251 Lectures are linked [here](https://AkashCherukuri.github.io/notes/cs251py).
 
-3) CS213 Classnotes are available [here](https://AkashCherukuri.github.io/notes/cs213cn); I'll divide the notes into topics instead of lectures later.
+3) Awk and Sed notes linked [here](https://AkashCherukuri.github.io/notes/cs251a_bash).
+
+4) CS213 Classnotes are available [here](https://AkashCherukuri.github.io/notes/cs213cn); I'll divide the notes into topics instead of lectures later.
