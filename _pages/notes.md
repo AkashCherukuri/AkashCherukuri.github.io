@@ -14,4 +14,4 @@ I am aware that the notes might have many typos which might've been missed by me
 - Awk and Sed notes linked [here](https://AkashCherukuri.github.io/notes/cs251a_bash).
 
 - CS213 Classnotes are available [here](https://AkashCherukuri.github.io/notes/cs213cn); I'll divide the notes into topics instead of lectures later.
-- Notes that I made for PH107 when I was a TA for it are [here](assets/PH107.pdf).
+- Notes that I made for PH107 when I was a TA for it are [here](/assets/PH107.pdf).
