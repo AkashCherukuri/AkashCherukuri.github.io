@@ -15,3 +15,5 @@ I am aware that the notes might have many typos which might've been missed by me
 
 - CS213 Classnotes are available [here](https://AkashCherukuri.github.io/notes/cs213cn); I'll divide the notes into topics instead of lectures later.
 - Notes that I made for PH107 when I was a TA for it are [here]({{ site.baseurl }}/pdfs/PH107.pdf).
+
+- The [notes]({{site.baseurl}}/pdfs/ML.pdf) for Machine Learning made during the winter vacation of 2020. "Understanding Machine Learning: From Theory to Algorithms (c) 2014 by Shai Shalev-Shwartz and Shai Ben-David" has been taken as the reference.
