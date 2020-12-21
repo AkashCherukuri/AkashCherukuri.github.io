@@ -8,9 +8,9 @@ main:
    - title: "Feedback & Contact Me"
      url: /feedback/
      description: "Anonymously send feedback to me."
-   - title: "Giveaways"
+   - title: "Enter Giveaway"
      description: "Enter the giveaways that are hosted by me, on a monthly basis!" 
-     url: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3
+     url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
