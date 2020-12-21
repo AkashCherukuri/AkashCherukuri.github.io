@@ -3,17 +3,20 @@ title: "Notes"
 permalink: /notes/
 ---
 
-The Latex notes which I've written so far will be linked down below. These notes have been written by me for projects, as class notes, or out of pure interst in the topic.
+The notes which I've written so far will be linked down below. These notes have been written by me for projects, as class notes, or out of pure interest in the topic. Some of the notes are handwritten, wheras others have been done in LaTeX.
 
-I am aware that the notes might have many typos which might've been missed by me in proofreading; although I may or may not re-visit them again.
+I am aware that the notes might have many typos which might've been missed by me in proofreading; although I may or may not re-visit them again. If you find any typos or any errors in my notes, feel free to let me know [here](https://docs.google.com/forms/d/e/1FAIpQLSfg5K7Who3oHfU4l4fgulXwf8h9csXvU88QPf83HDsMjE65XA/viewform?usp=sf_link)!
 
-- Data Structures and Algorithms written for SoS-2020. Here's the [repo](https://github.com/AkashCherukuri/Data-Structures-and-Algorithms) and here's the [pdf]({{ site.baseurl }}/pdfs/SoS_Report.pdf). 
+## Self-Notes
+---
 
-- Notes for Python written during CS251 Lectures are linked [here](https://AkashCherukuri.github.io/notes/cs251py).
+- [Data Structures and Algorithms written for SoS-2020](/notes/sos2020/)
+- [Theory of Machine Learning](notes/toml)
+- [Ph107 - Notes made when I was a TA for it]({{ site.baseurl }}/pdfs/PH107.pdf)
 
-- Awk and Sed notes linked [here](https://AkashCherukuri.github.io/notes/cs251a_bash).
+## Class-Notes
+--
 
-- CS213 Classnotes are available [here](https://AkashCherukuri.github.io/notes/cs213cn); I'll divide the notes into topics instead of lectures later.
-- Notes that I made for PH107 when I was a TA for it are [here]({{ site.baseurl }}/pdfs/PH107.pdf).
-
-- The [notes]({{site.baseurl}}/pdfs/ML.pdf) for Machine Learning made during the winter vacation of 2020. "Understanding Machine Learning: From Theory to Algorithms (c) 2014 by Shai Shalev-Shwartz and Shai Ben-David" has been taken as the reference.
+- [CS251 - Notes for Python](/notes/cs251py)
+- [CS251 - Notes for Awk and Sed](/notes/cs251a_bash)
+- [CS213 - Classnotes](/notes/cs213cn)

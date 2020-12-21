@@ -1,16 +1,16 @@
 # main links
 main:
    - title: "Home"
-     url: https://AkashCherukuri.github.io/home/
+     url: /home/
    - title: "My Notes"
      description: "Notes that I've written."
-     url: https://AkashCherukuri.github.io/notes/
-   - title: "My Project Ideas & Random Thoughts"
-     description: "A MemoryBank of ideas which I felt worthy enough to hold onto." 
-     url: https://AkashCherukuri.github.io/thoughts/
+     url: /notes/
    - title: "Feedback & Contact Me"
-     url: https://AkashCherukuri.github.io/feedback/
+     url: /feedback/
      description: "Anonymously send feedback to me."
+   - title: "Giveaways"
+     description: "Enter the giveaways that are hosted by me, on a monthly basis!" 
+     url: https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLahKLy8pQdCM0SiXNn3EfGIXX19QGzUG3
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
