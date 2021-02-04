@@ -11,7 +11,6 @@ I am aware that the notes might have many typos which might've been missed by me
 
 - [Data Structures and Algorithms written for SoS-2020](/notes/sos2020/)
 - [Theory of Machine Learning](/notes/toml/)
-- [Ph107 - Tutorial Solutions](/notes/ph107/)
 
 ## Class-Notes
 
@@ -22,3 +21,7 @@ I am aware that the notes might have many typos which might've been missed by me
   The notes start from the Gaussian distribution.
 - [Discrete Structures]({{ site.baseurl }}/pdfs/CS207.pdf) 
   The notes start from the Chinese Remainder Theorem.
+
+## Teaching-Assistant-Notes
+
+- [Quantum Physics and its Applications (PH107)](/notes/ph107/)
