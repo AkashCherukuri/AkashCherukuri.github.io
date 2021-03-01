@@ -17,11 +17,13 @@ I am aware that the notes might have many typos which might've been missed by me
 - [CS251 - Notes for Python](/notes/cs251py/)
 - [CS251 - Notes for Awk and Sed](/notes/cs251a_bash/)
 - [CS213 - Classnotes](/notes/cs213cn/)
-- [Data Analysis and Interpretation]({{ site.baseurl }}/pdfs/CS215.pdf) 
+- [CS215 - Data Analysis and Interpretation]({{ site.baseurl }}/pdfs/CS215.pdf) 
   The notes start from the Gaussian distribution.
-- [Discrete Structures]({{ site.baseurl }}/pdfs/CS207.pdf) 
+- [CS207 - Discrete Structures]({{ site.baseurl }}/pdfs/CS207.pdf) 
   The notes start from the Chinese Remainder Theorem.
+
+- [PH566 - Advanced Simulation Methods in Physics]({{ site.baseurl }}/pdfs/PH566.pdf)
 
 ## Teaching-Assistant-Notes
 
-- [Quantum Physics and its Applications (PH107)](/notes/ph107/)
+- [PH107 - Quantum Physics and its Applications](/notes/ph107/)
