@@ -5,6 +5,9 @@ main:
    - title: "My Notes"
      description: "Notes that I've written."
      url: /notes/
+   - title: "Reviews"
+     description: "Reviews of games that I've played recently."
+     url: /reviews/ 
    - title: "Feedback & Contact Me"
      url: /feedback/
      description: "Anonymously send feedback to me."
