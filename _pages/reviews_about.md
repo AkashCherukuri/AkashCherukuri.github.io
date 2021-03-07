@@ -3,7 +3,7 @@ title: "About the Reviews"
 permalink: /reviews/about/
 ---
 
-## Format
+## Ranking System
 I will be rating games on  a scale of 0 through 5. Each number's meaning has been explained below. I plan to be reasonably thorough with these reviews. 
 - 0 -> Unplayable
 - 1 -> Playable, but would not reccommend
