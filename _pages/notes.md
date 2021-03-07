@@ -24,6 +24,7 @@ I am aware that the notes might have many typos which might've been missed by me
 
 - [PH566 - Advanced Simulation Methods in Physics]({{ site.baseurl }}/pdfs/PH566.pdf)
 - [CS224 - Networks](/notes/cs224/)
+- [CS218 - Design and Analysis of Algorithms](/notes/cs218)
 
 ## Teaching-Assistant-Notes
 
