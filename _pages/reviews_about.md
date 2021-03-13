@@ -14,7 +14,7 @@ I will be rating games on  a scale of 0 through 5. Each number's meaning has bee
 
 
 ## Interests
-I tend to enjoy faster, twitch-reflex based games more than stragic, and slow paced ones. Do keep in this in mind if you do intend to read the review, as I tend to be sterner towards such genres. My rating is my opinion alone, and is (obviously) not absolute.
+I tend to enjoy faster, reflex based games more than strategic, slow-paced ones. Do keep in this in mind if you do intend to read the review, as I tend to be sterner towards such genres. My rating is my opinion alone, and is (obviously) not absolute.
 
 
 ## Why here?
