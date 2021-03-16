@@ -8,8 +8,8 @@ I will be rating games on  a scale of 0 through 5. Each number's meaning has bee
 - 0 -> Unplayable
 - 1 -> Playable, but would not reccommend
 - 2 -> Enjoyable, but with serious flaws
-- 3 -> Recommended, but with minor flaws
-- 4 -> Highly Recommended, respectable
+- 3 -> Reccommended, but with minor flaws
+- 4 -> Highly Reccommended, respectable
 - 5 -> Masterpiece
 
 
