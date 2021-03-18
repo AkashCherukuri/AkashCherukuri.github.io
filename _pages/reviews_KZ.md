@@ -13,7 +13,7 @@ permalink: /reviews/KatanaZero
 
 Katana Zero is a retro-style action-platformer developed by Askiisoft and published by Devolver Digital. The visuals and the soundtrack are reminiscent of Hotline Miami, with the core gameplay loop feeling more polished. 
 
-![Marketing Image 1]({{ site.baseurl }}/imgs/kz_1.png)
+![Marketing Image 1]({{ site.baseurl }}/pdfs/kz_1.png)
 
 ## Gameplay
 You play as a nameless samurai, working for a dystopian government as a hitman. The game follows a one-hit-kill rule, meaning that a single hit is enough to eliminate both you and your enemies. A well-timed attack can parry bullets, and you can slow down time to make parrying and dodging easier. During a conversation, you can choose dialogue with an additional option of interrupting the speaker, which might open up other dialogue paths. 
