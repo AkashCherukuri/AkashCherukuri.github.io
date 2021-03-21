@@ -4,7 +4,7 @@ permalink: /reviews/KatanaZero
 ---
 (Spoiler-free)
 
-- **Rating** - 4/5 (Subject to change)
+- **Rating** - 5/5 (Subject to change)
 - **Studio** - Askiisoft
 - **Publisher** - Devolver Digital
 - **Genre** - 2D Action-Platformer
