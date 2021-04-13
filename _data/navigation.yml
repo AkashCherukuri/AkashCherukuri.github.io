@@ -1,21 +1,7 @@
 # main links
 main:
-   - title: "Home"
-     url: /home/
-   - title: "My Notes"
-     description: "Notes that I've written."
-     url: /notes/
-   - title: "Reviews"
-     description: "Reviews of games that I've played recently."
-     url: /reviews/ 
-   - title: "Feedback & Contact Me"
-     url: /feedback/
-     description: "Anonymously send feedback to me."
-   - title: "Enter Giveaway"
-     description: "Enter the giveaways that are hosted by me, on a monthly basis!" 
-     url: https://www.youtube.com/watch?v=p5CjmHLUQQI
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
