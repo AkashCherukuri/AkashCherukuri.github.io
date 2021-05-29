@@ -7,4 +7,5 @@ The notes shall discuss the various categories of algorithms, and different ways
 
 - [Divide and Conquer]({{ site.baseurl }}/pdfs/CS218_DAQ.pdf)
 - [Dynamic Programming]({{ site.baseurl }}/pdfs/CS218_DP.pdf)
-- [Flow Networks]({{ site.baseurl }}/pdfs/CS218_FL.pdf)
+- [Flow Networks]({{ site.baseurl }}/pdfs/CS218_FN.pdf)
+- [NP-Hardness]({{ site.baseurl }}/pdfs/CS218_NP.pdf)
