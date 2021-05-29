@@ -9,6 +9,7 @@ I am aware that the notes might have many typos which might've been missed by me
 
 ## Self-Notes
 
+- [Deep Learning and Convolutional Networks](/notes/soc2021)
 - [Data Structures and Algorithms written for SoS-2020](/notes/sos2020/)
 - [Theory of Machine Learning](/notes/toml/)
 
