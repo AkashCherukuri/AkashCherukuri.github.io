@@ -9,8 +9,8 @@ I am aware that the notes might have many typos which might've been missed by me
 
 ## Self-Notes
 
-- [Deep Learning and Convolutional Networks](/notes/soc2021)
-- [Project Notes for Chemical Catalysis using ML (Prof. Sunoj)](/notes/chemcat)
+- [Deep Learning and Convolutional Networks (Ongoing)](/notes/soc2021)
+- [Project Notes for Chemical Catalysis using ML (Prof. Sunoj, Ongoing)](/notes/chemcat)
 - [Theory of Machine Learning](/notes/toml/)
 - [Data Structures and Algorithms written for SoS-2020](/notes/sos2020/)
 
