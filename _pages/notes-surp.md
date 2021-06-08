@@ -11,6 +11,8 @@ permalink: /notes/chemcat/
 
 -1. [References](#references)
 
+
+
 # Random Forest Algorithm
 This is a very versatile algorithm, as it can act as both a classifier and an regressor. It is used in various fields, such as the stock market and banking for starters.
 
@@ -38,41 +40,44 @@ This is acheived in the following ways:
 4. `min_samples_split`: The minimum samples that must be present in a node before split.
 5. `min_samples_leaf`: The minimum samples that a leaf can have. 
 
+
+
+
 # SMILES Notation
 
 SMILES stands for **S**implified **M**olecular **I**nput **L**ine **E**ntry **S**ystem. This is somewhat akin to the IUPAC nomenclature, but is designed to be compact and use ASCII characters. Five basic syntax rules are to be followed, and they have been listed below.
 
 1. **Atom and Bond Nomenclature**
 
-Atoms are represented using their atomic symbols, and hydrogen is usually exempted in the string. That is, `C` refers to methane and `CC` refers to Ethane.
+	Atoms are represented using their atomic symbols, and hydrogen is usually exempted in the string. That is, `C` refers to methane and `CC` refers to Ethane.
 
-Capital letters denote normal atoms and small letters denote aromatic atoms. That is, `CCCCCC` is Cyclo-Hexane, wheras `cccccc` is Benzene. For atoms with multi character atomic symbols, it is usually better to represent them in \[\]. For example, Scandium is represented as `[Sc]` and not `Sc` as the latter refers to Sulphur being attached to an aromatic carbon.
+	Capital letters denote normal atoms and small letters denote aromatic atoms. That is, `CCCCCC` is Cyclo-Hexane, wheras `cccccc` is Benzene. For atoms with multi character atomic symbols, it is usually better to represent them in \[\]. For example, Scandium is represented as `[Sc]` and not `Sc` as the latter refers to Sulphur being attached to an aromatic carbon.
 
-The symbols used for bonds are given below. Single bonds are usually not represented manually.
+	The symbols used for bonds are given below. Single bonds are usually not represented manually.
 
-| Symbol |  Character  |
-|:------:|:-----------:|
-|   =    | Double Bond |
-|   #	 | Triple Bond |
-|   *    | Aromatic Bond |
-|   .    | Disconnected Structures |
+	| Symbol |  Character  |
+	|:------:|:-----------:|
+	|   =    | Double Bond |
+	|   #	 | Triple Bond |
+	|   *    | Aromatic Bond |
+	|   .    | Disconnected Structures |
 
 
 2. Chains
 
-As explained earlier, hydrogens need not be written down for the structure to be generated. That is, `CC#C` refers to propyne. However, if hydrogens are represented anywhere in the string, it is assumed that ALL hydrogens have been mentioned explicitly. For example, `HC(H)=C(H)(H)` is ethene.
+	As explained earlier, hydrogens need not be written down for the structure to be generated. That is, `CC#C` refers to propyne. However, if hydrogens are represented anywhere in the string, it is assumed that ALL hydrogens have been mentioned explicitly. For example, `HC(H)=C(H)(H)` is ethene.
 
 3. Branches
 
-Branches in molecules are represented using parantheses. The bond by which the branch is attached to the "main" chain is given after the opening paranthesis. For example, `CC(=C)C` and `CC(C)=C` both represent 2-Methyl Prop-1-ene.
+	Branches in molecules are represented using parantheses. The bond by which the branch is attached to the "main" chain is given after the opening paranthesis. For example, `CC(=C)C` and `CC(C)=C` both represent 2-Methyl Prop-1-ene.
 
 4. Rings
 
-Rings are represented using SMILES by marking the "start" and "end" carbons of a ring using a number. That is, Cyclohexane is represented as `C1CCCCC1`, and Benzene is `c1ccccc1`. If the start and end of a ring are connected via a double or triple bond, it is mentioned before the number of the "start" atom. That is, `C=1CCCCC1` is Cyclo-Hexene.
+	Rings are represented using SMILES by marking the "start" and "end" carbons of a ring using a number. That is, Cyclohexane is represented as `C1CCCCC1`, and Benzene is `c1ccccc1`. If the start and end of a ring are connected via a double or triple bond, it is mentioned before the number of the "start" atom. That is, `C=1CCCCC1` is Cyclo-Hexene.
 
 5. Charge on Atoms
 
-The charge on an atom is represented in braces as `+1` or `-1`. That is, Enolate ion of Prop-2-one is given by `CC(O{-1})=C`.
+	The charge on an atom is represented in braces as `+1` or `-1`. That is, Enolate ion of Prop-2-one is given by `CC(O{-1})=C`.
 
 # References
 
