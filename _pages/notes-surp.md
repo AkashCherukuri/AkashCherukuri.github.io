@@ -11,7 +11,7 @@ permalink: /notes/chemcat/
 
 -1. [References](#references)
 
-
+***
 
 # Random Forest Algorithm
 This is a very versatile algorithm, as it can act as both a classifier and an regressor. It is used in various fields, such as the stock market and banking for starters.
@@ -41,7 +41,7 @@ This is acheived in the following ways:
 5. `min_samples_leaf`: The minimum samples that a leaf can have. 
 
 
-
+***
 
 # SMILES Notation
 
@@ -78,6 +78,8 @@ SMILES stands for **S**implified **M**olecular **I**nput **L**ine **E**ntry **S*
 5. Charge on Atoms
 
 	The charge on an atom is represented in braces as `+1` or `-1`. That is, Enolate ion of Prop-2-one is given by `CC(O{-1})=C`.
+
+***
 
 # References
 
