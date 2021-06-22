@@ -4,8 +4,6 @@ sitemap: false
 permalink: /
 ---
 
-Proper home page!
-
 Oh hey, funny seeing you around here. Seems like you've stumbled onto my website! You can look at some of the stuff that I've worked on by clicking on the tabs above. Alternatively, you can find something specific using the search icon at the top. 
 
 [My notes](/notes) make up most of the content on my page. Navigate there by using the header or the hyperlink placed at the start of the previous statement.
