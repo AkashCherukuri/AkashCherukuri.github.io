@@ -1,6 +1,7 @@
 ---
 title: "Notes"
 permalink: /notes/
+toc: true
 ---
 
 The notes which I've written so far will be linked down below. These notes have been written by me for projects, as class notes, or out of pure interest in the topic. Some of the notes are handwritten, wheras others have been done in LaTeX.

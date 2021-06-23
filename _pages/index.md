@@ -1,13 +1,21 @@
 ---
-title: "Home"
+title: "Hello."
+layout: splash
 sitemap: false
+header:
+  overlay_image: /assets/images/Home/home_head.jpg
+  overlay_color: "#141010"
+  overlay_filter: 0.6
+  actions:
+    - label: Github
+      url: https://github.com/AkashCherukuri
+excerpt: >
+  I am Akash Cherukuri, a third year undergraduate in the Computer Science and Engineering department of IIT Bombay.
 permalink: /
+intro1:
+  - excerpt: Feel free to go through the content on my website through the tabs located at the top. You can also search for anything specific.
 ---
 
-Oh hey, funny seeing you around here. Seems like you've stumbled onto my website! You can look at some of the stuff that I've worked on by clicking on the tabs above. Alternatively, you can find something specific using the search icon at the top. 
+{% include feature_row id="intro1" type="center" %}
 
-[My notes](/notes) make up most of the content on my page. Navigate there by using the header or the hyperlink placed at the start of the previous statement.
-
-[This](/reviews) is where I plan on writing reviews. I'm in the process of writing a few currently, and they'll be up once I'm done!
-
-If you'd like to contact me anonymously, go ahead and fill [this](https://docs.google.com/forms/d/e/1FAIpQLSd5FgjzRRbi8j6NfsO8pb8dE2JttMiix6oT3qJOsXya-Oq8qQ/viewform?usp=sf_link) form up!
+Here are a few projects that I've worked on.

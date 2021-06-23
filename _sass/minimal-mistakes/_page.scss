@@ -159,6 +159,7 @@ body {
 
 .page__hero {
   position: relative;
+  display: flex;
   margin-bottom: 2em;
   @include clearfix;
   -webkit-animation: $intro-transition;
@@ -168,12 +169,14 @@ body {
 
   &--overlay {
     position: relative;
+    display: flex;
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 900px;
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
@@ -186,7 +189,7 @@ body {
     .wrapper {
       padding-left: 1em;
       padding-right: 1em;
-
+      align-self: flex-end;
       @include breakpoint($x-large) {
         max-width: $x-large;
       }
