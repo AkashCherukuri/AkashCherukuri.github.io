@@ -1,0 +1,676 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.20.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>  Akash Cherukuri</title>
+<meta name="description" content="">
+
+
+  <meta name="author" content="Akash Cherukuri">
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Akash Cherukuri">
+<meta property="og:title" content="Akash Cherukuri">
+<meta property="og:url" content="http://localhost:4000/notes/cs251a_bash/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/notes/cs251a_bash/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Akash Cherukuri",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Akash Cherukuri Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+           
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/notes/" title="Notes that I've written.">My Notes</a>
+            </li><li class="masthead__menu-item">
+              <a href="/reviews/" title="Reviews of games that I've played recently.">Reviews</a>
+            </li><li class="masthead__menu-item">
+              <a href="/feedback/" title="Anonymously send feedback to me.">Feedback & Contact Me</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://www.youtube.com/watch?v=p5CjmHLUQQI" title="Enter the giveaways that are hosted by me, on a monthly basis!">Enter Giveaway</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/logo.png" alt="Akash Cherukuri" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Akash Cherukuri</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>An Undergraduate at the Indian Institute of Technology, Bombay.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Hyderabad, Telangana</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <li><a href="https://github.com/AkashCherukuri" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:190050009@iitb.ac.in">
+            <meta itemprop="email" content="190050009@iitb.ac.in" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="sed">Sed</h1>
+
+<hr />
+
+<p><code class="language-plaintext highlighter-rouge">Sed</code> is a “Stream Editor”. Meaning unlike a traditional editor, examination window is limited to a single screen. Sed is called as <code class="language-plaintext highlighter-rouge">sed &lt;options&gt; &lt;script&gt; input_files</code>. The line which <code class="language-plaintext highlighter-rouge">sed</code> is currently reading is loaded into the “pattern space”. We then modify this line via the script, and then we either <strong>hold</strong> the line, or output the modified file. The modified line goes into <code class="language-plaintext highlighter-rouge">std::out</code>; but can be redirected.</p>
+
+<h3 id="passing-scripts-to-sed">Passing Scripts to sed</h3>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;script&gt;</code> variable is passed either in-line enclosed within quotes, or with the <code class="language-plaintext highlighter-rouge">-f</code> option and writing the script in a text file and doing <code class="language-plaintext highlighter-rouge">sed -f &lt;script file&gt; input_files</code>.</p>
+
+<h2 id="regular-expression-syntax">Regular Expression Syntax</h2>
+
+<hr />
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/^x1/</code>: Search for lines beginning with <code class="language-plaintext highlighter-rouge">x1</code></li>
+</ul>
+
+<h2 id="options">Options</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-n</code> : Don’t print lines by default. That is, usually, <code class="language-plaintext highlighter-rouge">sed in.txt</code> would print all lines, and we don’t want that. So, if we do <code class="language-plaintext highlighter-rouge">sed -n '/search/p' in.txt</code> would only print lines with the word “search”. Similarly <code class="language-plaintext highlighter-rouge">sed -n '1,10 p' in.txt</code> would print the first 10 lines.</li>
+  <li><code class="language-plaintext highlighter-rouge">-s</code>: Treats independent files differently. Meaning, <code class="language-plaintext highlighter-rouge">sed -n '1,10 p' in1.txt in2.txt</code> would only apply the script to in1.txt and not in2.txt. But if we wanted to print the first ten lines of both, then this option is used. <code class="language-plaintext highlighter-rouge">sed -n -s '1,10 p' in1.txt in2.txt</code></li>
+  <li><code class="language-plaintext highlighter-rouge">-r</code>: enables usage of extended regular expressions, for convenience</li>
+  <li><code class="language-plaintext highlighter-rouge">-e</code>: Allows grouping of commands together, example given below.</li>
+</ul>
+
+<hr />
+
+<h2 id="scripts">Scripts</h2>
+
+<p>A script is of the form: <code class="language-plaintext highlighter-rouge">[address] [!] command</code>; <code class="language-plaintext highlighter-rouge">[]</code> represent that the argument is optional. If address is not given, command is applied for all lines. <code class="language-plaintext highlighter-rouge">!</code> is the <code class="language-plaintext highlighter-rouge">NOT</code> operator.</p>
+
+<h3 id="address-usage">Address Usage</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">sed -n '3 p' in.txt</code>: prints the third line</li>
+  <li><code class="language-plaintext highlighter-rouge">sed -n '$ p' in.txt</code>: Prints the last line</li>
+  <li><code class="language-plaintext highlighter-rouge">sed -n -e '10 s/__/  /' -e '10 p' in.txt</code>: in <code class="language-plaintext highlighter-rouge">s/__/  /</code>; <code class="language-plaintext highlighter-rouge">s</code> stands for replace, and here we replace ‘__’ with ‘    ‘; after which that line is printed.</li>
+  <li><code class="language-plaintext highlighter-rouge">sed -n -r '/19D[0-9]{6}/ p' in.txt</code>: Print lines in the form “19D123456”</li>
+</ul>
+
+<p>Using regular expressions, we can do some powerful stuff. Suppose, I wanted to print the lines before line 15, which started with the word <code class="language-plaintext highlighter-rouge">engi</code>; we do this as <code class="language-plaintext highlighter-rouge">sed -n -r '/^engi/,15 p' in.txt </code> and to print all statements which are between lines starting with <code class="language-plaintext highlighter-rouge">x1</code> and <code class="language-plaintext highlighter-rouge">x2</code>; <code class="language-plaintext highlighter-rouge">sed -n -r '/^x1/,/^x2/ p' in.txt</code></p>
+
+<p><strong>Nesting</strong> is done using the curly braces <code class="language-plaintext highlighter-rouge">{}</code>; for example, to show all statements between lines 4 and 20 beginning with <code class="language-plaintext highlighter-rouge">x1</code> is done as <code class="language-plaintext highlighter-rouge">sed -n -e '4,20{^x1 p}' in.txt</code></p>
+
+<h3 id="commands">Commands</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">=</code> : print the line number and <code class="language-plaintext highlighter-rouge">p</code>: print the line</li>
+</ul>
+
+<h3 id="modify-commands">Modify Commands</h3>
+
+<ul>
+  <li>
+    <p>Insert <code class="language-plaintext highlighter-rouge">i\</code>: Used to insert the given string before the line address. <code class="language-plaintext highlighter-rouge">sed '10 i\ /'This string is inserted at line 10'/' in.txt </code></p>
+  </li>
+  <li>
+    <p>Append <code class="language-plaintext highlighter-rouge">i\</code>: Similar to insert, but the new line is AFTER the given line number. Insert and append dont work for ranged addresses.</p>
+  </li>
+  <li>
+    <p>change <code class="language-plaintext highlighter-rouge">c\</code>: Change the entire matched line with given text. <code class="language-plaintext highlighter-rouge">sed -n -r '/19D[0-9]{6}/ c\ Dual Degree' in.txt</code> would change entire row to just “Dual Degree”</p>
+  </li>
+  <li>
+    <p>delete <code class="language-plaintext highlighter-rouge">d\</code>: Similar to Change, but deletes the entire line. Can be used for all types of addresses.</p>
+  </li>
+  <li>
+    <p>Substitute <code class="language-plaintext highlighter-rouge">s</code>:</p>
+
+    <p><code class="language-plaintext highlighter-rouge">s/x1/x2/[flags]</code>; replaces the first occurrence of <code class="language-plaintext highlighter-rouge">x1</code> with <code class="language-plaintext highlighter-rouge">x2</code>. If <code class="language-plaintext highlighter-rouge">/g</code> (global) is passed into flag; all occurrences are removed.</p>
+
+    <p><code class="language-plaintext highlighter-rouge">&amp;</code>:   To find <code class="language-plaintext highlighter-rouge">x1</code>, and replace with <code class="language-plaintext highlighter-rouge">x1+x2</code>; do <code class="language-plaintext highlighter-rouge">sed -n 's/x1/&amp;x2/' in.txt</code></p>
+
+    <p><code class="language-plaintext highlighter-rouge">n\</code>:  Suppose we wanna replace “Blue is very sus” to “Red is not sus” (Imagine we have roll no instead of colours and using -r)  <code class="language-plaintext highlighter-rouge">sed 's/Blue( is )very( sus)/Red\1not\2' in.txt</code>; <code class="language-plaintext highlighter-rouge">\1</code> holds the value in the first parentheses and so on.</p>
+  </li>
+  <li>
+    <p>Transform <code class="language-plaintext highlighter-rouge">y</code> Syntax: <code class="language-plaintext highlighter-rouge">[address1],[address2]y/x1/x2/ </code>: replace occurrences of <code class="language-plaintext highlighter-rouge">x1</code> with <code class="language-plaintext highlighter-rouge">x2</code>; <strong>x1 and x2 must have same length</strong></p>
+  </li>
+</ul>
+
+<h3 id="io-commands">I/O Commands</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">n</code>: (default) Read a line, without <code class="language-plaintext highlighter-rouge">\n</code> char, execute commands, print if <code class="language-plaintext highlighter-rouge">-n</code> is not used</li>
+  <li><code class="language-plaintext highlighter-rouge">N</code>: Read a line, <strong>add a newline</strong>, add to pattern space and execute. Used to join lines. <code class="language-plaintext highlighter-rouge">sed -r 'N; s/\n//' in.txt</code>; joins lines 1,2; 3,4 and so on</li>
+  <li><code class="language-plaintext highlighter-rouge">p</code>: Copies entire pattern space to output                 <code class="language-plaintext highlighter-rouge">P</code>: Prints only the first line of the pattern space</li>
+  <li><code class="language-plaintext highlighter-rouge">h</code>: Overwrites pattern space onto hold space          <code class="language-plaintext highlighter-rouge">H</code>: Appends pattern space to hold space (pattern space unchanged in both)</li>
+  <li><code class="language-plaintext highlighter-rouge">g</code>: Overwrites hold space onto pattern space           <code class="language-plaintext highlighter-rouge">G</code>: Appends hold space to pattern space(hold space unchanged in both)</li>
+  <li><code class="language-plaintext highlighter-rouge">d</code>: deletes pattern space</li>
+  <li><code class="language-plaintext highlighter-rouge">r filename</code>: reads file and sends to output. The file is not passed to pattern space.</li>
+  <li><code class="language-plaintext highlighter-rouge">w filename</code>: writes to the file from the pattern space</li>
+  <li><code class="language-plaintext highlighter-rouge">b</code>: Similar to <code class="language-plaintext highlighter-rouge">goto</code> statement; can be used for if-else statements ig, usage given below</li>
+  <li><code class="language-plaintext highlighter-rouge">q</code>: Quit reading the file</li>
+</ul>
+
+<h2 id="script-writing">Script Writing</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="c">#just put each indiv word in a new line</span>
+<span class="nb">sed</span> <span class="nt">-n</span> <span class="nt">-r</span> <span class="s1">'
+/19D[0-9]{6}/ b save	#branch to save; otherwise continue
+	w others.txt
+	b					#branch to end
+	
+	:save
+	w dd-students.txt
+'</span>
+<span class="k">in</span>.txt
+
+</code></pre></div></div>
+
+<h1 id="awk">Awk</h1>
+
+<hr />
+
+<p>Scans every line, splits each line into field, compare fields to pattern, perform action. The difference between <code class="language-plaintext highlighter-rouge">awk</code> and <code class="language-plaintext highlighter-rouge">sed</code> is that <code class="language-plaintext highlighter-rouge">awk</code> has capability to remember history between files. The syntax of the script is very similar to C.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Basic Awk Syntax</span>
+<span class="nb">awk</span> <span class="o">[</span>options] <span class="s1">'script'</span> file<span class="o">(</span>s<span class="o">)</span>			<span class="c">#Direct console</span>
+<span class="nb">awk</span> <span class="o">[</span>options] <span class="nt">-f</span> scriptfile file<span class="o">(</span>s<span class="o">)</span>		<span class="c">#input via file</span>
+</code></pre></div></div>
+
+<p>The script part is as follows: <code class="language-plaintext highlighter-rouge">pattern [action]</code>; if <code class="language-plaintext highlighter-rouge">pattern</code> is missing then action is done for all lines, and if <code class="language-plaintext highlighter-rouge">action</code> is missing, then matched line is printed. <strong>Either pattern or action must be given.</strong></p>
+
+<p>A line is divided into fields by <code class="language-plaintext highlighter-rouge">awk</code> by using a delimiter (default - <code class="language-plaintext highlighter-rouge">whitespace</code>); and each of these fields can be accessed by using variables, <code class="language-plaintext highlighter-rouge">$1</code> refers to the first field and so on.</p>
+
+<h2 id="pre-defined-variables">Pre-Defined Variables</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">FS</code> – Field Separator, default: whitespace</li>
+  <li><code class="language-plaintext highlighter-rouge">RS</code> – Record Separator, default: newline</li>
+  <li><code class="language-plaintext highlighter-rouge">NF</code> – Number of fields in current record</li>
+  <li><code class="language-plaintext highlighter-rouge">NR</code> – Number of the current record – idx</li>
+  <li><code class="language-plaintext highlighter-rouge">OFS</code> – Output Field Separator, default: whitespace</li>
+  <li><code class="language-plaintext highlighter-rouge">FILENAME</code> - Current Filename</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> <span class="nt">-al</span> | <span class="nb">awk</span> <span class="s1">'{print NR, $9}'</span>		<span class="c">#Print all files with numbering</span>
+</code></pre></div></div>
+
+<p>##</p>
+
+<h2 id="script-structure">Script structure</h2>
+
+<p>The scripts are divided into three parts; BEGIN, BODY, END. The statements in BEGIN are executed once(declare variables and stuff), the ones in BODY are executed for every line, and the statements in END are executed once at the end of the file (post processing).</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#Structure of Body</span>
+pattern <span class="o">{</span>statement<span class="o">}</span>
+pattern <span class="o">{</span>statement<span class="p">;</span> statement<span class="p">;</span> ...<span class="o">}</span>
+pattern <span class="o">{</span>
+	statement
+	statement
+	...
+<span class="o">}</span>
+</code></pre></div></div>
+
+<h2 id="pattern-types">Pattern Types</h2>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">awk '/special/ {print}'</code>: prints the lines with the word “special”.</p>
+  </li>
+  <li>
+    <p>Instead of this, we can check if the field matches a regular expression as: <code class="language-plaintext highlighter-rouge">awk -F, '$1~/19D[0-9]{6}/{print NR, $0}'</code>; meaning if the student is dd, then print his name with numbering.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">~</code> stands for Matching; and <code class="language-plaintext highlighter-rouge">!~</code> stands for not matching in this case</p>
+  </li>
+  <li>
+    <p>However, they need just be pattern matching; we can use boolean arguments as well such as <code class="language-plaintext highlighter-rouge">$1 + $2 &gt; 5 {statement}</code></p>
+  </li>
+</ul>
+
+<h2 id="expressions">Expressions</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#We are feeding the input from wc -c *; in which the first variable is the number of characters of the given line</span>
+<span class="nb">awk</span> <span class="s1">'
+BEGIN{
+	lines=0; char=0;
+}
+{
+	lines++; char+=$1;
+}
+END{
+	print lines, " lines read";
+	print "Total characters: ",char;
+}
+'</span>
+</code></pre></div></div>
+
+<h3 id="passing-variables-to-awk">Passing Variables to awk</h3>
+
+<p>To pass the variables from the shell script to the awk script, use the flag <code class="language-plaintext highlighter-rouge">-v</code>; as:- <code class="language-plaintext highlighter-rouge">awk -v var1="$shell_var" '{script}'</code></p>
+
+<h2 id="associative-arrays">Associative Arrays</h2>
+
+<p>No need for pre-allocating, they get defined with use.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">awk</span> <span class="nt">-F</span>, <span class="s1">'
+	#($9~/[A-Z][A-Z]/){
+		state[$9]+=$10
+	}
+	END{
+		for(i in state){
+			print state[i], i;
+		}
+	}
+'</span>
+</code></pre></div></div>
+
+<h2 id="output-statements">Output Statements</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">print</code>: simple w/o no formatting</li>
+  <li><code class="language-plaintext highlighter-rouge">printf</code>: print with formatting</li>
+  <li><code class="language-plaintext highlighter-rouge">sprintf</code>: format a string</li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><div class="search-searchbar"></div>
+  <div class="search-hits"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/AkashCherukuri" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li> </li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Akash Cherukuri. All Lefts Reserved.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- Including InstantSearch.js library and styling -->
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+// Instanciating InstantSearch.js with Algolia credentials
+const search = instantsearch({
+  appId: 'G5F0WGMVFZ',
+  apiKey: '706dffe66103c978f3885f86e3a9d4b4',
+  indexName: 'WebSearch',
+  searchParameters: {
+    restrictSearchableAttributes: [
+      'title',
+      'content'
+    ]
+  }
+});
+
+const hitTemplate = function(hit) {
+  const url = hit.url;
+  const title = hit._highlightResult.title.value;
+  const content = hit._highlightResult.html.value;
+
+  return `
+    <div class="list__item">
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <h2 class="archive__item-title" itemprop="headline"><a href="${url}">${title}</a></h2>
+        <div class="archive__item-excerpt" itemprop="description">${content}</div>
+      </article>
+    </div>
+  `;
+}
+
+// Adding searchbar and results widgets
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '.search-searchbar',
+    poweredBy: true,
+    placeholder: 'Enter your search term...'
+  })
+);
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '.search-hits',
+    templates: {
+      item: hitTemplate,
+      empty: 'No results',
+    }
+  })
+);
+
+// Starting the search only when toggle is clicked
+$(document).ready(function () {
+  $(".search__toggle").on("click", function() {
+    if(!search.started) {
+      search.start();
+    }
+  });
+});
+</script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
