@@ -3,7 +3,7 @@ title: "Deep Learning and CNNs"
 permalink: /notes/dl/intro
 classes: wide
 ---
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script>
 	function showPic(){
 		var pic = "/assets/images/Soc2021/VGGNet_Est.png"
