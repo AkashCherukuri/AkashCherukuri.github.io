@@ -30,6 +30,7 @@ permalink: /reviews/KatanaZero
   x.onpause = function() {
     isPlaying = false;
   };
+  
 
   
 </script>
