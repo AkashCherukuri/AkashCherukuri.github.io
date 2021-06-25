@@ -30,6 +30,40 @@ body {
           flex-direction: column;
 }
 
+/*
+  CUSTOM STUFF BEGIN
+*/
+
+.playbutton {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  width: 0;
+  height: 37px;
+
+  border-color: transparent transparent transparent #404040;
+  transition: 100ms all ease;
+  cursor: pointer;
+
+  // play state
+  border-style: solid;
+  border-width: 18.5px 0 18.5px 30px;
+
+  &.paused {
+    border-style: double;
+    border-width: 0px 0 0px 30px;
+  }
+
+  &:hover {
+    border-color: transparent transparent transparent #202020;
+  }
+}
+
+
+/*
+  CUSTOM STUFF END
+*/
+
 .initial-content,
 .search-content {
   flex: 1 0 auto;
@@ -122,6 +156,11 @@ body {
         margin-top: -($indent-var);
       }
     }
+  }
+
+  img.animated-gif{
+    width: 100%;
+    height: auto;
   }
 
   a:not(.btn) {
@@ -248,6 +287,7 @@ body {
     text-decoration: none;
   }
 }
+
 
 /*
    Social sharing
