@@ -11,32 +11,59 @@ These are the notes made by me while I was trying to implement [this](https://ar
 Use the navigation ui on the left to browse through my notes. I have summarized the results of the various networks constructed by me below. 
 
 <img id="est_img" src="est_img" style="display: none;">
-<img id="whut" src="whut" style="display: none;">
+<img id="whut1" src="whut1" style="display: none;">
 <div style="text-align: center;">
-<button onClick="test()">whot</button>
+<button onClick="classify()">classify stuff</button>
+</div>
+
+<img id="gen_img" src="gen_img" style="display: none;">
+<img id="whut2" src="whut2" style="display: none;">
+<div style="text-align: center;">
+<button onClick="generate()">generate stuff</button>
 </div>
 
 <script>
 	var load = "/assets/images/spin.svg"
-	function showPic(){
-		document.getElementById("whut").src = load.replace('90x90', '225x225');
-		document.getElementById("whut").style.display='block';
-		document.getElementById('whut').style.marginLeft='auto';
-		document.getElementById('whut').style.marginRight='auto';
+	function showPic1(){
+		document.getElementById("whut1").src = load.replace('90x90', '225x225');
+		document.getElementById("whut1").style.display='block';
+		document.getElementById('whut1').style.marginLeft='auto';
+		document.getElementById('whut1').style.marginRight='auto';
 	}
 
-	function test(){
+	function showPic2(){
+		document.getElementById("whut2").src = load.replace('90x90', '225x225');
+		document.getElementById("whut2").style.display='block';
+		document.getElementById('whut2').style.marginLeft='auto';
+		document.getElementById('whut2').style.marginRight='auto';
+	}
+
+	function classify(){
 		// Before the image loads
-		showPic()
+		showPic1()
 		document.getElementById('est_img').style.display='none';
-		$.get("http://192.168.0.189:5000/api/search/", function(data){
+		$.get("http://192.168.0.189:5000/api/soc/class", function(data){
 			document.getElementById("est_img").src = "data:image/png;base64, " + data;
 			document.getElementById('est_img').style.display='block';
 			document.getElementById('est_img').style.marginLeft='auto';
 			document.getElementById('est_img').style.marginRight='auto';
-			document.getElementById("whut").style.display="none";
+			document.getElementById("whut1").style.display="none";
 		})
 	}
 
-	window.onload = test()
+	function generate(){
+		// Before the image loads
+		showPic2()
+		document.getElementById('gen_img').style.display='none';
+		$.get("http://192.168.0.189:5000/api/soc/gen", function(data){
+			document.getElementById("gen_img").src = "data:image/png;base64, " + data;
+			document.getElementById('gen_img').style.display='block';
+			document.getElementById('gen_img').style.marginLeft='auto';
+			document.getElementById('gen_img').style.marginRight='auto';
+			document.getElementById("whut2").style.display="none";
+		})
+	}
+
+	window.onload = classify()
+	window.onload = generate()
 </script>
