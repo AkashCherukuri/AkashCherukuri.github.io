@@ -43,7 +43,7 @@ Use the navigation ui on the left to browse through my notes. I have summarized 
 		showPic1()
 		document.getElementById('est_img').style.display='none';
 		$.get("https://neural-nets.herokuapp.com/api/soc/class", function(data){
-			document.getElementById("est_img").src = "data:image/png;base64, " + data;
+			document.getElementById("est_img").src = "data:image/png;base64, " + data.data;
 			document.getElementById('est_img').style.display='block';
 			document.getElementById('est_img').style.marginLeft='auto';
 			document.getElementById('est_img').style.marginRight='auto';
@@ -56,7 +56,7 @@ Use the navigation ui on the left to browse through my notes. I have summarized 
 		showPic2()
 		document.getElementById('gen_img').style.display='none';
 		$.get("https://neural-nets.herokuapp.com/api/soc/gen", function(data){
-			document.getElementById("gen_img").src = "data:image/png;base64, " + data;
+			document.getElementById("gen_img").src = "data:image/png;base64, " + data.data;
 			document.getElementById('gen_img').style.display='block';
 			document.getElementById('gen_img').style.marginLeft='auto';
 			document.getElementById('gen_img').style.marginRight='auto';
