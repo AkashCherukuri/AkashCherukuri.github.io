@@ -13,13 +13,13 @@ Use the navigation ui on the left to browse through my notes. I have summarized 
 <img id="est_img" src="est_img" style="display: none;">
 <img id="whut1" src="whut1" style="display: none;">
 <div style="text-align: center;">
-<button onClick="classify()">classify stuff</button>
+<button id="Class" onClick="classify()">classify stuff</button>
 </div>
 
 <img id="gen_img" src="gen_img" style="display: none;">
 <img id="whut2" src="whut2" style="display: none;">
 <div style="text-align: center;">
-<button onClick="generate()">generate stuff</button>
+<button id="Gen" onClick="generate()">generate stuff</button>
 </div>
 
 <script>
@@ -42,12 +42,16 @@ Use the navigation ui on the left to browse through my notes. I have summarized 
 		// Before the image loads
 		showPic1()
 		document.getElementById('est_img').style.display='none';
+		document.getElementById("Gen").disabled = true;
+		document.getElementById("Class").disabled = true;
 		$.get("https://neural-nets.herokuapp.com/api/soc/class", function(data){
 			document.getElementById("est_img").src = "data:image/png;base64, " + data.data;
 			document.getElementById('est_img').style.display='block';
 			document.getElementById('est_img').style.marginLeft='auto';
 			document.getElementById('est_img').style.marginRight='auto';
 			document.getElementById("whut1").style.display="none";
+			document.getElementById("Gen").disabled = false;
+			document.getElementById("Class").disabled = false;
 		})
 	}
 
@@ -55,15 +59,16 @@ Use the navigation ui on the left to browse through my notes. I have summarized 
 		// Before the image loads
 		showPic2()
 		document.getElementById('gen_img').style.display='none';
+		document.getElementById("Gen").disabled = true;
+		document.getElementById("Class").disabled = true;
 		$.get("https://neural-nets.herokuapp.com/api/soc/gen", function(data){
 			document.getElementById("gen_img").src = "data:image/png;base64, " + data.data;
 			document.getElementById('gen_img').style.display='block';
 			document.getElementById('gen_img').style.marginLeft='auto';
 			document.getElementById('gen_img').style.marginRight='auto';
 			document.getElementById("whut2").style.display="none";
+			document.getElementById("Gen").disabled = false;
+			document.getElementById("Class").disabled = false;
 		})
 	}
-
-	window.onload = classify()
-	window.onload = generate()
 </script>
