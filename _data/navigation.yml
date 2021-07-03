@@ -37,28 +37,28 @@ notes_soc:
      url: /notes/dl/dl
      children:
       - title: Gradient Descent and SGD
-        url: /notes/dl/dl/#gradient-descent
+        url: /notes/dl/dl#gradient-descent
       - title: Back Propogation
-        url: /notes/dl/dl/#back-propagation
+        url: /notes/dl/dl#back-propagation
       - title: Cross Entropy Cost Function
-        url: /notes/dl/dl/#learning-slowdown-and-the-cross-entropy-cost-function
+        url: /notes/dl/dl#learning-slowdown-and-the-cross-entropy-cost-function
       - title: Overfitting and Regularization
-        url: /notes/dl/dl/#avoiding-overfitting
+        url: /notes/dl/dl#avoiding-overfitting
    - title: Convolutional Neural Networks
      url: /notes/dl/cnn
      children:
       - title: Basic Terminologies
-        url: /notes/dl/cnn/#basic-terminologies
+        url: /notes/dl/cnn#basic-terminologies
       - title: Types of Convoutions
-        url: /notes/dl/cnn/#types-of-convolution
+        url: /notes/dl/cnn#types-of-convolution
       - title: Famous CNNs
-        url: /notes/dl/cnn/#famous-cnns
+        url: /notes/dl/cnn#famous-cnns
    - title: Generative Neural Networks
      url: /notes/dl/gan
      children:
       - title: Inverse Transform Method
-        url: /notes/dl/gan/#inverse-transform-method-and-its-implications
+        url: /notes/dl/gan#inverse-transform-method-and-its-implications
       - title: Generative Models
-        url: /notes/dl/gan/#generative-models
+        url: /notes/dl/gan#generative-models
    - title: Resources Used
      url: /notes/dl/resources
