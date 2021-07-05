@@ -53,7 +53,7 @@ notes_soc:
         url: /notes/dl/cnn#types-of-convolution
       - title: Famous CNNs
         url: /notes/dl/cnn#famous-cnns
-   - title: Generative Neural Networks
+   - title: Generative Adversial Networks
      url: /notes/dl/gan
      children:
       - title: Inverse Transform Method
@@ -62,3 +62,10 @@ notes_soc:
         url: /notes/dl/gan#generative-models
    - title: Resources Used
      url: /notes/dl/resources
+
+# Sunoj notes' Sidebar
+notes_sunoj:
+  - title: Introduction
+    children:
+      - title: Recurrent Neural Networks
+        url: /notes/chemcat/rnn
