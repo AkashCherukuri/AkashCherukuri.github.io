@@ -69,3 +69,16 @@ notes_sunoj:
     children:
       - title: Recurrent Neural Networks
         url: /notes/chemcat/rnn
+
+
+# CS747 Notes' Sidebar
+notes_cs747:
+  - title: Week1
+    url: /notes/cs747/week1
+    children:
+      - title: Explore-Exploit Dilemma
+        url: /notes/cs747/week1#explore-exploit-dilemma
+      - title: Epsilon Greedy Algorithms
+        url: /notes/cs747/week1#epsilon-greedy-algorithms
+      - title: Definition of Regret
+        url: /notes/cs747/week1#evaluating-algorithms
