@@ -17,12 +17,18 @@ I am aware that the notes might have many typos which might've been missed by me
 
 ## Class-Notes
 
+- [CS747 - Foundations of Intelligent and Learning Agents](/notes/cs747)
+
+---
+
 - [PH566 - Advanced Simulation Methods in Physics]({{site.baseurl}}/pdfs/PH566.pdf)
 - [CS224 - Networks](/notes/cs224/)
 - [CS218 - Design and Analysis of Algorithms](/notes/cs218)
 - [HS101 - Humanities and Social Sciences](/notes/hs101)
 
+---
 - [CS251 - Notes for Python](/notes/cs251py/)
+
 - [CS251 - Notes for Awk and Sed](/notes/cs251a_bash/)
 - [CS213 - Classnotes](/notes/cs213cn/)
 - [CS215 - Data Analysis and Interpretation]({{site.baseurl}}/pdfs/CS215.pdf) 
