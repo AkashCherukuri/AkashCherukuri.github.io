@@ -70,6 +70,7 @@ $\epsilon$ is a parameter $\in [0,1]$ which controls the amount of exploration. 
 2. $\epsilon$G2
 	- For $t \leq \epsilon T$, sample an arm uniformly at random
 	- For $t > \epsilon T$, sample the arm with the highest empirical mean
+	- That is, the value of the mean  is updated in this case after $\epsilon T$ steps, wheras it wasn't done previously
 
 3. $\epsilon$G3
 	- With probability $\epsilon$ sample an arm uniformly at random, and with $1-\epsilon$ sample the arm with highest empirical mean

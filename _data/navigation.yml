@@ -82,3 +82,19 @@ notes_cs747:
         url: /notes/cs747/week1#epsilon-greedy-algorithms
       - title: Definition of Regret
         url: /notes/cs747/week1#evaluating-algorithms
+  - title: Week2
+    url: /notes/cs747/week2
+    children:
+      - title: Acheiving Sub-Linear Regret
+        url: /notes/cs747/week2#acheiving-sublinear-regret
+      - title: Lai and Robbins' Lower Bound
+        url: /notes/cs747/week2#lai-and-robbins-lower-bound
+      - title: Sub-Linear Algorithms
+        url: /notes/cs747/week2#sublinear-algorithms
+        children:
+          title: UCB
+          url: /notes/cs747/week2#ucb
+          title: KL-UCB
+          url: /notes/cs747/week2#kl-ucb
+          title: Thompson Sampling
+          url: /notes/cs747/week2#thompson-sampling
