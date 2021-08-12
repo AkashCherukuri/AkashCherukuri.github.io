@@ -46,7 +46,8 @@ Now let's do the same regret analysis of $\epsilon$G3.
   \end{eqnarray}$$
 </div>
 
-That is, all three epsilon greedy algorithms discussed earlier are not sub-linear in nature.{: .notice--warning}
+That is, all three epsilon greedy algorithms discussed earlier are not sub-linear in nature.
+{: .notice--warning}
 
 
 ## Acheiving Sublinear Regret
@@ -65,7 +66,8 @@ There are two general heuristics which should be met for a sub-linear algorithms
 
 Now, let $\bar{\mathcal{I}}$ be a set of all bandit instances with reward means **strictly** less than 1. Then;
 
-An algorithm *L* acheives sub-linear regret on all instances of $I \in \bar{\mathcal{I}}$ **iff** the algorithm satisfies both the above mentioned conditions.{: .notice--success}
+An algorithm *L* acheives sub-linear regret on all instances of $I \in \bar{\mathcal{I}}$ **iff** the algorithm satisfies both the above mentioned conditions.
+{: .notice--success}
 
 These conditions are called as **GLIE** in short, which stands for "Greedy Limit Infinite Exploitation".
 
@@ -113,10 +115,10 @@ Where, $KL(x,y) = xln(x/y)+(1-x)ln((1-x)/(1-y))$
   At every time $t$ and arm $a$, define $\text{ucb}^t_a$ as follows:
 
   <div style="text-align: center;">
-    $$\text{ucb}^t_a = \hat{p}^t + \sqrt{\frac{2ln(t)}{u^t_a}}$$
+    $$\text{ucb}^t_a = \hat{p}^t_a + \sqrt{\frac{2ln(t)}{u^t_a}}$$
   </div>
 
-  Where $\hat{p}^t$ is the empirical mean of that arm, and $u^t_a$ is the number of times that arm has been pulled. (Pull all the arms once before calculating)
+  Where $\hat{p}^t_a$ is the empirical mean of that arm, and $u^t_a$ is the number of times that arm has been pulled. (Pull all the arms once before calculating)
 
   The algorithm samples the arm with the **highest ucb**. This acheives a regret of $O(\log(T))$, the optimal dependance on $T$.
 
@@ -140,10 +142,7 @@ Where, $KL(x,y) = xln(x/y)+(1-x)ln((1-x)/(1-y))$
 
   $$Beta(\alpha, \beta) \rightarrow \mu = \frac{\alpha}{\alpha+\beta}, \sigma^2 = \frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$${: .notice--warning}
 
-  <div style="text-align: right;">
-    [Wikipedia Page](https://en.wikipedia.org/wiki/Beta_distribution)
-    {: .btn .btn--success}
-  </div>
+  Here's the [Wikipedia Page](https://en.wikipedia.org/wiki/Beta_distribution) {: .btn .btn--success} for Beta Distribution.
 
   At time $t$, let arm $a$ have $s^t_a$ successes and $f_a^t$ failures. Then, $Beta(s^t_a+1, f_a^t+1)$ represents a *belief* about the true mean of that arm.
 
