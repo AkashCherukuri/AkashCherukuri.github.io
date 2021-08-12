@@ -142,7 +142,7 @@ Where, $KL(x,y) = xln(x/y)+(1-x)ln((1-x)/(1-y))$
 
   $$Beta(\alpha, \beta) \rightarrow \mu = \frac{\alpha}{\alpha+\beta}, \sigma^2 = \frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$${: .notice--warning}
 
-  Here's the [Wikipedia Page](https://en.wikipedia.org/wiki/Beta_distribution) {: .btn .btn--success} for Beta Distribution.
+  <!-- Here's the [Wikipedia Page](https://en.wikipedia.org/wiki/Beta_distribution) {: .btn .btn--success} for Beta Distribution. -->
 
   At time $t$, let arm $a$ have $s^t_a$ successes and $f_a^t$ failures. Then, $Beta(s^t_a+1, f_a^t+1)$ represents a *belief* about the true mean of that arm.
 
