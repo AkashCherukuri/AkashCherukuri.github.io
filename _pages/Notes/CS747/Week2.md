@@ -24,11 +24,11 @@ Let's analyze the performance of $\epsilon$G1 and $\epsilon$G2. The regret calcu
 
 <div style="text-align: center;">
   $$\begin{eqnarray}
-  R_T &= Tp_M - \sum^{T-1}_{t=0}\mathbb{E}(r^t) \\
-  &= Tp_M - \sum^{\epsilon T-1}_{t=0}\mathbb{E}(r^t) - \sum^{T-1}_{t=\epsilon T}\mathbb{E}(r^t) \\
-  &\geq Tp_M - (\epsilon T)p_{avg} - T(1-\epsilon)p_M \\
-  &\geq \epsilon T(p_M - p_{avg}) \\
-  &\in \Omega (T) \\
+  R_T &=& Tp_M - \sum^{T-1}_{t=0}\mathbb{E}(r^t) \\
+  &=& Tp_M - \sum^{\epsilon T-1}_{t=0}\mathbb{E}(r^t) - \sum^{T-1}_{t=\epsilon T}\mathbb{E}(r^t) \\
+  &\geq& Tp_M - (\epsilon T)p_{avg} - T(1-\epsilon)p_M \\
+  &\geq& \epsilon T(p_M - p_{avg}) \\
+  &\in& \Omega (T) \\
   \end{eqnarray}$$
 </div>
 
@@ -39,10 +39,10 @@ Now let's do the same regret analysis of $\epsilon$G3.
 
 <div style="text-align: center;">
   $$\begin{eqnarray}
-  R_T &= Tp_M - \sum^{T-1}_{t=0}\mathbb{E}(r^t) \\
-  &\geq Tp_M - \sum^{T-1}_{t=0}(\epsilon p_{avg} + (1-\epsilon)p_M)\\
-  &\geq \epsilon T(p_M - p_{avg}) \\
-  &\in \Omega(T) \\
+  R_T &=& Tp_M - \sum^{T-1}_{t=0}\mathbb{E}(r^t) \\
+  &\geq& Tp_M - \sum^{T-1}_{t=0}(\epsilon p_{avg} + (1-\epsilon)p_M)\\
+  &\geq& \epsilon T(p_M - p_{avg}) \\
+  &\in& \Omega(T) \\
   \end{eqnarray}$$
 </div>
 
@@ -58,7 +58,7 @@ There are two general heuristics which should be met for a sub-linear algorithms
 2. Let $exploit(T)$ be the number of pulls that are exploitative in nature. Then, for sublinear regret we need the following;
 
   <div style="text-align: center;">
-    \lim_{T\to\infty}\frac{\mathbb{E}(exploit(T))}{T} = 1
+    $$\lim_{T\to\infty}\frac{\mathbb{E}(exploit(T))}{T} = 1$$
   </div>
 
   That is, *nearly all* of the pulls must be of exploitative behaviour.
@@ -79,13 +79,14 @@ $\epsilon$G1/2 can be modified slightly to make it "GLIE compliant", instead of 
 Similarly, $\epsilon$G3 can be fixed by making epsilon a function of $t$, as $1/(t+1)$. It can be seen pretty easily that the conditions are satisfied, using the below equation.
 
 <div style="text-align: center;">
-  \sum^{T-1}_{t=0}\frac{1}{n(t+1)} = \Theta(\frac{\log T}{n})
+  $$\sum^{T-1}_{t=0}\frac{1}{n(t+1)} = \Theta(\frac{\log T}{n})$$
 </div>
 
 
 # Lai and Robbins Lower Bound
 
-This result establishes that the lower bound on the regret  attainable for a **sub-polynomial** algorithm is *logarithmic* in $T$.{: .notice--success}
+This result establishes that the lower bound on the regret  attainable for a **sub-polynomial** algorithm is *logarithmic* in $T$.
+{: .notice--success}
 
 It has been stated more formally below; note the little-o notation.
 
@@ -124,7 +125,7 @@ Where, $KL(x,y) = xln(x/y)+(1-x)ln((1-x)/(1-y))$
   Although UCB is optimal order-wise, the constant is still different. KL-UCB fixes this by changing the definition of UCB slightly.
 
   <div style="text-align: center;">
-    $$\text{kl-ucb}^t_a = \max\{ q\in\[\hat{p}^t_a,1\]\text{ where } u^t_aKL(\hat{p}^t_a,q)\leq ln(t)+cln(ln(t)) \}$$
+    $$\text{kl-ucb}^t_a = \max\{ q\in[\hat{p}^t_a,1]\text{ where } KL(\hat{p}^t_a,q)\leq ln(t)+cln(ln(t)) \}$$
   </div>
   <div style="text-align: right;">
     $$\text{where } c\geq 3$$
@@ -140,17 +141,16 @@ Where, $KL(x,y) = xln(x/y)+(1-x)ln((1-x)/(1-y))$
   $$Beta(\alpha, \beta) \rightarrow \mu = \frac{\alpha}{\alpha+\beta}, \sigma^2 = \frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$${: .notice--warning}
 
   <div style="text-align: right;">
-    [Wikipedia Page](https://en.wikipedia.org/wiki/Beta_distribution){: .btn .btn--success}
+    [Wikipedia Page](https://en.wikipedia.org/wiki/Beta_distribution)
+    {: .btn .btn--success}
   </div>
 
   At time $t$, let arm $a$ have $s^t_a$ successes and $f_a^t$ failures. Then, $Beta(s^t_a+1, f_a^t+1)$ represents a *belief* about the true mean of that arm.
 
-  For every arm $a$, draw a sample $x^t_a \similar Beta(s^t_a+1, f_a^t+1)$ and chose the arm which gave the maximal $x^t_a$ (and update the distribution).
+  For every arm $a$, draw a sample $x^t_a \sim Beta(s^t_a+1, f_a^t+1)$ and chose the arm which gave the maximal $x^t_a$ (and update the distribution).
 
   This acheives optimal regret, and is excellent in practice. Usually, it performs slightly better than KL-UCB as well.
 
-  <div style="text-align: center;">
-    *Not bad for an algo given in 1933!*
-  </div>
 
-All these algorithms are examples of *optimism in face of uncertainity* principle.{: .notice--info}
+All these algorithms are examples of *optimism in face of uncertainity* principle.
+{: .notice--info}
