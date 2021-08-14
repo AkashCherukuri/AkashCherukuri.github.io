@@ -52,9 +52,9 @@ That is, all three epsilon greedy algorithms discussed earlier are not sub-linea
 
 ## Acheiving Sublinear Regret
 
-There are two general heuristics which should be met for a sub-linear algorithms.
+There are two general heuristics which should be met for a sub-linear algorithm.
 
-1. Every arm in the multi-armed bandit must be pulled *infinite* number of times as $T\rightarrow \infty$.
+1. Every arm in the multi-armed bandit must be pulled *infinite* number of times as $T\rightarrow \infty$. (*Infinite Exploration*)
 
 2. Let $exploit(T)$ be the number of pulls that are exploitative in nature. Then, for sublinear regret we need the following;
 
@@ -62,14 +62,14 @@ There are two general heuristics which should be met for a sub-linear algorithms
     $$\lim_{T\to\infty}\frac{\mathbb{E}(exploit(T))}{T} = 1$$
   </div>
 
-  That is, *nearly all* of the pulls must be of exploitative behaviour.
+  That is, *nearly all* of the pulls must be of exploitative behaviour. (*Greedy Limit*)
 
 Now, let $\bar{\mathcal{I}}$ be a set of all bandit instances with reward means **strictly** less than 1. Then;
 
 An algorithm *L* acheives sub-linear regret on all instances of $I \in \bar{\mathcal{I}}$ **iff** the algorithm satisfies both the above mentioned conditions.
 {: .notice--success}
 
-These conditions are called as **GLIE** in short, which stands for "Greedy Limit Infinite Exploitation".
+These conditions are called as **GLIE** in short, which stands for "Greedy Limit Infinite Exploration".
 
 ### Modifying epsilon greedy strategies
 
@@ -81,7 +81,7 @@ $\epsilon$G1/2 can be modified slightly to make it "GLIE compliant", instead of 
 Similarly, $\epsilon$G3 can be fixed by making epsilon a function of $t$, as $1/(t+1)$. It can be seen pretty easily that the conditions are satisfied, using the below equation.
 
 <div style="text-align: center;">
-  $$\sum^{T-1}_{t=0}\frac{1}{n(t+1)} = \Theta(\frac{\log T}{n})$$
+  $$\sum^{T-1}_{t=0}\frac{1}{n(t+1)} = \Theta\left(\frac{\log T}{n}\right)$$
 </div>
 
 
@@ -133,7 +133,7 @@ Where, $KL(x,y) = xln(x/y)+(1-x)ln((1-x)/(1-y))$
     $$\text{where } c\geq 3$$
   </div>
 
-  Notice that $ u^t_aKL(\hat{p}^t_a,q)$ monotonically increases with $q$, easy to find value by binary search! This algorithm asymptotically matches the Lai and Robbins' Lower Bound as well.
+  Notice that $KL(\hat{p}^t_a,q)$ monotonically increases with $q$, easy to find value by binary search! This algorithm asymptotically matches the Lai and Robbins' Lower Bound as well.
 
 
 ### Thompson Sampling
