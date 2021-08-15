@@ -15,6 +15,4 @@ The notes of HS301 have been divided topic-wise, and they can be found below; or
 
 &nbsp;
 
-<div style="text-align: right;">
-    Thank you [Sudhansh](https://sudhansh6.github.io/) for pointing out typos!
-</div>
+Thank you [Sudhansh](https://sudhansh6.github.io/) for pointing out typos!
