@@ -93,13 +93,13 @@ There are two different types of arguments;
 
 1. Deductive Arguments
 
-Introduced by Aristotle, this uses a universal premise to test the truth value/validity of another proposition/argument.
+    Introduced by Aristotle, this uses a universal premise to test the truth value/validity of another proposition/argument.
 
-That is, if premises are true; then true conclusion *necessarily* follows from the premises.
+    That is, if premises are true; then true conclusion *necessarily* follows from the premises.
 
 2. Inductive Arguments
 
-Introduced by Francis Bacon, the premises are based on previous experience and intuition. The concept of generalization is introduced here, and these arguments have methods to be followed when being applied.
+    Introduced by Francis Bacon, the premises are based on previous experience and intuition. The concept of generalization is introduced here, and these arguments have methods to be followed when being applied.
 
 
 &nbsp; 
