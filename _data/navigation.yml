@@ -98,3 +98,29 @@ notes_cs747:
           url: /notes/cs747/week2#kl-ucb
           title: Thompson Sampling
           url: /notes/cs747/week2#thompson-sampling
+
+
+# HS301 notes' sidebar
+notes_hs301:
+  - title: Branches of Philosophy
+    url: /notes/hs301/intro-to-phil
+    children:
+      - title: Metaphysics
+        url: /notes/hs301/intro-to-phil#metaphysics
+      - title: Epistemology
+        url: /notes/hs301/intro-to-phil#epistemology
+      - title: Logic
+        url: /notes/hs301/intro-to-phil#logic-and-arguments
+      - title: Ethics / Aesthetics
+        url: /notes/hs301/intro-to-phil#ethics-and-aesthetics
+  - title: Ancient Philosophers
+    url: /notes/hs301/anc-phil
+    children:
+      - title: Thales of Miletus
+        url: /notes/hs301/anc-phil#thales-of-miletus
+      - title: Pythagoras
+        url: /notes/hs301/anc-phil#pythagoras
+      - title: Heraclitus
+        url: /notes/hs301/anc-phil#heraclitus
+  - title: Socratic Period
+    url: /notes/hs301/socr-per
