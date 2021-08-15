@@ -28,7 +28,7 @@ That is, Thales tried to reason out the reason for observations in nature.
 
 Thales is famous for stating that **"Everything is Water"**, and this was said metaphorically. This was done to communicate in a way that was understandable to the common people. This is akin to the *Pancha-maha-bhoota* idea which was floating around in Indian Philosophy. 
 
-Thales was the first philosopher as he focused not only on the insights of nature, he also displayed interests in geometrical demonstrations and astronomical insights. He has also shown interest in the correlation between earthwuakes and the flooding of Nile.
+Thales was the first philosopher as he focused not only on the insights of nature, he also displayed interests in geometrical demonstrations and astronomical insights. He has also shown interest in the correlation between earthquakes and the flooding of Nile.
 
 
 
@@ -39,7 +39,7 @@ Thales was the first philosopher as he focused not only on the insights of natur
 
 > "Intellectually the most important man that ever lived" - Bertrand Russel
 
-Just like how Thales used water to describe nature, pythagoras utilized numbers and mathematics. He was interested in seemingly opposite ideologies, Mysticism and Mathematics. His beliefs were influenced by Indian Philosophy, during the Conquests of Alexander.
+Just like how Thales used water to describe nature, Pythagoras utilized numbers and mathematics. He was interested in seemingly opposite ideologies, Mysticism and Mathematics. His beliefs were influenced by Indian Philosophy, during the Conquests of Alexander.
 
 For example, Pythogoras tried to use numbers to understand music and symphonies. 
 
