@@ -39,3 +39,31 @@ They were the representation of a new movement in Greece. These were wise and sk
 - Oratory
 
 They were relevant because it was beneficial to be a good orator in democracy, as it opens up opportunities for one to better their life and influence others as well.
+
+&nbsp;
+
+# Socrates
+
+> "Virtue is Knowledge"
+
+Socrates urged for clear and rational thinking, and emphasized that knowledge and virtue are necessary for society. That is, he gave importance to ethics.
+
+As mentioned earlier, philosophy before Socrates was highly nature-centric but Socrates focused more on the betterment of society. He caused a shift in philosophy to be more society-centric in nature. 
+
+Socrates was infatuated with finding the true meaning of *Knowledge*. To better understand it, he tried to establish *why* knowledge is important.
+
+1. **Knowledge is Morality**
+
+    Understanding the meaning of *Morality*, as it is important for the proper functioning of state and society.
+
+2. **Knowledge is Virtue**
+
+    He says that Virtue is good in itself, as a happy man usually is temperate, brave, wise and just.
+
+    A teacher can transmit knowledge, values and rules. But *Socrates believed that Virtue cannot be taught*. That is, virtues are to be practiced and values are to be discovered. Every individual person must reflect on ones' self and use the knowledge gained to better themselves.
+
+    A teacher's role is to cure social ills such as alchoholism and the such.
+
+    Athenians however, weren't ready to accept and criticize themselves. This was because Athens was a very wealthy city-state; due to which people were ego-istic and self-centric in nature.
+
+    Socrates believed that humans are reasonable, and stated that experts are required to understand what is just and unjust. He also emphasized the importance of establishing such a institution in Athens.
