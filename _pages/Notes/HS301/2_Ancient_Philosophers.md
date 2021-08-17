@@ -97,6 +97,6 @@ Change is original, and nothing can be lost or originated. That is, everything h
 
 Ethically, his ideas can be summed up with the statement "Good and Ill are one", similar to the idea of Yin and Yang.
 
-He has also introduced the notion of **LOGOS** - A universal reason. That is, he believed that every change followed a universal divine reasoning. This was believed by Pythagoras as well.
+He has also introduced the notion of **LOGOS** - The principle of divine reason / cosmic order. That is, he believed that every change followed a universal divine reasoning. This was believed by Pythagoras as well.
 
 *Doubt: Cosmic Fire-Soul idea of Heraclitus? Also, not very sure abt definition of Logos*

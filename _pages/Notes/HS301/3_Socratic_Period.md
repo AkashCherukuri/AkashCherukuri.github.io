@@ -67,3 +67,51 @@ Socrates was infatuated with finding the true meaning of *Knowledge*. To better 
     Athenians however, weren't ready to accept and criticize themselves. This was because Athens was a very wealthy city-state; due to which people were ego-istic and self-centric in nature.
 
     Socrates believed that humans are reasonable, and stated that experts are required to understand what is just and unjust. He also emphasized the importance of establishing such a institution in Athens.
+
+&nbsp;
+
+# Plato
+
+<div style="text-align: center; font-weight: bold;">
+    Theory of Ideas
+</div>
+
+Plato felt that Socrates missed upon utilizing *Ontology* while discussing ethics, and took it upon himself to do so. He brought back Metaphysics into discussion.
+
+He tried to compose a comprehensive philosophical system by drawing insights from other philosophers. This showed the link between epistemology, ontology and ethics. (human knowledge, existence and conduct)
+
+He believed that genuine knowledge is unchanging and absolute; but our senses and experiences keep changing. (Latter was inspired by Heraclitus)
+
+### Dialectical Method
+
+This method is used for proper comprehension. We first try to generalize scattered particulars into a single idea, and then we try to classify this broad general idea into specific smaller classes. That is, this method consists of:
+
+1. Generalization
+2. Classification
+
+This allows for clear and consistent thinking. This essentially is "Thinking in Concepts".
+
+He introduced this because he felt that the Sophists' ideas were too cluttered and this caused confusion amongst the people regarding the true nature of things.
+
+This requires that language has general words such as "similar" and "before", instead of just proper nouns. That is, you cannot say that a ~~Bamboo~~ Banyan Tree and a Oak Tree are similar without knowing what similarity is.
+
+
+### Ideas for Plato
+
+*Ideas, Plato vs Parmenides, revise and write down here*
+
+Plato argues that ideas are universal and eternal, and that they aren't subject to change. Ideas correspond to an abstract concepts, and cannot be seen directly. 
+
+Ideas are:
+- non-temporal
+- existing in an independant realm
+- participate in particulars
+
+That is, the idea of *horseness* is independant of the original horse it might have been based on; and exists on even after the original horse has died.
+
+
+### Epistemology and Metaphysics
+
+Plato beleived that knowledge is latent in the soul, bring both these branches together. He said that the soul can contemplate on pure eternal ideas.
+
+*unity and diversity whaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*

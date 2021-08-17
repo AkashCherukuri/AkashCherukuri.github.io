@@ -7,7 +7,7 @@ sidebar:
     nav: "notes_hs301"
 ---
 
-Broadly, Philosophy can be defined as the "Log of Wisdom".
+Broadly, Philosophy can be defined as the "Log of Wisdom". Also called as *Darshana-Sastra* in Indian Philosophy.
 
 **Philosopher** is a person who critiques existing philosophical ideas with proof (otherwise its just an opinion). They also try to "prove" whatever is acceptable.
 
