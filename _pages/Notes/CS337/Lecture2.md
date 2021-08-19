@@ -31,7 +31,7 @@ Consider the inputs to be of form $\<x_i, y_i\>$. *Attributes* of $x$ are (non-l
 
 Where $\Phi$ is a vector of all attributes, and $W$ of all weights.
 
-Do note that $b$ can be dropped by defining $\widetilde{w}, \widetilde{\Phi}$ with one additional element being $1$ and $b$ respectively.
+Do note that $b$ can be dropped by defining $\widetilde{w}, \widetilde{\Phi}$ with one additional element being $b$ and $1$ respectively.
 
 Linear regression is linear in terms of weights and attributes, and (generally) non-linear in terms of $x$ owing to $\Phi$.
 {: notice--warning}
