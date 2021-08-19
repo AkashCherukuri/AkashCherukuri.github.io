@@ -1,6 +1,6 @@
 ---
 title: Probabilistic Linear Regression
-permalink: /notes/cs337/Lec2
+permalink: /notes/cs337/Lec3
 classes: wide
 author_profile: false
 sidebar:
