@@ -20,6 +20,6 @@ sidebar:
 
 The notes of CS337 have been divided lecture-wise, and they can be found below; or accessed via the sidebar.
 
-- [Lecture1](/notes/cs337/lec1)
-- [Lecture2](/notes/cs337/lec2)
-- [Lecture3](/notes/cs337/lec3)
+- [Lecture1](/notes/cs337/Lec1)
+- [Lecture2](/notes/cs337/Lec2)
+- [Lecture3](/notes/cs337/Lec3)
