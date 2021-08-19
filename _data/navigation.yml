@@ -99,6 +99,29 @@ notes_cs747:
           title: Thompson Sampling
           url: /notes/cs747/week2#thompson-sampling
 
+# CS337 notes' sidebar
+notes_cs337:
+  - title: Lecture 1
+    url: /notes/cs337/Lec1
+    children:
+      - title: Supervised and Unsupervised Learning
+        url: /notes/cs337/Lec1
+      - title: Error Function
+        url: /notes/cs337/Lec1#error-function
+  - title: Lecture 2
+    url: /notes/cs337/Lec2
+    children:
+      - title: Linear Regression
+        url: /notes/cs337/Lec2
+      - title: Least Square Solution
+        url: /notes/cs337/Lec2#least-square-solution
+  - title: Lecture 3
+    url: /notes/cs337/Lec3
+    children:
+      - title: Probabilistic Linear Regression
+        url: /notes/cs337/Lec3
+      - title: Overfitting and Regularization
+        url: /notes/cs337/Lec3#overfitting-and-regularization
 
 # HS301 notes' sidebar
 notes_hs301:
@@ -124,3 +147,8 @@ notes_hs301:
         url: /notes/hs301/anc-phil#heraclitus
   - title: Socratic Period
     url: /notes/hs301/socr-per
+    children:
+      - title: Socrates
+        url: /notes/hs301/socr-per#socrates
+      - title: Plato
+        url: /notes/hs301/socr-per#plato
