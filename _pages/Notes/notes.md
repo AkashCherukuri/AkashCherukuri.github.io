@@ -19,6 +19,7 @@ I am aware that the notes might have many typos which might've been missed by me
 
 - [HS301 - Introduction to Philosophy](/notes/hs301)
 - [CS747 - Foundations of Intelligent and Learning Agents](/notes/cs747)
+- [CS337 - Artificial Intelligence and Machine Learning](/notes/cs337)
 
 ---
 

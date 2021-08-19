@@ -1,10 +1,10 @@
 ---
 title: Artificial Intelligence and Machine Learning
-permalink: /notes/cs747
+permalink: /notes/cs337
 classes: wide
 author_profile: false
 sidebar:
-    nav: "notes_cs747"
+    nav: "notes_cs337"
 ---
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 
@@ -18,7 +18,8 @@ sidebar:
 </script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
 
-The notes of CS747 have been divided weekly, and they can be found below; or accessed via the sidebar.
+The notes of CS337 have been divided lecture-wise, and they can be found below; or accessed via the sidebar.
 
-- [Week1](/notes/cs747/week1)
-- [Week2](/notes/cs747/week2)
+- [Lecture1](/notes/cs337/lec1)
+- [Lecture2](/notes/cs337/lec2)
+- [Lecture3](/notes/cs337/lec3)
