@@ -61,7 +61,7 @@ However, the value of $\Sigma$ was arbitrarily introduced by us. We have been ta
 
 <div class = "notice--warning" style="text-align: center;">
   $$\begin{eqnarray}
-    \Sigma^{-1} &= \Sigma_o^{-1} + (\Phi^T\Phi)/\sigma^2 \\
-    \mu_m\Sigma^{-1} &= \Sigma_o^{-1} + (\Phi^TY)/\sigma^2 \\
+    \Sigma_m^{-1} &= \Sigma_o^{-1} + (\Phi^T\Phi)/\sigma^2 \\
+    \mu_m\Sigma_m^{-1} &= \mu_o\Sigma_o^{-1} + (\Phi^TY)/\sigma^2 \\
   \end{eqnarray}$$
 </div>
