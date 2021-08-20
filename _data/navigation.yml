@@ -124,7 +124,11 @@ notes_cs337:
         url: /notes/cs337/Lec3#overfitting-and-regularization
   - title: Lecture 4
     url: /notes/cs337/Lec4
-    
+    children:
+      - title: Univariate
+        url: /notes/cs337/Lec4
+      - title: Extend to Multivariate
+        url: /notes/cs337/Lec4#extend-to-multivariate-case
 
 # HS301 notes' sidebar
 notes_hs301:
