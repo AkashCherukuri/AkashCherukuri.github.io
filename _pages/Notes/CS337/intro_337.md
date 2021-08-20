@@ -23,3 +23,4 @@ The notes of CS337 have been divided lecture-wise, and they can be found below; 
 - [Lecture1](/notes/cs337/Lec1)
 - [Lecture2](/notes/cs337/Lec2)
 - [Lecture3](/notes/cs337/Lec3)
+- [Lecture4](/notes/cs337/Lec4)

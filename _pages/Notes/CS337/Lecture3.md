@@ -24,7 +24,7 @@ sidebar:
 We can model $Y$ to be a linear function as before, with an additional noise parameter $\epsilon \sim \mathcal{N}(0,\sigma^2)$. That is, the relation is
 
 <div style = "text-align: center;">
-  $$Y = W^T\Phi(x) + \epsilon$$
+  $$ Y = W^T\Phi(x) + \epsilon $$
 </div>
 
 Normal distribution has the maximum entropy amongst all distributions with a given variance. The $3-\sigma$ rule also plays a vital role for picking this. (68, 95, 99.7)
@@ -35,7 +35,7 @@ The maximum likelihood estimate of $W$ is calculated in this case. (Remember tha
 
 # Overfitting and Regularization
 
-Increasing the degrees of freedom causes this issue. The model essentially brute-forces all data points in training data, which isn't very helpful. Overfitting is caused by $||W||$ increasing, and regularization tries to suppress this.
+Increasing the degrees of freedom causes this issue. The model essentially brute-forces all data points in training data, which isn't very helpful. Overfitting is caused by $\vert\vert W_i\vert\vert$ being large, and regularization tries to suppress this.
 
 ## Bayesian Linear Regression
 
@@ -45,7 +45,7 @@ To understand this better, we shall first tackle a simpler coin-tossing example.
 
 I have a newly minted coin which I *believe* to be fair. I now flip it four times and get 4 heads. The MLE would be 1, but this isn't taking the prior belief into account. The posterior would be given by the baye's rule.
 
-The *Prior* is given by $P(H)$, and the *Posterior* is given by $P(H\|D)$. Therefore, the relation is given by:
+The *Prior* is given by $P(H)$, and the *Posterior* is given by $P(H\vert D)$. Therefore, the relation is given by:
 
 <div style="text-align: center;">
   $$P(H|D) = \frac{P(D|H)\times P(H)}{P(D)} \propto P(D|H)\times P(H)$$
@@ -53,10 +53,11 @@ The *Prior* is given by $P(H)$, and the *Posterior* is given by $P(H\|D)$. There
 
 We ignore the denominator as it is just a normalizing factor, and is constant as the data is known.
 
-If $P(D\|H)$ follows distribution $d_1$ the *posterior* and *prior* follow the same distribution $d_2$, then $d_2$ is said to be the **conjugate prior** of $d_1$.
+If $P(D\vert H)$ follows distribution $d_1$ the *posterior* and *prior* follow the same distribution $d_2$, then $d_2$ is said to be the **conjugate prior** of $d_1$.
 {: .notice--warning}
 
 Examples include:
+- Gaussian - Gaussian
 - Bernoulli & Binomial - Beta
 - Categorical & Multinomial - Dirchlet
 
@@ -64,5 +65,6 @@ Examples include:
 
 *Properties of Beta Distribution incomplete!*
 
-The advantage of conjugate distributions is that the posterior is always of the same family as the prior, with just the parameters changed. This makes calculations very easy.
+*No prior == beta with alpha and beta as 1*
 
+The advantage of conjugate distributions is that the posterior is always of the same family as the prior, with just the parameters changed. This makes calculations very easy.
