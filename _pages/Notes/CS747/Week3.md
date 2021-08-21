@@ -1,6 +1,6 @@
 ---
 title: Hoeffding's Inequality
-permalink: /notes/cs747/week2
+permalink: /notes/cs747/week3
 classes: wide
 author_profile: false
 sidebar:
