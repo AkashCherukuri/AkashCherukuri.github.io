@@ -37,8 +37,8 @@ Consider the univariate case where a random variable $X$ is a gaussian $\mathcal
 
 <div style="text-align: center;">
   $$\begin{eqnarray}
-    \frac{1}{\sigma_m^2} &= \frac{1}{\sigma_o^2} + \frac{1}{\sigma_2^2} \\
-    \frac{\mu_m}{\sigma_m^2} &= \frac{\mu_o}{\sigma_o^2} + \frac{\mu}{\sigma^2} \\ 
+    \frac{1}{\sigma_m^2} &= \frac{1}{\sigma_o^2} + m\frac{1}{\sigma^2} \\
+    \frac{\mu_m}{\sigma_m^2} &= \frac{\mu_o}{\sigma_o^2} + m\frac{\mu}{\sigma^2} \\ 
   \end{eqnarray}$$
 </div>
 

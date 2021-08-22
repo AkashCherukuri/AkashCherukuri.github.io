@@ -47,7 +47,7 @@ There are general classes of basis functions, such as:
 
 Dataset $\mathcal{D} = \<x_1, y_1\> \ldots \<x_m, y_m\>$.
 
-Attribute/basis functions $\phi_i$, and the general class of basis $\Phi$ is given as shown below.
+Attribute/basis functions $\phi_i$, and the general class of basis $\Phi$ is given as shown below. Do note that we have redefined the value of $\Phi$ now, and we shall be using this definition from here on.
 
 <div style="text-align: center;">
   $$\Phi = 
@@ -57,6 +57,8 @@ Attribute/basis functions $\phi_i$, and the general class of basis $\Phi$ is giv
     \phi_1(x_m) & \phi_2(x_m) & \ldots & \phi_p(x_m) \\
   \end{bmatrix}$$
 </div>
+
+The equation with the above redefinition becomes finding an optimal $W$ such that $Y = \Phi W$.
 
 **General regression** is the following problem;
 
