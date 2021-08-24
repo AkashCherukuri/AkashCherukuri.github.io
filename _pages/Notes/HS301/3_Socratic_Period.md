@@ -115,3 +115,6 @@ That is, the idea of *horseness* is independant of the original horse it might h
 Plato beleived that knowledge is latent in the soul, bring both these branches together. He said that the soul can contemplate on pure eternal ideas.
 
 *unity and diversity whaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*
+
+
+Plato believed that *Forms* are not related to the *Physical* world, that they existed in their own plane of existence.

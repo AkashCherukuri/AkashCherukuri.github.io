@@ -22,3 +22,4 @@ The notes of CS747 have been divided weekly, and they can be found below; or acc
 
 - [Week1](/notes/cs747/week1)
 - [Week2](/notes/cs747/week2)
+- [Week3](/notes/cs747/week3)
