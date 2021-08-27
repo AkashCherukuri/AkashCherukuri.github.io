@@ -100,9 +100,8 @@ The process of calculating the value of each state given the MDP is called as po
 
 These equations are used to find the values of every state for a given MDP. For every state $s\in S$;
 
-<div class="notice--info" style="text-align: center;">
-  $$ V^{\pi}(s) = \sum_{s'\in S} T(s, \pi(s), s')\left{ R(s, \pi(s), s') + \gamma V^{\pi}(s') \right} $$
-</div>
+$$V^{\pi}(s) = \sum_{s'\in S} T(s, \pi(s), s')\left{ R(s, \pi(s), s') + \gamma V^{\pi}(s') \right}$$
+{: .notice--info}
 
 There are $n$ such linear equations, and $n$ unknowns. 
 - unique solution guaranteed if $\gamma < 1$
