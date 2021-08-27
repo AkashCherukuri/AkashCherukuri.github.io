@@ -14,16 +14,6 @@ main:
    - title: "Enter Giveaway"
      description: "Enter the giveaways that are hosted by me, on a monthly basis!" 
      url: https://www.youtube.com/watch?v=y7_HBLng2jc
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
 
 # SOC Notes' sidebar
 notes_soc:
