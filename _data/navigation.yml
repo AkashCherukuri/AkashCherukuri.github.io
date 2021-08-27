@@ -88,6 +88,19 @@ notes_cs747:
           url: /notes/cs747/week2#kl-ucb
           title: Thompson Sampling
           url: /notes/cs747/week2#thompson-sampling
+  - title: Week3
+    url: /notes/cs747/week3
+  - title: Week4
+    url: /notes/cs747/week4
+    children:
+      - title: Markov Decision Problem
+        url: /notes/cs747/week4
+      - title: Value of a state
+        url: /notes/cs747/week4#value-of-a-state
+      - title: MDP Planning
+        url: /notes/cs747/week4#mdp-planning-problem
+      - title: Bellman's Equations
+        url: /notes/cs747/week4#policy-evaluation
 
 # CS337 notes' sidebar
 notes_cs337:
