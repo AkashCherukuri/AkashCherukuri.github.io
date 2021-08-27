@@ -62,5 +62,54 @@ It can be mathematically proven that every such MDP has an optimal Markovian, de
   $$ \forall\pi\in\Pi, \forall s\in S: V^{\pi*}(s)\geq  V^{\pi}(s)$$
 </div>
 
-That is, the value of every state is larger in the optimal policy. This policy is *NOT* unique! The MDP Planning Problem is centered around finding this optimal policy $\pi^\*$.
+That is, the value of every state is larger in the optimal policy. This policy is *NOT* unique! The MDP Planning Problem is centered around finding this optimal policy $\pi^\*$.  
 
+&nbsp;
+
+# Alternative Formulations
+
+### Reward Function
+
+The reward function can be defined differently in literature. For example, it could be *stochastic* instead of deterministic. It might be just dependant on $(s,a)$ instead of $(s,a,s')$. 
+
+Some authors minimize *cost* instead of maximizing reward. The core idealogy remains the same, however.
+
+A *multi-armed bandit* is an MDP with a single state and each of the actions being associated with a uniform distribution as a reward!
+{: .notice--success}
+
+### Episodic Tasks
+
+Our discussion used *continuing tasks*, where trajectories are infinitely long. Episodic tasks have a *terminal/sink* state from which outgoing transitions are absent. 
+
+There should be non-zero probability of reaching the sink state from every non-terminal state, meaning that trajectories would surely be finite.
+{: .notice}
+
+### Value function
+
+The definition used by us is called as **Infinite Discounted Reward**. There are other choices as well:
+
+1. Total Reward - Can only be used on episodic tasks (Obv)
+2. Finite Horizon Reward - Set a horizon $T$ and sum up rewards till here. Optimal policies for this need not be stationary.
+3. Average Reward - Exactly what the name suggests
+
+&nbsp;
+
+# Policy Evaluation
+
+The process of calculating the value of each state given the MDP is called as policy evaluation. **Bellman's Equations** are used for this procedure.
+
+These equations are used to find the values of every state for a given MDP. For every state $s\in S$;
+
+<div class="notice--info" style="text-align: center;">
+  $$ V^{\pi}(s) = \sum_{s'\in S} T(s, \pi(s), s')\left{ R(s, \pi(s), s') + \gamma V^{\pi}(s') \right} $$
+</div>
+
+There are $n$ such linear equations, and $n$ unknowns. 
+- unique solution guaranteed if $\gamma < 1$
+- for episodic, if $\gamma=1$, solution guaranteed if value of terminal state fixed as $0$.
+
+&nbsp;
+
+## Action Value Function
+
+*Fill this up l8r B)*
