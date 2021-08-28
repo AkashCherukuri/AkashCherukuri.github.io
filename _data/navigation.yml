@@ -132,6 +132,22 @@ notes_cs337:
         url: /notes/cs337/Lec4
       - title: Extend to Multivariate
         url: /notes/cs337/Lec4#extend-to-multivariate-case
+  - title: Lecture 5
+    url: /notes/cs337/Lec5
+    children:
+      - title: MAP and Bayes Estimates
+        url: /notes/cs337/Lec5
+      - title: Regularized Ridge Regression
+        url: /notes/cs337/Lec5#regularized-ridge-regression
+  - title: Lecture 6
+    url: /notes/cs337/Lec6
+    children:
+      - title: Iterative Soft Thresholding
+        url: /notes/cs337/Lec6
+      - title: Evaluating Performance
+        url: /notes/cs337/Lec6#evaluating-performance
+      - title: Bias Variance Analysis
+        url: /notes/cs337/Lec6#bias-variance-analysis
 
 # HS301 notes' sidebar
 notes_hs301:
