@@ -25,12 +25,14 @@ This algorithm is used for fitting the model using lasso regression.
 While the relative drop in Lasso error across $t=k$ and $t=k+1$ is significant, the following two steps are done.
 
 1. *LS Iterate*
-  $$w^{k+1}\_{LS} = w^{k+1}\_{Lasso} - \eta\nabla E\_{LS}(w^{k}\_{Lasso})$$
+
+    $w^{k+1}\_{LS} = w^{k+1}\_{Lasso} - \eta\nabla E\_{LS}(w^{k}\_{Lasso})$
 
 2. *Proximal Step*
-  If absolute value of $\left[w^{k+1}\_{LS}\right]\_i$ is less than $\lambda\eta$, then the $i^{th}$ element of $w^{k+1}\_{lasso}\right]$ is 0.
 
-  Else, just reduce its magnitude by $\lambda\eta$ while keeping the sign intact.
+    If absolute value of $\left[w^{k+1}\_{LS}\right]\_i$ is less than $\lambda\eta$, then the $i^{th}$ element of $w^{k+1}\_{lasso}$ is 0.
+
+    Else, just reduce its magnitude by $\lambda\eta$ while keeping the sign intact.
 
 &nbsp;
 

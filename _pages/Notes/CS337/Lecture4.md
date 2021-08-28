@@ -69,7 +69,7 @@ However, the value of $\Sigma$ was arbitrarily introduced by us. We have been ta
 We had taken the prior on $W$ to be $\mu_o = 0$ and $\Sigma_o^{-1} = \lambda I$. By substituting these values in the above equation, we get that
 
 <div style="text-align: center;">
-  $$/begin{eqnarray}
+  $$\begin{eqnarray}
     \Sigma_m^{-1} &= \lambda I + \Phi^T\Phi/\sigma^2 \\
     \mu_m &= (\lambda\sigma^2 I + \Phi^T\Phi)^{-1}\Phi^T Y
   \end{eqnarray}$$
