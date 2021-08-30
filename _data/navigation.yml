@@ -101,6 +101,8 @@ notes_cs747:
         url: /notes/cs747/week4#mdp-planning-problem
       - title: Bellman's Equations
         url: /notes/cs747/week4#policy-evaluation
+      - title: Action Value Functions
+        url: /notes/cs747/week4#action-value-functions
 
 # CS337 notes' sidebar
 notes_cs337:

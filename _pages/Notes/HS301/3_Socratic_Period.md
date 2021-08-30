@@ -118,3 +118,5 @@ Plato beleived that knowledge is latent in the soul, bring both these branches t
 
 
 Plato believed that *Forms* are not related to the *Physical* world, that they existed in their own plane of existence.
+
+*Lot of incomplete stuff*

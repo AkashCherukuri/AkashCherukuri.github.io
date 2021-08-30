@@ -109,6 +109,17 @@ There are $n$ such linear equations, and $n$ unknowns.
 
 &nbsp;
 
-## Action Value Function
+## Action Value Functions
 
-*Fill this up l8r B)*
+The naive method of finding $\pi^\*$ for a given MDP would be to use Bellman's equations for each policy and get the minima. This would take $\text{poly}(n,k)\cdot k^n$ time.
+
+We define the Action Value function $Q^{\pi}(s,a)$ as the first step for obtaining a more efficient solution.
+
+$Q^{\pi}(s,a)$ is the expected long term reward for starting at state $s$, taking action $a$ at $t=0$ and then following $\pi$ for $t\>0$.
+
+Its value is given by the equation:
+<div class="notice--info" style="text-align: center;">
+  $$ Q^{\pi}(s,a) = \sum T(s,a,s')\left[ R(s,a,s') + \gamma V^{\pi}(s') \right] $$
+</div>
+
+We know that all optimal policies have same optimal value function, and by extension, all optimal policies will have the same action value function as well.
