@@ -102,7 +102,7 @@ notes_cs747:
       - title: Bellman's Equations
         url: /notes/cs747/week4#policy-evaluation
       - title: Action Value Functions
-        url: /notes/cs747/week4#action-value-functions
+        url: /notes/cs747/week4#action-value-function
 
 # CS337 notes' sidebar
 notes_cs337:

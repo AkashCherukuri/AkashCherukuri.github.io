@@ -17,5 +17,3 @@ intro1:
 ---
 
 {% include feature_row id="intro1" type="center" %}
-
-Here are a few projects that I've worked on.
