@@ -127,7 +127,7 @@ Where, $KL(x,y) = xln(x/y)+(1-x)ln((1-x)/(1-y))$
   Although UCB is optimal order-wise, the constant is still different. KL-UCB fixes this by changing the definition of UCB slightly.
 
   <div style="text-align: center;">
-    $$\text{kl-ucb}^t_a = \max\{ q\in[\hat{p}^t_a,1]\text{ where } KL(\hat{p}^t_a,q)\leq ln(t)+cln(ln(t)) \}$$
+    $$\text{kl-ucb}^t_a = \max\{ q\in[\hat{p}^t_a,1]\text{ where } u^t_a KL(\hat{p}^t_a,q)\leq ln(t)+cln(ln(t)) \}$$
   </div>
   <div style="text-align: right;">
     $$\text{where } c\geq 3$$
