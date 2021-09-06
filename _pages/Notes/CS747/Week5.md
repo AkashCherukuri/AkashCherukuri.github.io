@@ -53,7 +53,7 @@ This theorem states that for a given contraction mapping and a contraction facto
 $B^\* : \mathcal{R}^n\to\mathcal{R}^n$ for an MDP $(S,A,T,R,\gamma)$ is given as follows;
 
 <div style="text-align: center;">
-$$ (B^\*(F))(s) = \max_{a}\sum_{s'}T(s,a,s')\left[ R(s,a,s') + \gamma F(s') \right] $$
+$$ (B^*(F))(s) = \max_{a}\sum_{s'}T(s,a,s')\left[ R(s,a,s') + \gamma F(s') \right] $$
 </div>
 
 That is, we have used notation to redefine the domain of value function to be $\mathcal{R}^n$, and $B^\*$ maps value functions.
@@ -102,7 +102,7 @@ $$ V(s) \geq \max_{a}\sum_{s'}T(s,a,s')\left[ R(s,a,s') + \gamma V^*(s') \right]
 </div>
 
 <div class="notice--success">
-  $B^*$ preserves \succeq
+  $B^*$ preserves $\succeq$
 </div>
 
 From this, we can say that $V \succeq V^\*$, and can thus linearise the result to be $\sum_s V(s)\geq \sum_s V^\*(s)$.
