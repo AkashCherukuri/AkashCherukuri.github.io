@@ -103,6 +103,17 @@ notes_cs747:
         url: /notes/cs747/week4#policy-evaluation
       - title: Action Value Functions
         url: /notes/cs747/week4#action-value-function
+  - title: Week5
+    url: /notes/cs747/week5
+    children:
+      - title: Banach Space
+        url: /notes/cs747/week5#banach-space
+      - title: Bellman Optimality Operator
+        url: /notes/cs747/week5#bellman-optimality-operator
+      - title: Value Iteration
+        url: /notes/cs747/week5#value-iteration
+      - title: Linear Programming
+        url: /notes/cs747/week5#linear-programming
 
 # CS337 notes' sidebar
 notes_cs337:
