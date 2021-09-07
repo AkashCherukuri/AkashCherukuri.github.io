@@ -7,7 +7,9 @@ sidebar:
     nav: "notes_hs301"
 ---
 
-*Incomplete notes here, starting off about aristotle*
+> Philosophy as love of wisdom must be consistent and scientific
+
+He tried to be more systematic, and was responsible for the division of Metaphysics from Physics.
 
 Aristotle believed that **plurality of individual substances** exist in a hierarchial order, with matter at the bottom and Pure form/God at the top.
 

@@ -10,7 +10,7 @@ sidebar:
 The notes of HS301 have been divided topic-wise, and they can be found below; or accessed via the sidebar.
 
 - [Branches of Philosophy](/notes/hs301/intro-to-phil)
-- [Ancient Philosophers](/notes/hs301/anc-phil)
+- [Classical Greek Philosophy](/notes/hs301/anc-phil)
 - [Socratic Period](/notes/hs301/socr-per)
 
 &nbsp;

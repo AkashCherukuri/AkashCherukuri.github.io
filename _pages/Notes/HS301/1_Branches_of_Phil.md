@@ -25,11 +25,18 @@ Philosophy is  broken down into 4 major branches, given below. We will look at e
 
 Metaphysics is considered as the **First Philosophy** by Aristotle. He has also sub-divided Metaphysics into "three" branches, namely;
 
-- **Ontology** - The science of *Qua Being* - General Nature of everything
+- **Ontology** - The science of *Qua Being* - General nature of everything
 - **Theology** - Highest kind of being (Divinity)
 - **Universal Science** - First Principle - Truth of every existing thing, basis of proof or demonstration
 
-Metaphysics has been affected in the renaissance era due to enlightenment and groups such as *Logical Positivists*. Today, it plays the role of disciplinary integration for the better understanding of the connections between different streams.
+Philosophy began with metaphysics, and was closely intertwined with epistemology. 
+
+Metaphysics has been affected in the renaissance era due to enlightenment and groups such as *Logical Positivists*, and has been claimed as "philosophical nonsense". Today, it plays the role of disciplinary integration for the better understanding of the connections between different streams.
+
+An example of an ontological question is:
+
+> "Who am I?"
+
 
 
 &nbsp; 
@@ -38,13 +45,15 @@ Metaphysics has been affected in the renaissance era due to enlightenment and gr
 
 *Epistemology* is a branch of philosophy, and is concerned with the theory of knowledge. Justification and debates are used to "prove" that an idea is "true". A justified belief is knowledge. A belief by itself is just an opinion or **doxa**.
 
+> "Justified True Belief is Knowledge" - *Plato*
+
 A belief is proven by;
 
-- Explanation: Should be a causual explanation (ie, what the cause of the thing is)
+- Explanation: Should be a causual explanation (ie, what the cause of a thing is)
 
-- Justification: Argue why the causual explanation is true.
+- Justification: Argue why the causual explanation is true
 
-- Understanding: */ whatttt /*
+- Understanding: That is, the conveyed idea must be understandable by the listener
 
 Back in the day, most knowledge consisted of passed down information from generation to generation. For progressing knowledge, it is important to *doubt* the validity of existing knowledge. This practice of doubting is called as *Skepticism* or *Pyrrhonism*.
 
@@ -80,7 +89,6 @@ That is, Logic is concerned with:
 2. Evaluating the validity of the argument
 
 
-*/ This is what I have understood, not definition per se! /*
 An argument is defined as a logical sentence that shows how a premise leads to the truth value of the proposition.
 
 - An argument is valid/invalid if it follows certain laws

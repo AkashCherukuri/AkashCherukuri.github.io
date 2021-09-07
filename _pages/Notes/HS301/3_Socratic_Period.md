@@ -7,13 +7,13 @@ sidebar:
     nav: "notes_hs301"
 ---
 
-The nature of philosophy in the pre-Socratic period was highly nature-centric in nature. In the socratic period however, philosophy was much more society-centered.
+The nature of philosophy in the pre-Socratic period was highly nature-centric. In the socratic period however, philosophy was much more society-centered.
 
-That is, it dabbled with ethics, and the importance and directions needed for living a pious and good life. The socratic period was marked by:
+That is, it dabbled with ethics,importance and directions needed for living a pious and good life. The socratic period was marked by:
 
 1. Beginning of Greek Enlightenment
-2. Critical Thinking Encouraged - Departure from speculative thought
-3. Individualism, and Freedom emphasized
+2. Critical Thinking Encouragement - Departure from speculative thought
+3. Individualism - Freedom emphasized
 
 This period was the rise of **Skepticism** and **Subjectivism**.
 {: .notice--primary}
@@ -33,7 +33,7 @@ This new age was majorly due to the establishment of a democratic institution. T
 
 They were the representation of a new movement in Greece. These were wise and skillful people who worked as professional teachers and travellers. As a livelihood, they used to train people in:
 
-- Dialects - Argumentative reasoning (Lawyers, for example), they tried to lead the other person into a contradiction (*Aphoria*)
+- Dialects - Argumentative reasoning (Lawyers, for example), and *Aphoria* (trying to lead the other person into a contradiction)
 - Grammar
 - Rhetoric - Flow of speech
 - Oratory
@@ -54,7 +54,7 @@ Socrates was infatuated with finding the true meaning of *Knowledge*. To better 
 
 1. **Knowledge is Morality**
 
-    Understanding the meaning of *Morality*, as it is important for the proper functioning of state and society.
+    Understanding the meaning of *Morality*, as it is important for the proper functioning of state and society. In short, Moral Knowledge is important.
 
 2. **Knowledge is Virtue**
 
@@ -72,15 +72,14 @@ Socrates was infatuated with finding the true meaning of *Knowledge*. To better 
 
 # Plato
 
-<div style="text-align: center; font-weight: bold;">
-    Theory of Ideas
-</div>
+> Disciple of Socrates, Theory of Ideas
 
 Plato felt that Socrates missed upon utilizing *Ontology* while discussing ethics, and took it upon himself to do so. He brought back Metaphysics into discussion.
 
 He tried to compose a comprehensive philosophical system by drawing insights from other philosophers. This showed the link between epistemology, ontology and ethics. (human knowledge, existence and conduct)
 
-He believed that genuine knowledge is unchanging and absolute; but our senses and experiences keep changing. (Latter was inspired by Heraclitus)
+He believed that genuine knowledge is unchanging and absolute; but our senses and experiences keep changing. (Latter was inspired by Heraclitus) He emphasized that true knowledge could be comprehended through reason. 
+
 
 ### Dialectical Method
 
@@ -89,16 +88,24 @@ This method is used for proper comprehension. We first try to generalize scatter
 1. Generalization
 2. Classification
 
-This allows for clear and consistent thinking. This essentially is "Thinking in Concepts".
+This allows for clear and consistent thinking. This is also called as *Thinking in Concepts*.
 
 He introduced this because he felt that the Sophists' ideas were too cluttered and this caused confusion amongst the people regarding the true nature of things.
 
 This requires that language has general words such as "similar" and "before", instead of just proper nouns. That is, you cannot say that a ~~Bamboo~~ Banyan Tree and a Oak Tree are similar without knowing what similarity is.
 
 
-### Ideas for Plato
+## Metaphysics - Idea of a form
 
-*Ideas, Plato vs Parmenides, revise and write down here*
+The concept was originally introduced by *Paramenides*. It refers to the "being-ness" of an object. (What makes a Banyan Tree, a banyan tree?)
+
+Although plato did not agree with everything said by Parmenides, he did use this concept in his works.
+
+| Paramenides | Plato |
+|:-----------:|:-----:|
+|Idea is not a thought| It may be an object of thought|
+|Only one idea|Multiple, indivisible ideas exist|
+|Not known to us, as human knowledge is not absolute|Can be grasped using reason|
 
 Plato argues that ideas are universal and eternal, and that they aren't subject to change. Ideas correspond to an abstract concepts, and cannot be seen directly. 
 
@@ -107,16 +114,22 @@ Ideas are:
 - existing in an independant realm
 - participate in particulars
 
-That is, the idea of *horseness* is independant of the original horse it might have been based on; and exists on even after the original horse has died.
-
-
-### Epistemology and Metaphysics
-
-Plato beleived that knowledge is latent in the soul, bring both these branches together. He said that the soul can contemplate on pure eternal ideas.
-
-*unity and diversity whaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*
-
-
 Plato believed that *Forms* are not related to the *Physical* world, that they existed in their own plane of existence.
 
-*Lot of incomplete stuff*
+That is, the idea of *horseness* is independent of the original horse it might have been based on; and exists on even after the original horse has died.
+
+
+### Metaphysics and Epsitemology
+
+(It was then beleived that soul was responsible for thinking)
+
+Plato beleived that knowledge is latent in the soul, bringing both these branches of philosophy together. He said that the soul can contemplate on pure eternal ideas.
+
+Idea of Unity and Diversity, all horses are united under the concept of "Horseness"; wheras the presence of various horses is diversity.
+
+He believed that the idea of good is LOGOS. That is, he believed them to have a cosmic reason and that the meaning of good could nto be grasped by senses.
+
+
+## Platonic Rationalism
+
+*Lecture 12 - No slides, dude just kept talking :(*

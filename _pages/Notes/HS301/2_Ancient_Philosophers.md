@@ -13,6 +13,8 @@ Three influentual ancient philosophers' ideas have been discussed in brief below
 2. Pythagoras
 3. Heraclitus
 
+&nbsp;
+
 # Thales of Miletus
 
 Called as the *First Philosopher*, and the founder of the Ionian School of Science. We shall see what led to Thales getting this title.
@@ -25,6 +27,8 @@ Thales pursued **Principle of movement fundamental to the order**.
 That is, Thales tried to reason out the reason for observations in nature.
 
 > What appears to be many is in reality one.
+
+### Water as a first principle
 
 Thales is famous for stating that **"Everything is Water"**, and this was said metaphorically. This was done to communicate in a way that was understandable to the common people. This is akin to the *Pancha-maha-bhoota* idea which was floating around in Indian Philosophy. 
 
@@ -99,4 +103,6 @@ Ethically, his ideas can be summed up with the statement "Good and Ill are one",
 
 He has also introduced the notion of **LOGOS** - The principle of divine reason / cosmic order. That is, he believed that every change followed a universal divine reasoning. This was believed by Pythagoras as well.
 
-*Doubt: Cosmic Fire-Soul idea of Heraclitus? Also, not very sure abt definition of Logos*
+He also believed in a *cosmic fire-soul*, from where he believed every thought to originate.
+
+*Not very sure if cosmic fire soul is correct, verify*
