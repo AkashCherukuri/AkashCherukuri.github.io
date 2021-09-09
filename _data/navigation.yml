@@ -191,3 +191,12 @@ notes_hs301:
         url: /notes/hs301/socr-per#socrates
       - title: Plato
         url: /notes/hs301/socr-per#plato
+  - title: Aristotle
+    url: /notes/hs301/aris
+    children:
+      - title: Division of Knowledge
+        url: /notes/hs301/aris#aristotle-and-knowledge
+      - title: Inherence of Form
+        url: /notes/hs301/aris#inherence-of-form
+      - title: Syllogism
+        url: /notes/hs301/aris#logic-and-syllogism

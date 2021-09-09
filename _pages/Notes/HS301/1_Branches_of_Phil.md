@@ -25,9 +25,11 @@ Philosophy is  broken down into 4 major branches, given below. We will look at e
 
 Metaphysics is considered as the **First Philosophy** by Aristotle. He has also sub-divided Metaphysics into "three" branches, namely;
 
-- **Ontology** - The science of *Qua Being* - General nature of everything
+- **Ontology** - The science of being *Qua Being* - General nature of everything
 - **Theology** - Highest kind of being (Divinity)
 - **Universal Science** - First Principle - Truth of every existing thing, basis of proof or demonstration
+
+> A thing is a *thing* by virtue of something that *it is*
 
 Philosophy began with metaphysics, and was closely intertwined with epistemology. 
 
