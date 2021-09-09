@@ -125,7 +125,7 @@ There are four relations between propositions:
 1. **Contradictory**: A/O, I/E (negations)
 2. **Contrary**: A/E ("hard opposites")
 3. **Sub-Contrary**: I/O ("soft" opposites)
-4. **Subaltern**: A$\to$I, E$\to$O (Superset)
+4. **Subaltern**: A $\to$ I, E $\to$ O (Superset)
 
 
 ### Rules
