@@ -115,7 +115,9 @@ A proposition contains three terms: Subject, Predicate and the *Copula*(relates 
 Consider the below argument.
 
 > All games are better than League of Legends
+
 > Some games are unfinished
+
 > Therefore, some unfinished games are better than League of Legends
 
 The mood of the above argument is **AII**. The middle term appears as subject in both the premises, defining the *Figure* of the argument.
@@ -125,7 +127,7 @@ There are four relations between propositions:
 1. **Contradictory**: A/O, I/E (negations)
 2. **Contrary**: A/E ("hard opposites")
 3. **Sub-Contrary**: I/O ("soft" opposites)
-4. **Subaltern**: A $\to$ I, E $\to$ O (Superset)
+4. **Subaltern**: A→I, E→O (Superset)
 
 
 ### Rules
