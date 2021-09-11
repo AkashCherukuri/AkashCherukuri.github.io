@@ -24,16 +24,21 @@ Back in the day, Philosophy was closely interlinked with Mysticism and religion;
 Thales pursued **Principle of movement fundamental to the order**.
 {: .notice--primary}
 
-That is, Thales tried to reason out the reason for observations in nature.
+That is, Thales was the first to try and reason out the reason for observations in nature, not related with religion. This encouraged people to think in a similar manner, and to *not be deceived by appearance alone*.
 
-> What appears to be many is in reality one.
+In particular, he was interested in the material causes behind floods and earthquakes.
+
 
 ### Water as a first principle
 
-Thales is famous for stating that **"Everything is Water"**, and this was said metaphorically. This was done to communicate in a way that was understandable to the common people. This is akin to the *Pancha-maha-bhoota* idea which was floating around in Indian Philosophy. 
+Thales is famous for stating that **"Everything is Water"**. He beleived that everything to be made of one single substance. 
 
-Thales was the first philosopher as he focused not only on the insights of nature, he also displayed interests in geometrical demonstrations and astronomical insights. He has also shown interest in the correlation between earthquakes and the flooding of Nile.
+It is debatable whether Thales believed this literally, or only metaphorically to be understandable to the common people. This is akin to the *Pancha-maha-bhoota* idea which was floating around in Indian Philosophy. 
 
+He was the first to lead that a monopoly on truth by a religion or a monarch is impossible; and it can only be arrived at by understanding nature.
+{: .notice--info}
+
+Thales was the first philosopher as he focused not only on the insights of nature, he also displayed interests in geometrical demonstrations and astronomical insights. 
 
 
 &nbsp; 

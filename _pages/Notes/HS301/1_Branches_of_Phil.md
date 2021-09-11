@@ -7,9 +7,41 @@ sidebar:
     nav: "notes_hs301"
 ---
 
-Broadly, Philosophy can be defined as the "Log of Wisdom". Also called as *Darshana-Sastra* in Indian Philosophy.
+Broadly, Philosophy can be defined as the "Log of Wisdom". Also called as *Darshana-Sastra* in Indian Philosophy. It is a discipline that investigates the nature of values, and relationships integrating humanity with world and reality as a whole.
+
+Philosophical thinking is conceptual in nature. This is necessary to make sense out of the subject matter.
+
+> _What is number?_
+
+> _What is Justice?_
 
 **Philosopher** is a person who critiques existing philosophical ideas with proof (otherwise its just an opinion). They also try to "prove" whatever is acceptable.
+
+## Philosophical Thinking
+
+Philosophical thinking is broadly classified into 5 different categories;
+
+1. Speculative
+
+    Philosophy began as speculation, and is the core of Metaphysics. Highlights the importance of imagining something, and is used to draw **intuitive insights** beyond observable facts.
+
+    > _"Imagination is more important than knowledge" - Albert Einstein_
+
+2. Imaginative / Creative
+
+   Utilization of poems, and being able to draw artistic interpretation of truth. FOr example, Rabindranath Tagore was an astounding poet and a philosopher. 
+
+3. Reflective / Critical
+
+    Very fundamental to philosophy; being able to evaluate the accuracy and relevance of ideas is of utmost importance for the betterment of humanity.
+
+4. Argumentative
+
+    Being critical requires thinking to be argumentative. Arguments are logical, and are regulated by logic.
+
+5. Liberal / Inclusive
+
+    Need to be open to other ideas, to be able to eliminate prejudices. Open-mindedness is very important for the betterment of philosophy.
 
 Philosophy is  broken down into 4 major branches, given below. We will look at each of these branches at a surface level, to know what the reaches of the topic are.
 
@@ -23,17 +55,17 @@ Philosophy is  broken down into 4 major branches, given below. We will look at e
 
 ## Metaphysics 
 
-Metaphysics is considered as the **First Philosophy** by Aristotle. He has also sub-divided Metaphysics into "three" branches, namely;
+Philosophy began with metaphysics, and was closely intertwined with epistemology. It studies the causes of everything that exists or that may exist.
 
-- **Ontology** - The science of being *Qua Being* - General nature of everything
+Metaphysics is considered as the **First Philosophy** by Aristotle. He classified metaphysics in the following order;
+
+- **Ontology** - The science of being *Qua Being* - The science of existence
 - **Theology** - Highest kind of being (Divinity)
 - **Universal Science** - First Principle - Truth of every existing thing, basis of proof or demonstration
 
 > A thing is a *thing* by virtue of something that *it is*
 
-Philosophy began with metaphysics, and was closely intertwined with epistemology. 
-
-Metaphysics has been affected in the renaissance era due to enlightenment and groups such as *Logical Positivists*, and has been claimed as "philosophical nonsense". Today, it plays the role of disciplinary integration for the better understanding of the connections between different streams.
+Although prominent in the pre-socratic era, Metaphysics has been affected in the renaissance era due to enlightenment and groups such as *Logical Positivists*, and has been claimed as "philosophical nonsense". Today, it plays the role of disciplinary integration for the better understanding of the connections between different streams.
 
 An example of an ontological question is:
 
