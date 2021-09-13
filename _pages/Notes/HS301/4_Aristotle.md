@@ -7,7 +7,7 @@ sidebar:
     nav: "notes_hs301"
 ---
 
-Aristotle is a philosopher from the Socratic period as well. He was the disciple of PLato, and tried to be more systematic. He was responsible for:
+Aristotle is a philosopher from the Socratic period as well. He was the disciple of Plato, and tried to be more systematic. He was responsible for:
 
 - Division of Philosophy into branches (eg Metaphysics and Physics)
 - Systematic casual explanations
@@ -21,9 +21,9 @@ He disliked the lack of scientific explanation in Plato's philosophy, especially
 
 ## Aristotle and Knowledge
 
-Aristotle beleived that experience to be the basis of knowledge, and true knowledge could only be obtained after knowing reasons or causes for an occurence. 
+Aristotle believed experience to be the basis of knowledge, and true knowledge could only be obtained after knowing reasons or causes for an occurence. 
 
-(That is, he was neither an rationalist nor an empiricist) 
+(That is, he was neither an rationalist nor an empiricist) \*_(in my opinion)_
 
 <!-- Metaphysics smth -->
 
@@ -41,7 +41,7 @@ He classified science into four categories:
 
 Forms are not apart from things, but are inherent in them. They are eternally together; and matter combines with form to constitute individual things.
 
-Plato thought the phenomenal world to be a shadow of the ideal, real world. The phenomenal world is not a copy of the real world. Rather, it is the real world.
+Plato thought the phenomenal world to be a shadow of the ideal, real world. Aristotle on the other hand advocated that the phenomenal world was not a copy of the real world. Rather, it _is_ the real world.
 
 This take by Aristotle advocated **Realism** and led to the progression of Natural Science.
 {: .notice--info}
@@ -62,9 +62,9 @@ Human reasoning can discern the form.
 
 *(Potentiality and Actuality)*
 
-Plato's idea of forms does not tackle the concept of change as he beleived form to be non-temporal. Aristotle's ideas challenge this notion.
+Plato's idea of forms does not tackle the concept of change as he believed form to be non-temporal. Aristotle's ideas challenge this notion.
 
-He beleived that there to be 4 reasons for a substance changing. Using clay for making a pot has been used as an example for understanding these reasons.
+He believed there to be 4 reasons for a substance changing. Using clay for making a pot as an example, these reasons are:
 
 1. *Material Cause*: Clay is the basic, primordial stuff
 2. *Efficient Cause*: Agent bringing change to primordial stuff (potter)
@@ -73,7 +73,7 @@ He beleived that there to be 4 reasons for a substance changing. Using clay for 
 4. *Final Cause*: Use of the pot
 
 
-Formal and Final cause are closely interlinked with **Teleology**. Aristotle beleived that the best way to understand why things are the way they are, is to understand the purpose that they fulfil.
+Formal and Final cause are closely interlinked with **Teleology**. Aristotle believed that the best way to understand why things are the way they are, is to understand the purpose that they fulfil.
 {: .notice--info}
 
 
@@ -88,11 +88,11 @@ Syllogism is demonstration in the form of deduction. It utilizes properly formed
 
 Propositions being used in an argument are called as Premises. There are four kinds of propositions:
 
-1. Universal Affirmative (A) - "All X is Y" (distribute subject)
+1. Universal Affirmative (A) - "All X is Y" (distribute subject; X)
 2. Particular Affirmative (I) - "Some X is Y" (distribute none)
 
-3. Universal Negative (E) - "No X is Y" (distributes both subj and pred)
-4. Particular Negative (O) - "Some X is not Y" (distribute pred only)
+3. Universal Negative (E) - "No X is Y" (distributes both subj and pred; X, Y)
+4. Particular Negative (O) - "Some X is not Y" (distribute pred only; Y)
 
 Similarly, *Major Premise* is universal in nature and *Minor Premise* is particular in nature.
 
@@ -134,18 +134,19 @@ There are four relations between propositions:
 
 &nbsp;
 
-He beleived ethics to be *Anti-Hedonistic*, and *Intuitionsistic* in nature. He justified anti-hedonism by making a distinction between the pleasure of mind and pleasure of the body.
  
 
 ## Ethics and Aristotle
 
+He believed ethics to be *Anti-Hedonistic*, and *Intuitionsistic* in nature. He justified anti-hedonism by making a distinction between the pleasure of mind and pleasure of the body.
+
 Aristotle says that man is a combination of body and soul. The soul is an inorganic unit, and is responsible for moving the body and for perceiving information.
 
-He stated the following hierarchy in soul:
+He stated the following parts of a soul:
 
-- Rational: Capable of rational thought (human)
-- Sensible: Capable of sense (animal)
-- Nutritional: Capable of nutrition (plant)
+- Rational: Capable of rational thought (man has all three)
+- Sensible: Capable of sense (animal have sensible and nutritional)
+- Nutritional: Capable of nutrition (plants have only nutritional)
 
 Aristotle believed mind to be higher than the soul. It is independant of substance, and is immortal. Mind is the power to think.
 {: .notice}
@@ -173,13 +174,13 @@ Aristotle aimed to answer Socrates' answer of highest good. The "good-ness" of a
 
 Similarly, a human being can be good only upon the habitual exercise of the function which makes him a human being. That is, rational thinking and virtuous actions have to be exercised. 
 
-Please usually accompanies virtuous activities. Pleasure can be included as the highest good, but is not the highest good itself. This indulgence with virtuous activities is known as Eudaimonia.
+Pleasure usually accompanies virtuous activities. Pleasure can be included as the highest good, but is not the highest good itself. This indulgence with virtuous activities is known as Eudaimonia.
 {: .notice--info}
 
 
 ### Virtue
 
-Aristotle maintains that there are two types of virtuee; *intellectual* and *moral*.
+Aristotle maintains that there are two types of virtue; *intellectual* and *moral*.
 
 - *Intellectual Virtue* is related to wisdom, knowledge and perfection
 - *Moral Virtue* is more emotional in nature, regarding doing the right thing

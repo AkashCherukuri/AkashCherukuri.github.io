@@ -9,7 +9,7 @@ sidebar:
 
 The nature of philosophy in the pre-Socratic period was highly nature-centric. In the socratic period however, philosophy was much more society-centered.
 
-That is, it dabbled with ethics,importance and directions needed for living a pious and good life. The socratic period was marked by:
+That is, it dabbled with ethics, the importance of, and the directions needed for living a pious and good life. The socratic period was marked by:
 
 1. Beginning of Greek Enlightenment
 2. Critical Thinking Encouragement - Departure from speculative thought
@@ -24,9 +24,9 @@ Fundamentalism disrupts the harmony which is needed to progress knowledge.
 
 Although naive theories full of gods and occult powers existed, a mechanical theory of **atomists** was around as well during this period.
 
-This period is the beginning of Greek enlightenment, where freedon and individualism was encouraged and they displayed a critical attitude towards life.
+This period is the beginning of Greek enlightenment, where freedom and individualism was encouraged and they displayed a critical attitude towards life.
 
-First half of the period was full of natural philosophy of cosmos. Man's place was determined using Metaphysical conclusions. The second half was marked with a change in the political, economic and intellectual atmosphere. This is after the Great Persian war. That is, thinking shiftfed from speculative to critical in nature.
+First half of the period was full of natural philosophy of cosmos. Man's place was determined using Metaphysical conclusions. The second half was marked with a change in the political, economic and intellectual atmosphere. This is after the Great Persian war. That is, the nature of thinking shifted from speculative to critical.
 
 This new age was majorly due to the establishment of a democratic institution. This ushered in many great people such as Socrates and Hippocrates.
 
@@ -43,7 +43,7 @@ They were the representation of a new movement in Greece. These were wise and sk
 
 They were relevant because it was beneficial to be a good orator in democracy, as it opens up opportunities for one to better their life and influence others as well.
 
-However, Socrates felt that they did not use their intelligence properly, and that their logical arguments were lacking.
+However, Socrates felt that they did not use their intelligence properly, and that their logical arguments were lacking. They were also highly skeptical in nature, as that was the prevailing school of thought at the time.
 
 &nbsp;
 
@@ -84,11 +84,11 @@ Socrates believed knowledge to be the highest good. He emphasized the importance
 
 ### Socratic Method
 
-This method is a method of cross-examination, used to test the validity of an opinion. A dialogue is initiated, and skilful questioning is done to prove/disprove its importance.
+This method is a way of cross-examination, used to test the validity of an opinion. A dialogue is initiated, and skilful questioning is done to prove/disprove its importance.
 
 The Socratic Method includes:
 
-- **Scepticism** of truth of matter under discussion. This is provisional wheras Sophists' scepticism was definite in nature
+- **Scepticism** of truth of the matter under discussion. This is provisional wheras Sophists' scepticism was definite in nature
 
 - **Conversation - Dialogue** with the motive of discovering truth
 
@@ -105,9 +105,7 @@ The Socratic Method includes:
 
 > Disciple of Socrates, Theory of Ideas
 
-Plato felt that Socrates missed upon utilizing *Ontology* while discussing ethics, and took it upon himself to do so. He brought back Metaphysics into discussion. His theory of ideas try to combine the ideas of epistemology, metaphysics and ethics.
-
-He tried to compose a comprehensive philosophical system by drawing insights from other philosophers. This showed the link between epistemology, ontology and ethics. (human knowledge, existence and conduct)
+Plato felt that Socrates missed upon utilizing *Ontology* while discussing ethics, and took it upon himself to do so. He brought back Metaphysics into discussion. His theory of ideas tries to combine epistemology, metaphysics and ethics.
 
 He believed that genuine knowledge is unchanging and absolute; but our senses and experiences keep changing. (Latter was inspired by Heraclitus) He emphasized that true knowledge could be comprehended through reason. 
 
@@ -154,9 +152,9 @@ This requires that language has general words such as "similar" and "before", in
 
 ### Metaphysics and Epsitemology
 
-(It was then beleived that soul was responsible for thinking)
+(It was then believed that soul was responsible for thinking)
 
-Plato beleived that knowledge is latent in the soul, bringing both these branches of philosophy together. He said that the soul can contemplate on pure eternal ideas.
+Plato believed that knowledge is latent in the soul, bringing both these branches of philosophy together. He said that the soul can contemplate on pure eternal ideas.
 
 Idea of Unity and Diversity, all horses are united under the concept of "Horseness"; wheras the presence of various horses is diversity.
 
@@ -165,7 +163,7 @@ He believed that the idea of good is LOGOS. That is, he believed the idea of goo
 That is, plato believed that experience is not the source of concepts. Rather, conceptual knowledge is the only genuine knowledge.
 {: .notice--info}
 
-He beleived in a **Hierarchy of Knowledge**, where *doxa* had the lowest position. He believed genuine knowledge to be *infalliable* in nature, because forms are unchanging and eternal. This is different than what Heraclitus and Protagoras were saying. The knowledge attained via senses is thus *falliable* in nature.
+He believed in a **Hierarchy of Knowledge**, where *doxa* had the lowest position. He believed genuine knowledge to be *infalliable* in nature, because forms are unchanging and eternal. This is different than what Heraclitus and Protagoras were saying. The knowledge attained via senses is thus *falliable* in nature.
 
 Therefore, attaining genuine knowledge requires reflection upon senses by the mind and soul. 
 
@@ -175,17 +173,11 @@ Plato believes in the pre-existence of soul, and that the body-soul relation is 
 
 ### Tri Partite Division
 
-1. **Rational Faculty**
-  
-    Intellectual activities are handled by this faculty
+1. **Rational Faculty**: Intellectual activities are handled by this faculty
 
-2. **Spirited Faculty**
-  
-    Responsible for decisions and will. Irrational in nature.
+2. **Spirited Faculty**: Responsible for decisions and will. Irrational in nature.
 
-3. **Appetitive Faculty**
-    
-    Desires for pleasure, wealth and the such
+3. **Appetitive Faculty**: Desires for pleasure, wealth and the such
 
 
 He also describes two types of pleasures; *intellectual* and *sense-driven*.

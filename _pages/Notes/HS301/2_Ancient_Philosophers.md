@@ -24,7 +24,7 @@ Back in the day, Philosophy was closely interlinked with Mysticism and religion;
 Thales pursued **Principle of movement fundamental to the order**.
 {: .notice--primary}
 
-That is, Thales was the first to try and reason out the reason for observations in nature, not related with religion. This encouraged people to think in a similar manner, and to *not be deceived by appearance alone*.
+That is, Thales was the first to try and reason out the causees for observations in nature, not related with religion. This encouraged people to think in a similar manner, and to *not be deceived by appearance alone*.
 
 In particular, he was interested in the material causes behind floods and earthquakes.
 
@@ -111,5 +111,3 @@ Ethically, his ideas can be summed up with the statement "Good and Ill are one",
 He has also introduced the notion of **LOGOS** - The principle of divine reason / cosmic order. That is, he believed that every change followed a universal divine reasoning. This was believed by Pythagoras as well.
 
 He also believed in a *cosmic fire-soul*, from where he believed every thought to originate.
-
-*Not very sure if cosmic fire soul is correct, verify*
