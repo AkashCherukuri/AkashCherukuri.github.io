@@ -50,7 +50,7 @@ Thales was the first philosopher as he focused not only on the insights of natur
 
 Just like how Thales used water to describe nature, Pythagoras utilized numbers and mathematics. He was interested in seemingly opposite ideologies, Mysticism and Mathematics. His beliefs were influenced by Indian Philosophy, during the Conquests of Alexander.
 
-For example, Pythogoras tried to use numbers to understand music and symphonies. 
+For example, Pythogoras tried to use numbers to understand music and symphonies. His mysticism was influenced by eastern philosophy, and he believed in music as the expression of the divine.
 
 ### Pythogoras was the first to:
 
@@ -58,11 +58,13 @@ For example, Pythogoras tried to use numbers to understand music and symphonies.
 
 - utlize *demonstrative deductive arguments*, as such is the nature of mathematics. Although Aristotle was the one to popularize it, Pythagoras was the first to utilize them
 
+For example, the pythagoras' theorem can be viewed as a link between arithmetic and geometry. That is, numbers can be used to explain geometry, which is why numbers for pythagoreans is the principle of things.
+
 Numbers for pythagoreans are the principle of things, not in a physical sense, but as a formal structure. Therefore, we can see that his ideas had a metaphysical side as well.
 
 ### Contributions:
 
-- Deciphering inner workings of the mind, likely influenced by the *Nikruti/Prakruti* ideas in Indian Philosophy
+- Deciphering inner workings and the purification of the mind, likely influenced by the *Nikruti/Prakruti* ideas in Indian Philosophy
 
 - Tried to show what cannot be seen directly using mathematics
 

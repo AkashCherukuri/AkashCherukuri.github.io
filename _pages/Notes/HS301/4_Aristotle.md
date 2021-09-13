@@ -16,15 +16,10 @@ Aristotle is a philosopher from the Socratic period as well. He was the disciple
 
 Aristotle's work was focused on the systematic reconstruction of philosophy, and the development of ethics.
 
-He disliked the lack of scientific explanation in Plato's philosophy, especially regarding forms/ideas. He denied the division between *ideal* and *material*.
-
-He beleived ethics to be *Anti-Hedonistic*, and *Intuitionsistic* in nature. He justified anti-hedonism by making a distinction between the pleasure of mind and pleasure of the body.
- 
+He disliked the lack of scientific explanation in Plato's philosophy, especially regarding forms/ideas. He denied the division between *ideal* and *material*. 
 
 
-
-
-## Aristotles and Knowledge
+## Aristotle and Knowledge
 
 Aristotle beleived that experience to be the basis of knowledge, and true knowledge could only be obtained after knowing reasons or causes for an occurence. 
 
@@ -136,3 +131,69 @@ There are four relations between propositions:
 2. Illicit Major: Middle term not distributed in major premise
 3. Illicit Minor: Middle term not distributed in minor premise
 4. The fallacy of two exclusive premises: Two negative premises
+
+&nbsp;
+
+He beleived ethics to be *Anti-Hedonistic*, and *Intuitionsistic* in nature. He justified anti-hedonism by making a distinction between the pleasure of mind and pleasure of the body.
+ 
+
+## Ethics and Aristotle
+
+Aristotle says that man is a combination of body and soul. The soul is an inorganic unit, and is responsible for moving the body and for perceiving information.
+
+He stated the following hierarchy in soul:
+
+- Rational: Capable of rational thought (human)
+- Sensible: Capable of sense (animal)
+- Nutritional: Capable of nutrition (plant)
+
+Aristotle believed mind to be higher than the soul. It is independant of substance, and is immortal. Mind is the power to think.
+{: .notice}
+
+That is, the soul could die and decay alongwith the body but mind doesn't do so.
+
+He also talks about the nature of reason, and categorized reasons into different types. They are;
+
+1. **Active Reason**
+    
+    Arises in the course of soul's development with the other psychic functions. This refers to thinking about the consequences of an action. 
+
+    This can be identified with universal reason. (_is the action being performed desirable?_) This is the divine mind coming to the soul.
+
+2. **Creative Reason**
+
+    Here all concepts are actualized, and thoughts and objects are one. (_How is a pot shaped from clay?_)
+
+    Creative reason is immortal, imperishable and is not bound to the body.
+
+
+### Eudaimonia
+
+Aristotle aimed to answer Socrates' answer of highest good. The "good-ness" of an object depends upon the realization of its specific nature. That is, a knife is good if it performs its duty of cutting stuff well.
+
+Similarly, a human being can be good only upon the habitual exercise of the function which makes him a human being. That is, rational thinking and virtuous actions have to be exercised. 
+
+Please usually accompanies virtuous activities. Pleasure can be included as the highest good, but is not the highest good itself. This indulgence with virtuous activities is known as Eudaimonia.
+{: .notice--info}
+
+
+### Virtue
+
+Aristotle maintains that there are two types of virtuee; *intellectual* and *moral*.
+
+- *Intellectual Virtue* is related to wisdom, knowledge and perfection
+- *Moral Virtue* is more emotional in nature, regarding doing the right thing
+- *Phronesis* is also considered, and it is the practical virtue
+
+He stated that virtues are moderation between excess and deficiences. For example, modesty is a mean between bashfulness and shamelessness. This mean does differ from individual to individual. A virtuous man should be able to make this choice after assessing the situation.
+
+### Justice
+
+Aristotle felt that self-realization does not include selfish individualism. He tried to be **altruistic** in nature, and said that a virtuous man must love goodness for its own sake.
+
+Justice is altruistic by nature, as justice is doing good for the society. A just society is where lawfullness and fairness are emphasized. Justice should be inclusive of all virtues.
+
+Justice is giving man his due.
+{: .notice--info}
+
+He believed that the highest happiness is a scpeculative activity, an activity which takes the form of contemplation.
