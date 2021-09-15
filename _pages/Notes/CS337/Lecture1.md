@@ -49,7 +49,7 @@ It is not guaranteed that the training data is error-prone. We would like the fi
 
 The error function $\mathcal{E}$ takes the curve and data as input and yields a real number as the output. This is used to quantitatively judge whether a function is a "good fit" for the given data.
 
-Some examples of $\mathcal{E}$ are $\sum |f(x_i)-y_i|$ and $\sum (f(x_i)-y_i)^2$. We would ideally want the error to always be positive (so that stuff doesn't cancel out).
+Some examples of $\mathcal{E}$ are $\sum \vert f(x_i)-y_i\vert$ and $\sum (f(x_i)-y_i)^2$. We would ideally want the error to always be positive (so that stuff doesn't cancel out).
 
 Using the error function $\sum (f(x_i)-y_i)^2$ is known as the  **Method of Least Squares**. This error function is widely used.
 {: notice--warning}

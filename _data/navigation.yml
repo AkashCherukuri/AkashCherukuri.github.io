@@ -161,6 +161,20 @@ notes_cs337:
         url: /notes/cs337/Lec6#evaluating-performance
       - title: Bias Variance Analysis
         url: /notes/cs337/Lec6#bias-variance-analysis
+  - title: Lecture 7
+    url: /notes/cs337/Lec7
+    children:
+      - title: Perceptrons
+        url: /notes/cs337/Lec7
+      - title: Perceptron Algorithm
+        url: /notes/cs337/Lec7#perceptron-algorithm
+  - title: Lecture 8
+    url: /notes/cs337/Lec8
+    children:
+      - title: Analysis of Perceptron Algorithm
+        url: /notes/cs337/Lec8
+      - title: Stochastic Gradient Descent
+        url: /notes/cs337/Lec8#stochastic-gradient-descent
 
 # HS301 notes' sidebar
 notes_hs301:

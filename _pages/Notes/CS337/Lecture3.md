@@ -27,7 +27,7 @@ We can model $Y$ to be a linear function as before, with an additional noise par
   $$ Y = W^T\Phi(x) + \epsilon $$
 </div>
 
-Normal distribution has the maximum entropy amongst all distributions with a given variance. The $3-\sigma$ rule also plays a vital role for picking this. (68, 95, 99.7)
+Normal distribution has the maximum entropy amongst all distributions with a given variance. The $3-\sigma$ rule also plays a vital role for picking this. That is, $68\%$ of readings deviate less than $\sigma$ from the mean, $95\%$ less than $2\sigma$ and $99.7\%$ less than $3\sigma$ from the mean.
 
 The maximum likelihood estimate of $W$ is calculated in this case. (Remember that calculation is simplified by taking $\log$ to get the *Log-Likelihood*)
 
@@ -35,7 +35,7 @@ The maximum likelihood estimate of $W$ is calculated in this case. (Remember tha
 
 # Overfitting and Regularization
 
-Increasing the degrees of freedom causes this issue. The model essentially brute-forces all data points in training data, which isn't very helpful. Overfitting is caused by $\vert\vert W_i\vert\vert$ being large, and regularization tries to suppress this.
+Increasing the degrees of freedom causes overfitting. The model essentially brute-forces all data points in training data, which isn't very helpful. Overfitting is caused by $\vert\vert W_i\vert\vert$ being large, and regularization tries to suppress this.
 
 ## Bayesian Linear Regression
 
@@ -53,10 +53,10 @@ The *Prior* is given by $P(H)$, and the *Posterior* is given by $P(H\vert D)$. T
 
 We ignore the denominator as it is just a normalizing factor, and is constant as the data is known.
 
-If $P(D\vert H)$ follows distribution $d_1$ the *posterior* and *prior* follow the same distribution $d_2$, then $d_2$ is said to be the **conjugate prior** of $d_1$.
+If $P(D\vert H)$ follows distribution $d_1$ and the *posterior* and *prior* follow the same distribution $d_2$, then $d_2$ is said to be the **conjugate prior** of $d_1$.
 {: .notice--warning}
 
-Examples include:
+Examples for distribution-conjugate prior pairs include:
 - Gaussian - Gaussian
 - Bernoulli & Binomial - Beta
 - Categorical & Multinomial - Dirchlet
