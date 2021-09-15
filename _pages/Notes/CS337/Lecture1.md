@@ -39,9 +39,9 @@ There are three canonical learning settings:
 
 ## Supervised Learning
 
-Formally, let $\mathcal{X}$ be the input space and $mathcal{Y}$ be the output space. We would like to obtain a function $f$ belonging to the function family $mathcal{F}$ such that $y_i \approx f(x_i)$, where $(x_i, y_i) \in mathcal{X} \times mathcal{Y}$.
+Formally, let $\mathcal{X}$ be the input space and $\mathcal{Y}$ be the output space. We would like to obtain a function $f$ belonging to the function family $\mathcal{F}$ such that $y_i \approx f(x_i)$, where $(x_i, y_i) \in \mathcal{X} \times \mathcal{Y}$.
 
-In linear regression, $mathcal{F}$ is the *Linear Function Space*.
+In linear regression, $\mathcal{F}$ is the *Linear Function Space*.
 
 It is not guaranteed that the training data is error-prone. We would like the final estimator to be robust to errors, and one way to do this is **Data Cleansing** (pre-processing).
 
