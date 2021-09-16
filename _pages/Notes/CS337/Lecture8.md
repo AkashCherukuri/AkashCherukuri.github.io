@@ -42,5 +42,5 @@ $$ \text{Hinge Loss}(f_w(x), y)= \max(0, -yf_w(x))$$
 
 Using the finally obtained weight vector is not always a good idea, because the process is iterative in nature. Usually, one of these two methods is employed:
 
-1. **Voted Perceptron:**
-2. **Averaged Perceptron:**
+1. **Voted Perceptron:** Take the vector which classified most of the weight vectors correctly
+2. **Averaged Perceptron:** Calculate the weighted average of the weight vectors

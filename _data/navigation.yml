@@ -164,7 +164,7 @@ notes_cs337:
   - title: Lecture 7
     url: /notes/cs337/Lec7
     children:
-      - title: Perceptrons
+      - title: Perceptrons 
         url: /notes/cs337/Lec7
       - title: Perceptron Algorithm
         url: /notes/cs337/Lec7#perceptron-algorithm
@@ -175,6 +175,15 @@ notes_cs337:
         url: /notes/cs337/Lec8
       - title: Stochastic Gradient Descent
         url: /notes/cs337/Lec8#stochastic-gradient-descent
+  - title: Lecture 9
+    url: /notes/cs337/Lec9
+    children:
+      - title: Logistic Regression
+        url: /notes/cs337/Lec9
+      - title: Regularized Logistic Regression
+        url: /notes/cs337/Lec9#regularized-logistic-regression
+      - title: Multiclass Logistic Regression
+        url: /notes/cs337/Lec9#extension-to-multiclass
 
 # HS301 notes' sidebar
 notes_hs301:
