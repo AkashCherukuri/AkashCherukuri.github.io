@@ -270,9 +270,11 @@ body {
   }
 }
 
+//  Modified this for parallax
 .page__hero {
   position: relative;
   display: flex;
+  flex-direction: column;
   margin-bottom: 2em;
   @include clearfix;
   -webkit-animation: $intro-transition;
