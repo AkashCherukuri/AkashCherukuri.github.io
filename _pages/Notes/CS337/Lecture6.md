@@ -26,7 +26,7 @@ While the relative drop in Lasso error across $t=k$ and $t=k+1$ is significant, 
 
 1. *LS Iterate*
 
-    $w^{k+1}\_{LS} = w^{k+1}\_{Lasso} - \eta\nabla E\_{LS}(w^{k}\_{Lasso})$
+    $w^{k+1}\_{LS} = w^{k}\_{Lasso} - \eta\nabla E\_{LS}(w^{k}\_{Lasso})$
 
 2. *Proximal Step*
 

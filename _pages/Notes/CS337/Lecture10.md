@@ -53,8 +53,9 @@ This is used to find non-linear partitions between classes. Kernels operate on a
 For a given dataset $\{ x_1, \ldots x_m \}$, the Gram Kernel Matrix $\mathcal{K}$ is defined as follows:
 
 $$\mathcal{K} = \begin{bmatrix}
-  K(x_1, x_1) & K(x_1, x_2) & \ldots \\
-  K(x_2, x_1) & K(x_2, x_2) & \ldots \\
-  & \vdots & \\
-  K(x_m, x_1) & K(x_m, x_2) & \ldots \\
+  K(x_1, x_1) & K(x_1, x_2) & \ldots & K(x_1, x_m)\\
+  K(x_2, x_1) & K(x_2, x_2) & \ldots & K(x_2, x_m)\\
+  \vdots & \vdots & & \vdots\\
+  K(x_m, x_1) & K(x_m, x_2) & \ldots & K(x_m, x_m)\\
 \end{bmatrix}$$
+
