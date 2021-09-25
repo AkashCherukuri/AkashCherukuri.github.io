@@ -25,3 +25,7 @@ The notes of CS747 have been divided weekly, and they can be found below; or acc
 - [Week3](/notes/cs747/week3)
 - [Week4](/notes/cs747/week4)
 - [Week5](/notes/cs747/week5)
+
+No lectures for Week6 owing to Midsems
+
+- [Week7](/notes/cs747/week7)
