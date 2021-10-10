@@ -28,7 +28,10 @@ Let a t-length history be defined as follows:
 
 $$h^t = (s^0, a^0, r^0 \ldots s^t)$$
 
+## Learning Algorithm
+
 A *Learning Algorithm* L is a mapping from the set of all histories to set of all probability distributions over arms. We would like to construct L such that:
 
 $$ \lim_{T\to\infty}\frac{1}{T}\left( \sum_{t=0}^{T-1} \mathcal{P} \[ a^t\sim L(h^t) is optimal for s^t \] \right) $$
 
+The above problem is also known as the **Control Problem**.
