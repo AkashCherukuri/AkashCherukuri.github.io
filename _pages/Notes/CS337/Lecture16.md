@@ -52,7 +52,7 @@ $\text{sum}^l_i$ is the input argument to $\sigma^l_i$, given by $\sum_t w^l_{ti
 Therefore, the L2 regularized objective function to be minimized is:
 
 $$\begin{align}
-E(w) &= -\frac{1}{m}\left[ \sum_i \sum_k y_k^{(i)}\log\sigma^L_k(x^{(i)}) + (1-y_k^{(i)})\log(1-\sigma^L_k(x^{(i)})) \\
+E(w) &= -\frac{1}{m}\left[ \sum_i \sum_k y_k^{(i)}\log\sigma^L_k(x^{(i)}) + (1-y_k^{(i)})\log(1-\sigma^L_k(x^{(i)}))\right] \\
 &+ \frac{\lambda}{2m}\sum_l\sum_i\sum_j (w^l_{ij})^2 \\
 \end{align}$$
 
