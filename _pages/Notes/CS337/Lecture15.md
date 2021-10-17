@@ -71,3 +71,4 @@ There are four main design choices that are to be considered while coding up a n
 - Output layer
 - Loss function
 
+Do note that the activations at the hidden layers are not visible, even during training.
