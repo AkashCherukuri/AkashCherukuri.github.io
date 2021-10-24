@@ -233,7 +233,7 @@ notes_hs301:
         url: /notes/hs301/aris#logic-and-syllogism
       - title: Ethics and Aristotle
         url: /notes/hs301/aris#ethics-and-aristotle
-  - title: "Modern" Philosophy
+  - title: Modern Philosophy
     url: /notes/hs301/modern
     children:
       - title: Introduction
