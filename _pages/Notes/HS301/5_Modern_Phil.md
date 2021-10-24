@@ -19,6 +19,7 @@ Focus shifted from contemplation of the supernatural to reflection on natural th
 Rationalists and Empiricists debated on the nature of truth as well. Rationalists believed truth to be absolute, and be *a priori* in nature. The empiricists on the other hand felt truth to be *a posteriori* in nature, and disagreed that truth was absolute. 
 
 &nbsp;
+&nbsp;
 
 # Francis Bacon
 
@@ -65,6 +66,7 @@ There are three forms of induction:
     The object of out inquiry is present in greater or lesser degree
 
 &nbsp;
+&nbsp;
 
 # Thomas Hobbes
 
@@ -84,6 +86,7 @@ He believed that all knowledge was *conditional*, and also that the mechanism of
 *yeah this is quite blurry*
 
 
+&nbsp;
 &nbsp;
 
 # Rene Descartes
@@ -120,6 +123,7 @@ Doubting involves thinking. Therefore, there must be a doubter to doubt. Thus, "
 
 > "Dubito ergo cogito ergo sum"
 
+&nbsp;
 ### Proof for Existence of God
 
 The motive of evils is to deceive. Humans are imperfect, and this implies the existence of a perfect and infinite being. God cannot deceive, since deception is evil and God cannot be evil.
@@ -130,10 +134,12 @@ Descartes said that the idea of God is not derived from an external world via se
 
 Note that Descartes was before Newton, so he did not know *how* objects moved. It was all attributed to God being an Immovable Mover.
 
+&nbsp;
 ### Proof for the Existence of World
 
 We know that the world exists becuase of our feelings. The feelings of pleasure, pain, hunger and instinctive reactions are all proofs that the exernal world exists. However, these sensations can be deceiving. Such delusions can be corrected by the power of intellect endowed by god.
 
+&nbsp;
 ### Existence of Bodies
 
 Descartes was a **dualist**, he believed that mind and body were two seperate substances which exist independantly of one another.
@@ -142,10 +148,13 @@ Descartes was a **dualist**, he believed that mind and body were two seperate su
 The essence of mind is thought, and the body is divisible whose essence is extension. Descartes firmly states that the mind and body are distinct, and are conveived **independently** of each other.
 
 
+&nbsp;
+&nbsp;
 # John Locke
 
 He was a Bri'ish empiricist, who did not agree with the ideas presented by Rene Descartes. He believed that all knowledge is accumulated post-birth via experience. He compared the mind with a blank slate, with knowledge being written on it.
 
+&nbsp;
 ### Ideas
 
 He believed there to be two sources of ideas:
