@@ -15,6 +15,7 @@ The notes of HS301 have been divided topic-wise, and they can be found below; or
 - [Classical Greek Philosophy](/notes/hs301/anc-phil)
 - [Socratic Period](/notes/hs301/socr-per)
     - [Aristotle](/notes/hs301/aris)
+- ["Modern" Philosophy](/notes/hs301/modern)
 
 &nbsp;
 

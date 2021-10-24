@@ -233,3 +233,16 @@ notes_hs301:
         url: /notes/hs301/aris#logic-and-syllogism
       - title: Ethics and Aristotle
         url: /notes/hs301/aris#ethics-and-aristotle
+  - title: "Modern" Philosophy
+    url: /notes/hs301/modern
+    children:
+      - title: Introduction
+        url: /notes/hs301/modern
+      - title: Francis Bacon
+        url: /notes/hs301/modern#francis-bacon
+      - title: Thomas Hobbes
+        url: /notes/hs301/modern#thomas-hobbes
+      - title: Rene Descartes
+        url: /notes/hs301/modern#rene-descartes
+      - title: John Locke
+        url: /notes/hs301/modern#john-locke
