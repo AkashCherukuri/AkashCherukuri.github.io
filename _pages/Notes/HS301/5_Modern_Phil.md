@@ -152,7 +152,7 @@ The essence of mind is thought, and the body is divisible whose essence is exten
 &nbsp;
 # John Locke
 
-He was a Bri'ish empiricist, who did not agree with the ideas presented by Rene Descartes. He believed that all knowledge is accumulated post-birth via experience. He compared the mind with a blank slate, with knowledge being written on it.
+He was a Bri'ish empiricist, who did not agree with the ideas presented by Rene Descartes. That is, he did not accept the notion of innate ideas. Instead, he believed that all knowledge is accumulated post-birth via experience. He compared the mind with a blank slate, with knowledge being written on it.
 
 &nbsp;
 ### Ideas
@@ -164,20 +164,52 @@ He believed there to be two sources of ideas:
 He also categorized ideas into two types; Simple and Complex.
 *Simple Ideas* are the ones which enter the mind by only one sense. *Complex Ideas* on the other hand are received by reflection by the mind on the ideas that it already has.
 
-For example, "something black" is a simple idea but deducing that the black thing is a crow based on previus experiences and current state is a complex idea.
+For example, "something black" is a simple idea but deducing that the black thing is a crow based on previous experiences and current state is a complex idea.
 
 Some ideas are perceived through both sensation and reflection. Examples include pleasure, pain, power, existence, uneasiness, unity and so on. 
 
 ### Qualities
 
 A quality of an object is the power that it has to produce ideas. 
-1. Primary Quality - solidity, extension, , inherent in the object
+1. Primary Quality - solidity and extension, inherent in the object
 2. Secondary Quality - sound, taste, colours
 
 Secondary qualities are the qualities of an object which can be changed, wheras the primary qualities are relatively not changeable.
 
 ### Modes
 
-A *simple mode* consists of variations of the same idea, repeated in different combinations without any mixture of the other. A *dozen or a score* is a mode obtained by successiv addition of unit.
+A *simple mode* consists of variations of the same idea, repeated in different combinations without any mixture of the other. A *dozen or a score* is a mode obtained by successive addition of unit.
 
 *Mixed modes* are compounded simple ideas of several kinds put together to form a complex one. For example, beauty consists of many factors like colour, figure and so on.
+
+&nbsp;
+&nbsp;
+# David Hume
+
+Hume is an empiricist, and agreed with Descartes, Hobbes and Lcoke in requiring that genuine knowledge must be self-evident. Humes was:
+
+1. *Empirical*: knowledge has source in experience
+2. *Positivistic*: knowledge is limited to world of phenomena
+3. *Agnostic*: we know nothing of ultimates, substances, soul.etc
+4. *Humanistic*: human mental world is the only legitimate sphere of enquiry
+
+Hume felt that all sciences had relations to human nature, and subdivided the science of human nature into three:
+
+1. Logic - Reasoning
+2. Moral and Criticism - tastes and sentiments
+3. Politic - humans are dependant on society
+
+Humes stated that *True Metaphysics* is the science of understanding, and that moral philosophy provides foundation to all other sciences.
+{: .notice--info}
+
+&nbsp;
+
+## Impression and Reflection
+
+*quite doubtful about this part*
+
+&nbsp;
+
+## Regularity Condition
+
+Hume believed that 
