@@ -23,6 +23,7 @@ sidebar:
 We've discussed the perceptron algorithm already. However, there are a few drawbacks for this method:
 
 - Does not find the best seperating hyperplane
+
   *Soln*: Large margin classification
 
 - Sigmoidal perceptron can seperate only address linearly seperable data

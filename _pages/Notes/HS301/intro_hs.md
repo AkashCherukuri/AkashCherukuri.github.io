@@ -16,6 +16,7 @@ The notes of HS301 have been divided topic-wise, and they can be found below; or
 - [Socratic Period](/notes/hs301/socr-per)
     - [Aristotle](/notes/hs301/aris)
 - ["Modern" Philosophy](/notes/hs301/modern)
+- [Indian Philosophy](/notes/hs301/indian)
 
 &nbsp;
 

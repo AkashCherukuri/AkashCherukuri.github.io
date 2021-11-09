@@ -23,7 +23,7 @@ sidebar:
 
 Regression is about learning to predict a set of output (*dependent*) variables as a function of input (*independent*) variables.
 
-Consider the inputs to be of form $\<x_i, y_i\>$. *Attributes* of $x$ are (non-linear) functions $\phi$ which operate on $x$. An equation which linear regression tries to optimize is:
+Consider the inputs to be of form $\<x_i, y_i\>$. *Attributes* of $x$ are (non-linear) functions $\phi$ which operate on $x$. The form of the equation that linear regression optimizes is:
 
 <div style="text-align: center;">
   $$ Y = \sum_{i=1}^n w_i\phi_i(x) + b = W^T\Phi(x) + b $$
@@ -36,7 +36,7 @@ Do note that $b$ can be dropped by defining $\widetilde{w}, \widetilde{\Phi}$ wi
 Linear regression is linear in terms of weights and attributes, and (generally) non-linear in terms of $x$ owing to $\Phi$.
 {: notice--warning}
 
-For example, $\phi_1(x)$ could be the date of investment, $\phi_2$ could be value of investment and so on.
+For example, $\phi_1$ could be the date of investment, $\phi_2$ could be value of investment and so on.
 
 There are general classes of basis functions, such as:
 - Radial Basis function
@@ -45,7 +45,7 @@ There are general classes of basis functions, such as:
 
 ### Formal Notation
 
-Dataset $\mathcal{D} = \<x_1, y_1\> \ldots \<x_m, y_m\>$.
+Dataset $\mathcal{D} = \<x_1, y_1\> \ldots \<x_m, y_m\>$
 
 Attribute/basis functions $\phi_i$, and the general class of basis $\Phi$ is given as shown below. Do note that we have redefined the value of $\Phi$ now, and we shall be using this definition from here on.
 
@@ -58,18 +58,18 @@ Attribute/basis functions $\phi_i$, and the general class of basis $\Phi$ is giv
   \end{bmatrix}$$
 </div>
 
-The equation with the above redefinition becomes finding an optimal $W$ such that $Y = \Phi W$.
+With the above redefinition, the linear equation for a given $W$ becomes $Y = \Phi W$.
 
-**General regression** is the following problem;
+**General regression** would be to find $\hat{f}$ such that;
 
 <div style="text-align: center;">
   $$\hat{f} = \min_{f\in\mathcal{F}} E(f, D)$$
 </div>
 
-**Parameterized Regreesion** is a bit more complex, it involves the optimization of weights in the above definition for a given $f(\phi(x), w, b)$ for minimizing error.
+**Parameterized Regression** is a bit more complex as it involves the optimization of weights in the above definition for a given $f(\phi(x), w, b)$ for minimizing error.
 
 <div style="text-align: center;">
-  $$ w* = \min_{w,b} \left[ E(f(\phi(x), w, b), D) \right] $$
+  $$ w^*, b^* = \min_{w,b} \left[ E(f(\phi(x), w, b), D) \right] $$
 </div>
 
 The error function determines the type of regression. Some examples are given below. These will be discussed later in the course.
@@ -84,15 +84,15 @@ The error function determines the type of regression. Some examples are given be
 Formally, the solution is given by:
 
 <div style="text-align: center;">
-  $$ w* = \min_{w,b} \sum_{j=1}^m \left( \left( \sum_{i=1}^p w_i\phi_i(x_j) + b - y_j \right)^2 \right) $$
+  $$w^*, b^* = \min_{w,b} \sum_{j=1}^m \left( \left( \sum_{i=1}^p w_i\phi_i(x_j) + b - y_j \right)^2 \right) $$
 </div>
 
 If the "true" relation between $X$ and $Y$ was linear in nature, then 0 error is attainable. That is, $y = \Phi W$ exists, or **Y belongs to the column space of Phi**. We can just solve linear equations to get the optimal value of $W$.
 
-If $Y$ is not in the column space of $\Phi$, the closed form solution for optimal weights $W\*$ is given by:
+If $Y$ is not in the column space of $\Phi$, the closed form solution for optimal weights $W^\*$ is given by:
 
 <div style="text-align: center;">
-  $$W* = \left(\Phi^T\Phi\right)^{-1}\Phi^TY$$
+  $$W^* = \left(\Phi^T\Phi\right)^{-1}\Phi^TY$$
 </div>
 
 Do note that $\Phi^T\Phi$ is invertible iff it has full column rank. That is:

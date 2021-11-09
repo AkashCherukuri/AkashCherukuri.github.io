@@ -23,7 +23,7 @@ sidebar:
 The update rule for a perceptron has been discussed earlier. It is given by:
 
 $$\begin{align}
-  w^{k+1} &= w^k + y'\phi(x') \\
+  w^{k+1} &= w^k + \eta y'\phi(x') \\
   \implies f^{k+1}(x) &= sign\left(f^k(x) + y'\phi^\text{T}(x')\phi(x)\right) \\
   \implies f^{k+1}(x) &= sign\left(f^0(x) + \sum_{x',y'} y'\phi^\text{T}(x')\phi(x) count(x')\right)\\
 \end{align}$$

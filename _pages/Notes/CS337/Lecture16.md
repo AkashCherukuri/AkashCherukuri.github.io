@@ -24,9 +24,9 @@ Adding hidden layers to the neural network causes the objective function to beco
 
 ## Backpropogation Algorithm
 
-This algorithms uses the *chain rule* and *memoization* for differentiating output layers wrt the internal layers.
+This algorithm uses the *chain rule* and *memoization* for differentiating output layers wrt the internal layers.
 
-Consider a network with one hidden layer, whose activation functions are represented by $g_1$ and $g_2$, and the output layer's activation is $f$. For inputs $x,y,z,w$ the output could be:
+Consider a network with one hidden layer with two neurons, whose activation functions are represented by $g_1$ and $g_2$, and an output layer with activation $f$. For inputs $x,y,z,w$ the output could be:
 
 $$ output = f(w^2_1g_1(w^1_1x+w^1_2y)+w^2_2g_2(w^1_3z+w^1_4w)) $$
 
@@ -43,9 +43,9 @@ We memoize partial derivatives, products and sums of products.
 
 The output layer is denoted as the $L$'th layer, and the hidden layers behind it are $l$'th, $l-1$'th and so on. (right to left)
 
-$\sigma^l_i$ is the $i$'th activation layer (neuron) in the $l$'th layer. 
+$\sigma^l_i$ is the $i$'th neuron in the $l$'th hidden layer. 
 
-$w^l_{ij}$ is the weight connecting the $(i-1)$'th neuron in the $(l-1)$'th layer and $j$'th neuron in the $l$'th layer.
+$w^l_{ij}$ is the weight connecting the $i$'th neuron in the $(l-1)$'th layer and $j$'th neuron in the $l$'th layer. (zero indexing)
 
 $\text{sum}^l_i$ is the input argument to $\sigma^l_i$, given by $\sum_t w^l_{ti} \sigma_t^{l-1}$.
 

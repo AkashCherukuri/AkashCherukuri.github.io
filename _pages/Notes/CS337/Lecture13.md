@@ -49,3 +49,4 @@ We will be dealing with the "hard" version of the K-Means algorithm. There are t
 1. Keeping datapoints' assignments the same, update the position of cluster center to the empirical mean.
 2. Fix the cluster centers and assign datapoints to cluster with least euclidean distance.
 
+The algorithm is terminated when the assignment of clusters to each datapoint is unchanged or when the cluster centers change by a very small value.
