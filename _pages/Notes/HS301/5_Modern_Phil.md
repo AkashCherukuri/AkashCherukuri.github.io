@@ -132,7 +132,6 @@ Doubting involves thinking. Therefore, there must be a doubter to doubt. Thus, "
 
 > "Dubito ergo cogito ergo sum"
 
-&nbsp;
 ### Proof for Existence of God
 
 The motive of evils is to deceive. Humans are imperfect, and this implies the existence of a perfect and infinite being. God cannot deceive, since deception is evil and God cannot be evil.
@@ -141,12 +140,10 @@ Descartes said that the idea of God is not derived from an external world via se
 
 Note that Descartes was before Newton, so he did not know *how* objects moved. It was all attributed to God being an Immovable Mover.
 
-&nbsp;
 ### Proof for the Existence of World
 
 We know that the world exists because of our feelings. The feelings of pleasure, pain, hunger and instinctive reactions are all proofs that the external world exists. However, these sensations can be deceiving. Such delusions can be corrected by the power of intellect endowed by god.
 
-&nbsp;
 ### Existence of Bodies
 
 Descartes was a **dualist**, he believed that mind and body were two separate substances which existed independently of one another.
