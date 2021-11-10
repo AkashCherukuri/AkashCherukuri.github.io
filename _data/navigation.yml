@@ -246,3 +246,26 @@ notes_hs301:
         url: /notes/hs301/modern#rene-descartes
       - title: John Locke
         url: /notes/hs301/modern#john-locke
+  - title: Indian Philosophy
+    url: /notes/hs301/indian
+    children:
+      - title: Vedas and Upanisads
+        url: /notes/hs301/indian#vedas-and-upanisads
+      - title: Purusa and Rta
+        url: /notes/hs301/indian#purusa-and-rta
+      - title: Atman and Brahman
+        url: /notes/hs301/indian#atman-and-brahman
+      - title: Mandukya Upanisad
+        url: /notes/hs301/indian#mandukya-upanisad
+      - title: Katha Upanisad
+        url: /notes/hs301/indian#katha-upanisad
+      - title: Taitreya Upanisad-Koshas
+        url: /notes/hs301/indian#taitreya-upanisad---koshas
+      - title: Charvaka
+        url: /notes/hs301/indian#charvaka---indian-materialism
+      - title: Sankhya
+        url: /notes/hs301/indian#sankhya-philosophy
+      - title: Yoga
+        url: /notes/hs301/indian#yoga
+      - title: Buddhism
+        url: /notes/hs301/indian#buddhism---the-philosophy-of-buddha

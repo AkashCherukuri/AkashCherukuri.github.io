@@ -14,7 +14,7 @@ The spirit of modern philosophy emphasized the spirit of independence, and was m
 - Revolt against absolutism and collectivism
 - Revolt against authority
 
-Focus shifted from contemplation of the supernatural to reflection on natural things. **Reason** was started to be taken as authority in science and philosophy. For example, the introduction of Heliocentric theory in this era. Practical application of science in technology and medicine was also observed.
+Focus shifted from contemplation of the supernatural to reflection on natural things. **Reason** was started to be taken as authority in science and philosophy. For example, the introduction of Heliocentric theory was in this era. Practical application of science in technology and medicine was also observed.
 
 Rationalists and Empiricists debated on the nature of truth as well. Rationalists believed truth to be absolute, and be *a priori* in nature. The empiricists on the other hand felt truth to be *a posteriori* in nature, and disagreed that truth was absolute. The empiricists also do not believe in a world beyond our own, such as heaven.
 
@@ -50,8 +50,6 @@ Inductive methods are used to deduce mathematical laws. **Idolas**, or prejudice
 2. Idola of the den (Specus) - individualistic dispositions regarding education and authority
 3. Idola fori (market) - association of words and names of actual objects
 4. Idola of theatre - result of false theories or philosophies
-
-&nbsp;
 
 ## Induction
 

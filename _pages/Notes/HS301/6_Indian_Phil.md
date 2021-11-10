@@ -7,13 +7,13 @@ sidebar:
     nav: "notes_hs301"
 ---
 
-Indian philosophy is essentially spiritual in nature. The enquiry in the western world was centered around man, and making the society well developed. On the contrary, Indian philosophy on the other hand provided an epistemological perspective.
+Indian philosophy is essentially spiritual in nature. The enquiry in the western world was centered around man, and making the society well developed. Indian philosophy on the other hand provided an epistemological perspective.
 
 Indian philosophy being religious in nature has been looked down upon as the western world was concerned with a scientific pursuit of the true nature of everything. However, it emphasizes the *practical realization of truth*. **See the self** (*Atma va are drustavyah*) is the keynote of all schools of Indian Philosophy.
 
 &nbsp;
 
-## Vedas and Upanisaads
+## Vedas and Upanisads
 
 Vedas are known as *shrutis* or knowledge. Poetic hymns of Vedas matured into philosophical thinking called *Upanisaads*. Vedas are written in a poetic form, and they are supposed to be eternal and author-less.
 
@@ -82,6 +82,9 @@ Brahman is the source of all evolution. Self is the *Sarvaphutama*, the self-con
 - Pranamaya - Life
 - Manomaya - Consciousness
 - Vignanamaya - Self-consciousness, ability to understand what/why we do stuff
+- Antaryamin - Self
+
+Brahman is non-dual and transcendent. When evolving, the lower state of brahman is not lost, but is instead transformed.
 
 &nbsp;
 
@@ -277,7 +280,7 @@ Buddha's teaching were mainly oral. He didn't believe in the eternal, rather tha
 
 1. Duhkha - Suffering
 
-    Life is full of misery and pain. Even in wealth, there is the ever present fear of loss (\| \|\| \|\| \|\_)
+    Life is full of misery and pain. Even in wealth, there is the ever present fear of loss ~~.:|:;~~
 
 2. Duhkha Samudaya / Duhkhasya Karana - Cause of suffering
     
