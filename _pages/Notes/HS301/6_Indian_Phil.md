@@ -280,7 +280,7 @@ Buddha's teaching were mainly oral. He didn't believe in the eternal, rather tha
 
 1. Duhkha - Suffering
 
-    Life is full of misery and pain. Even in wealth, there is the ever present fear of loss ~~.:|:;~~
+    Life is full of misery and pain. Even in wealth, there is the ever present fear of loss ~~.:\|:;~~
 
 2. Duhkha Samudaya / Duhkhasya Karana - Cause of suffering
     
