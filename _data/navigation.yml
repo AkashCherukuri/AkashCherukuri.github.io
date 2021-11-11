@@ -192,6 +192,20 @@ notes_cs337:
         url: /notes/cs337/Lec9#regularized-logistic-regression
       - title: Multiclass Logistic Regression
         url: /notes/cs337/Lec9#extension-to-multiclass
+  - title: Lecture 10
+    url: /notes/cs337/Lec10
+    children:
+      - title: Kernel Perceptrons
+        url: /notes/cs337/Lec10
+      - title: Gram Matrices
+        url: /notes/cs337/Lec10#gram-matrices
+
+
+
+
+
+
+
 
 # HS301 notes' sidebar
 notes_hs301:

@@ -69,6 +69,11 @@ Therefore, for a Kernel matrix to be valid:
 
 ### Mercer Kernel
 
-A kernel which has the following property is said to be a Mercer Kernel. Do keep in mind that every mercer kernel is valid. (This follows from the mercer theorem, but the proof is not necessary for this course)
+A kernel which has the following property is said to be a Mercer Kernel. Do keep in mind that every mercer kernel is valid. (This follows from the mercer theorem showing that the matrix is positive definite, but the proof is not necessary for this course)
 
 $$\int_x\int_y K(x,y)g(x)g(y) dx dy \geq 0 \text{ for all square-integrable functions } g(x)$$
+
+Given two positive definite (mercer kernels) $K_1(x,y)$ and $K_2(x,y)$, it can be proven that:
+
+- $\alpha K_1(x,y) + \beta K_2(x,y)$ is Mercer as well for $\alpha, \beta \geq 0$
+- $K_1(x,y)K_2(x,y)$ is mercer as well
