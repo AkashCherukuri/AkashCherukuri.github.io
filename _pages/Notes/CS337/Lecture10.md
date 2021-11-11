@@ -34,7 +34,7 @@ We can redefine this to obtain a non-linear update function, as given below!
 
 $$f(x) = sign\left( b + \sum_i y_i \alpha_i K(x_i, x) \right)$$
 
-$\alpha$ is a vector initialised to 0s, and corresponding element is incremented by 1 if it is misclassified. (It stores $count$)
+$\alpha$ is a vector initialized to 0s, and corresponding element is incremented by 1 if it is misclassified. (It stores $count$)
 
 $K(x_i, x)$ replaces $\phi^\text{T}(x')\phi(x)$, and it is the "relation" between the given two datapoints.
 
@@ -44,7 +44,7 @@ Some examples of kernels are:
 2. **Polynomial:** $K(x,y) = \left(1+x^\text{T}y\right)^2$
 3. **Radial Basis:** $K(x,y) = exp(\vert\vert x-y \vert\vert^2_2 / 2\sigma^2)$
 
-This is used to find non-linear partitions between classes. Kernels operate on an implicit space, and are usually easier to compute than the linear seperator in higher dimensional space.
+This is used to find non-linear partitions between classes. Kernels operate on an implicit space, and are usually easier to compute than the linear separator in higher dimensional space.
 
 &nbsp;
 
@@ -59,3 +59,16 @@ $$\mathcal{K} = \begin{bmatrix}
   K(x_m, x_1) & K(x_m, x_2) & \ldots & K(x_m, x_m)\\
 \end{bmatrix}$$
 
+Given a Gram matrix, the attribute vector can be obtained via Singular Value Decomposition. That is, we find a diagonal matrix $D$ and a matrix $U$ with $UU^T=I$ such that:
+
+$$K = UDU^T = (UD^{1/2})(UD^{1/2})^T = \Phi\Phi^T$$
+
+Therefore, for a Kernel matrix to be valid:
+1. It needs to be symmetric
+2. It needs to be Positive Semi Definite (for any $b\in\mathcal{R}^m$, $b^TKb\geq 0$)
+
+### Mercer Kernel
+
+A kernel which has the following property is said to be a Mercer Kernel. Do keep in mind that every mercer kernel is valid. (This follows from the mercer theorem, but the proof is not necessary for this course)
+
+$$\int_x\int_y K(x,y)g(x)g(y) dx dy \geq 0 \text{ for all square-integrable functions } g(x)$$
