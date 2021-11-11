@@ -217,6 +217,21 @@ notes_cs337:
         url: /notes/cs337/Lec13#k-means-algorithm
       - title: Kernel K-Means
         url: /notes/cs337/Lec13#kernel-k-means
+  - title: Lecture 14 - SVM
+    url: /notes/cs337/Lec14
+  - title: Lecture 15 - Neural Networks
+    url: /notes/cs337/Lec15
+    children:
+      - title: Activation Functions
+        url: /notes/cs337/Lec15#activation-functions
+      - title: VC dimensions
+        url: /notes/cs337/Lec15#vc-dimensions
+  - title: Lecture 16 - Back Propogation
+    url: /notes/cs337/Lec16
+  - title: Lecture 17 - CNNs
+    url: /notes/cs337/Lec17
+  - title: Lecture 18 - Pooling in CNNs
+    url: /notes/cs337/Lec18
 
 
 
