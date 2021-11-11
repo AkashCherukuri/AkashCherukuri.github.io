@@ -32,7 +32,7 @@ $$
 \sigma_w(x) = \frac{1}{1+exp\left[ -\sum_j \alpha_j K(x,x_j) \right]}
 $$
 
-Using this function, the loss function in kernelized logistic regression turns out to be:
+Using this function, the loss function in kernelized logistic regression with the regularization parameter turns out to be:
 
 $$
 E_D(\alpha) = -\left[ \sum_i \left( \sum_j y^i K(x^i, x^j)\alpha_j - \frac{\lambda}{2}\alpha_i K(x^i, x^j)\alpha_j \right) - \log\left( 1+exp\left[ -\sum_j\alpha_jK(x^i, x^j) \right] \right) \right]

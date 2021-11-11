@@ -37,7 +37,7 @@ That is, we would like to find the "true dimensionality" of the given model. We 
 
 That is, we would like to convert $x\in\mathcal{R}^d$ to $z\in\mathcal{R}^k$ where $k\text{ }<<\text{ }d$.
 
-$$ z = U^T k $$
+$$ z = U^T x $$
 
 $U$ is a $d\times k$ *Projection Matrix*. We also want $U^TU = I_k$. Note that $UU^T$ need not be identity at all.
 
@@ -64,7 +64,7 @@ This is related to the eigen value decomposition.The dimension $k$ is determined
 
 It can be proven that both PCA-1 and PCA-2 are equivalent. Let $C =\Phi\Phi^T $ be the covariance matrix of the given data $\Phi$. Note that $C$ is $n\times n$, where $n$ is the number of datapoints given.  
 
-The vectors corresponding to the $k$ dimensional projection are the first $k$ **Eigen Vectors** of $C = $ when arranged in descending order of their corresponding Eigen Value. The data needs to be then projected along these eigen vectors.
+The vectors corresponding to the dimensional projection are the first $k$ **Eigen Vectors** of $C$ when arranged in descending order of their corresponding Eigen Value. The data needs to be then projected along these eigen vectors.
 {: .notice--info}
 
 &nbsp;
@@ -78,4 +78,4 @@ $$\begin{align}
   \mathcal{K} &= X^TX &= BD^2B^T \\
 \end{align}$$ 
 
-Where $\mathcal{K}$ is the kernel matrix. Therefore, we can see that the eigen vectors obtained after eigen value decomposition of the kernel matrix lead to the **projection of the data on the principal components**. (Not the principal components themselves, as we got earlier)
+Where $\mathcal{K}$ is the kernel matrix. Therefore, we can see that the eigen vectors obtained after eigen value decomposition of the kernel matrix lead to the **projection of the data on the principal components**. (That is, we previously obtained the components and then projected the data along these components. In this method however, we get the projected data directly and we do not obtain the components themselves.)

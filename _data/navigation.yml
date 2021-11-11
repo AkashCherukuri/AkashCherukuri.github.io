@@ -199,6 +199,17 @@ notes_cs337:
         url: /notes/cs337/Lec10
       - title: Gram Matrices
         url: /notes/cs337/Lec10#gram-matrices
+  - title: Lecture 11 - Kernelized Logistic Regression
+    url: /notes/cs337/Lec11
+  - title: Lecture 12
+    url: /notes/cs337/Lec12
+    children:
+      - title: Dimensionality Reduction
+        url: /notes/cs337/Lec12#dimensionality-reduction
+      - title: Principal Component Analysis
+        url: /notes/cs337/Lec12#principal-component-analysis
+      - title: Kernel PCA
+        url: /notes/cs337/Lec12#pca-with-kernels
 
 
 
