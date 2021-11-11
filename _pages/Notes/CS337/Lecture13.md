@@ -50,3 +50,16 @@ We will be dealing with the "hard" version of the K-Means algorithm. There are t
 2. Fix the cluster centers and assign datapoints to cluster with least euclidean distance.
 
 The algorithm is terminated when the assignment of clusters to each datapoint is unchanged or when the cluster centers change by a very small value.
+
+&nbsp;
+
+## Kernel K-Means
+
+The euclidean distance calculated in the normal K-Means algorithm is modified a little.
+
+$$\begin{align}
+  d(x,y) &= || \phi(x) - \phi(y) ||^2 \\
+  &= ||\phi(x)||^2 + ||\phi(y)||^2 - 2\phi(x)^T\phi(y) \\
+  &= K(x,x) + K(y,y) - 2K(x,y) \\
+\end{align}$$
+

@@ -210,6 +210,13 @@ notes_cs337:
         url: /notes/cs337/Lec12#principal-component-analysis
       - title: Kernel PCA
         url: /notes/cs337/Lec12#pca-with-kernels
+  - title: Lecture 13
+    url: /notes/cs337/Lec13
+    children:
+      - title: K-Means algorithm
+        url: /notes/cs337/Lec13#k-means-algorithm
+      - title: Kernel K-Means
+        url: /notes/cs337/Lec13#kernel-k-means
 
 
 
