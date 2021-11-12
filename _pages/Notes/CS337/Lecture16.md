@@ -68,7 +68,7 @@ $$ \frac{\partial E}{\partial w^l_{ij}} = \frac{\partial E}{\partial \sigma_j^l}
 The values of each individual partial derivative have been given below.
 
 $$\begin{align}
-\frac{\partial E}{\partial \sigma_j^l} &= \sum_p \frac{\partial E}{\partial \sigma_p^{l+1}}\frac{\partial \sigma_p^{l+1}}{\partial sum_p^{l+1}}\frac{\partial sum_p^{l+1}}{\partial w^l_{ij}} \\
+\frac{\partial E}{\partial \sigma_j^l} &= \sum_p \frac{\partial E}{\partial \sigma_p^{l+1}}\frac{\partial \sigma_p^{l+1}}{\partial sum_p^{l+1}}\frac{\partial sum_p^{l+1}}{\partial \sigma^l_{ij}} \\
 \frac{\partial \sigma_j^l}{\partial \text{sum}^l_j} &= \text{(just differentiate the activation function)} \\
 \frac{\partial \text{sum}^l_j}{\partial w^l_{ij}} &= \sigma_i^{l-1} \\
 \end{align}$$
