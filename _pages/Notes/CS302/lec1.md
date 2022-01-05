@@ -42,8 +42,8 @@ There are two methods;
 
 Note that the source program is never executed directly on the machine in either case. This is because there is a "gap" between the "levels" between the course program and execution. That is, the source code is high-level but the machine operates on low-level.
 
-|  | State | Operations |
----
+| Level | State | Operations |
+|---|---|---|
 |High Level|Variable values|Expressions, control flow|
 |Low Level |Register values|Machine Instructions|
 
@@ -52,7 +52,7 @@ Note that the source program is never executed directly on the machine in either
 - Interpreter raises execution level to specification level. The program (interpreter) executes the code, not the system.
 
 ||Translation|Interpretation|
----
+|---|---|---|
 ||Analysis + Synthesis|Analysis + Execution|
 ||Bindings before runtime|Bindings at runtime|
 |Turn around time| compilation + execution | analysis + execution |
