@@ -60,8 +60,11 @@ Note that the source program is never executed directly on the machine in either
 The turnaround time for interpreters is faster, but compilation needs to be done only once for multiple executions, saving time.
 {: .notice--info}
 
-C, C++ - Compilation (Backend)
-Java, C#, Python - Interpretation + JIT Compilation (Virtual Machine)
+
+|Language|Method|
+|---|---|
+|C, C++|Compilation (Backend)|
+|Java, C#, Python|Interpretation + JIT Compilation (Virtual Machine)|
 
 JIT (Just In Time) Compilation is where a repeated part of the byte code is compiled by the virtual machine for faster execution. Do note that this is done in runtime.
 
