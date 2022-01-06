@@ -61,7 +61,7 @@ This lets the PDA to:
 1. Move to a new state
 2. Pop/Push from a stack
 
-The transitions are labeled as $(a,X|aX)$. Meaning that the transition corresponds to alphabet $a$ and we are pushing it onto the stack. Similarly $(b,aX|X)$ meaning $a$ is popped from the stack. 
+The transitions are labeled as $(a,X\vertaX)$. Meaning that the transition corresponds to alphabet $a$ and we are pushing it onto the stack. Similarly $(b,aX\vertX)$ meaning $a$ is popped from the stack. 
 
 ==A word is accepted on an EMPTY STACK; rejected when no transition or stack not empty==
 
@@ -73,7 +73,7 @@ Write the above language using **CFG**.
 
 
 
-doubt1 - $a|Wa$ meaning?
+doubt1 - $a\vertWa$ meaning?
 
 doubt2 - How is an empty string rejected?
 
