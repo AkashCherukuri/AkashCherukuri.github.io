@@ -38,9 +38,9 @@ There are two methods;
 
 1. **Translator** which translates the source program into a target program, after which the machine executes the target program. Two distinct steps are present here, translation and execution. Inputs are taken at execution and not needed at translation.
 
-2. **Interpreter** is a program which takes both source program and Input data to execute the code. 
+2. **Interpreter** is a program which takes both source program and input data to execute the code. 
 
-Note that the source program is never executed directly on the machine in either case. This is because there is a "gap" between the "levels" between the course program and execution. That is, the source code is high-level but the machine operates on low-level.
+Note that the source program is never executed directly on the machine in either case. This is because there is a "gap" between the "levels" between the source program and execution. That is, the source code is high-level but the machine operates on low-level.
 
 | Level | State | Operations |
 |---|---|---|

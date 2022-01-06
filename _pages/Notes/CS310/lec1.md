@@ -4,7 +4,7 @@ permalink: /notes/cs310/lec1
 classes: wide
 author_profile: false
 # sidebar:
-#     nav: "notes_cs337"
+#     nav: "notes_cs310"
 ---
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 
@@ -17,7 +17,6 @@ author_profile: false
   });
 </script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
-
 
 <!-- Notes Begin from here -->
 
@@ -92,4 +91,4 @@ Turing Machine and Unrestricted Grammar are equivalent. They can compute **any**
 {: .notice--info}
 
 
-HW3. $L = \{ a^n^2 \vert n\geq 0 \}$
+HW3. $L = \{ a^{n^2} \vert n\geq 0 \}$
