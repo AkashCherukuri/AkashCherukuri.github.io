@@ -61,7 +61,7 @@ This lets the PDA to:
 1. Move to a new state
 2. Pop/Push from a stack
 
-The transitions are labeled as $(a,X\vertaX)$. Meaning that the transition corresponds to alphabet $a$ and we are pushing it onto the stack. Similarly $(b,aX\vertX)$ meaning $a$ is popped from the stack. 
+The transitions are labeled as $(a,X\vert aX)$. Meaning that the transition corresponds to alphabet $a$ and we are pushing it onto the stack. Similarly $(b,aX\vert X)$ meaning $a$ is popped from the stack. 
 
 ==A word is accepted on an EMPTY STACK; rejected when no transition or stack not empty==
 
@@ -73,7 +73,7 @@ Write the above language using **CFG**.
 
 
 
-doubt1 - $a\vertWa$ meaning?
+doubt1 - $a\vert Wa$ meaning?
 
 doubt2 - How is an empty string rejected?
 
@@ -82,3 +82,5 @@ doubt2 - How is an empty string rejected?
 ### Non-Determinism
 
 Consider a language on $a,b$ which contains all palindromes. For example, $abbbba$ is a word in the language. This can be represented by a **Non-Deterministic** Automata, where we need to *guess* where we stop pushing and start popping.
+
+A word in non-deterministic FSA is accepted if **any** single sequence of choices leads to a final state.

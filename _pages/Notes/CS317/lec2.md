@@ -47,8 +47,8 @@ A minimal superkey is called a **Candidate key**. One of the candidate keys is c
 
 **Foreign Key Constraint** is an integrity constraint which enforces that value in one relation in another. This avoids errors caused by improper data entry.
 
-Example: `dept_name` in the `instructor` table can be linked to the `dept_name` in the `department` table. Here, `instructor` is called the **Referencing Relation** and `department` is the **Refrenced Relation**.
+Example: `dept_name` in the `instructor` table can be linked to the `dept_name` in the `department` table. Here, `instructor` is called the **Referencing Relation** and `department` is the **Referenced Relation**.
 
-Referenced Relation should be a primary key?
+Referenced Relation should be a primary key.
 {: .notice--info}
 
