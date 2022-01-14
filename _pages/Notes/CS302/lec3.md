@@ -60,5 +60,5 @@ Peephole optimizer ???
 
 ### GCC Framework
 
-![image-20220112113158479](image-20220112113158479.png)
+![image-20220112113158479](../../../assets/images/typora/image-20220112113158479.png)
 

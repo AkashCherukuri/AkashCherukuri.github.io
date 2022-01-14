@@ -60,7 +60,7 @@ $$
 Converting a number $y$ which has more than $k$ decimal digits can be done in two ways;
 
 - Chopping, wherein the additional digits are simply dropped
-- Rounding, where we add $5\times10^{n-k'}$ and then drop the additional digits. $k'$ is the number of digits that $y$ has.
+- Rounding, where we add $5\times10^{n-k-1}$ and then drop the additional digits.
 
  Let $\rho$ be the real number and $\rho^*$ be the approximation.
 

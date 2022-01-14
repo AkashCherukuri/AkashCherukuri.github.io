@@ -1,10 +1,10 @@
 ---
-title: Image Priors
+title: Random Fields
 permalink: /notes/cs736/Lec1
 classes: wide
 author_profile: false
-# sidebar:
-#     nav: "notes_cs337"
+sidebar:
+    nav: "notes_cs736"
 ---
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 
@@ -21,6 +21,7 @@ author_profile: false
 <!-- Notes Begin from here -->
 
 We shall extensively be using the Baye's Rule, given below.
+
 $$
 P(H\vert e) = \frac{P(e\vert H)P(H)}{P(e)}
 $$
@@ -68,16 +69,20 @@ Let the dimensionality of the space be $N$ (voxel count). The following prior be
 ### Markov Random Field (MRF)
 
 A random field with sites $S$ and neighborhood $N$ is an MRF when
+
 $$
 P(X_i\vert X_{S-\{i\}}) := P(X_i\vert X_{N_i})
 $$
+
 In words, the probability of a site can be computed using only its neighbors. This does **not** mean that $X_i$ and $X_j$ are independent if they are not neighbors.
 
 {: .notice--info}
 
-MRF is said to be **homogenous** if the functional form of $ P(X_i\vert X_{N_i})$ is independent of the position of site $i$ in the topological space. 
+MRF is said to be **homogeneous** if the functional form of $ P(X_i\vert X_{N_i})$ is independent of the position of site $i$ in the topological space. 
 
 MRF allows us to model high dimensional $P(X)$ in terms of multiple low dimensional conditional probabilities. (9-dim when 8-neighbor system is used)
+
+&nbsp;
 
 ### Gibbs Random Field (GRF)
 
@@ -102,6 +107,8 @@ $C$ is the set of all cliques, $x_c$ is the set of image values in clique $c$, a
 
 ![image-20220109162028217](../../../assets/images/typora/image-20220109162028217.png)
 
+### Simulated Annealing
+
 $T$ has been used for a stochastic algorithm for optimization, called **simulated annealing**. (helps to get out of a local minima) Consider the problem of finding the global maximum for the blue curve above with an initial $T$ and initial solution $x$.
 
 - Keeping $T$ constant
@@ -113,5 +120,4 @@ $T$ has been used for a stochastic algorithm for optimization, called **simulate
 &nbsp;
 
 $X$ is an MRF on sites $S$ wrt neighborhood system $N$ **iff** $X$ is a GRF on $S$ wrt neighborhood system $N$. (They are equivalent!)
-
 {: .notice--info}

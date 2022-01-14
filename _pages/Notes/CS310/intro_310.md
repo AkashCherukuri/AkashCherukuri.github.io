@@ -1,6 +1,6 @@
 ---
 title: Automata Theory
-permalink: /notes/cs310/intro
+permalink: /notes/cs310
 classes: wide
 author_profile: false
 # sidebar:
@@ -20,3 +20,9 @@ author_profile: false
 
 
 <!-- Notes Begin from here -->
+My notes for the course CS310: Automata Theory are linked below. They are on a per-lecture basis.
+
+- [Lecture 1](/notes/cs310/lec1)
+- [Lecture 2](/notes/cs310/lec2)
+- [Lecture 3](/notes/cs310/lec3)
+- [Lecture 4](/notes/cs310/lec4)

@@ -34,9 +34,7 @@ Note that $(ab+ba)^* = \{ \epsilon, ab, ba, abba, baab, \ldots\}$
 
 
 
-HW1.
-
-**Language using a,b as alphabets; accepts all words with even number of a's**
+HW1. **Language using a,b as alphabets; accepts all words with even number of a's**
 
 The FSA for this language is easy enough. The regular expression equivalent would be given by:
 $$
@@ -44,11 +42,9 @@ L = (b^*ab^*ab^*)^*
 $$
 
 
-HW2.
+HW2. **Same alphabets as before; but even number of a's AND odd number of b's**
 
-**Same alphabets as before; but even number of a's AND odd number of b's**
-
-https://www.geeksforgeeks.org/generating-regular-expression-from-finite-automata/
+[Interesting read](https://www.geeksforgeeks.org/generating-regular-expression-from-finite-automata/)
 
 
 
@@ -63,7 +59,8 @@ This lets the PDA to:
 
 The transitions are labeled as $(a,X\vert aX)$. Meaning that the transition corresponds to alphabet $a$ and we are pushing it onto the stack. Similarly $(b,aX\vert X)$ meaning $a$ is popped from the stack. 
 
-==A word is accepted on an EMPTY STACK; rejected when no transition or stack not empty==
+A word is accepted on an EMPTY STACK; rejected when no transition or stack not empty
+{: .notice--info}
 
 HW3.
 $$

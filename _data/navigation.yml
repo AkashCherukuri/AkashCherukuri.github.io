@@ -15,6 +15,33 @@ main:
      description: "Enter the giveaways that are hosted by me, on a monthly basis!" 
      url: https://www.youtube.com/watch?v=y7_HBLng2jc
 
+# CS736 Notes Sidebar
+notes_cs736:
+   - title: Lecture 1
+     url: /notes/cs736/Lec1
+     children:
+      - title: Markov Random Field
+        url: /notes/cs736/Lec1#markov-random-field-mrf
+      - title: Gibb's Random Field
+        url: /notes/cs736/Lec1#gibbs-random-field-grf
+      - title: Simulated Annealing
+        url: /notes/cs736/Lec1#simulated-annealing
+   - title: Lecture 2
+     url: /notes/cs736/Lec2
+     children:
+      - title: Image Priors
+        url: /notes/cs736/Lec2
+      - title: Penalty function analysis
+        url: /notes/cs736/Lec2#analyzing-penalty-functions
+   - title: Lecture 3
+     url: /notes/cs736/Lec3
+     children:
+      - title: Texture Modeling
+        url: /notes/cs736/Lec3
+      - title: Dictionary Learning
+        url: /notes/cs736/Lec3#dictionary-learning
+
+
 # SOC Notes' sidebar
 notes_soc:
    - title: Introduction
@@ -232,12 +259,6 @@ notes_cs337:
     url: /notes/cs337/Lec17
   - title: Lecture 18 - Pooling in CNNs
     url: /notes/cs337/Lec18
-
-
-
-
-
-
 
 
 # HS301 notes' sidebar

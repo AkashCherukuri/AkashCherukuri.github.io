@@ -31,9 +31,12 @@ The languages in increasing order of generality are:
 ### Finite State Automaton Problems
 
 Q1. Is a bitstring's decimal representation divisible by 7?
+
 A. Make an FSM tracking the remainder, start at 0. 
 
+
 HW1. What if the bitstring is fed in reverse?
+
 HW2. Instead of a base2 input, what is the FSA if the input is decimal (base10)?
 
 

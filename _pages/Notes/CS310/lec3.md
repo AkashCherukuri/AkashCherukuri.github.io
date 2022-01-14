@@ -1,5 +1,5 @@
 ---
-title: Regular Expressions
+title: Nothing to see here...
 permalink: /notes/cs310/lec3
 classes: wide
 author_profile: false
@@ -21,3 +21,5 @@ author_profile: false
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
 
 <!-- Notes Begin from here -->
+
+*Prof told to read Stanford's slides*
