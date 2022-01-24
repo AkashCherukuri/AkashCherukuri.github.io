@@ -40,6 +40,17 @@ notes_cs736:
         url: /notes/cs736/Lec3
       - title: Dictionary Learning
         url: /notes/cs736/Lec3#dictionary-learning
+   - title: Lecture 4
+     url: /notes/cs736/Lec4
+     children:
+      - title: Prior Analysis
+        url: /notes/cs736/Lec4
+      - title: Optimization Algorithms
+        url: /notes/cs736/Lec4#Optimization-Algorithms
+      - title: Noise Models
+        url: /notes/cs736/Lec4#Circularly-Symmetric-Gaussian-Noise-Model
+      - title: Weighing Parameters
+        url: /notes/cs736/Lec4#Re-weighing-Fidelity-and-Regularity
 
 
 # SOC Notes' sidebar

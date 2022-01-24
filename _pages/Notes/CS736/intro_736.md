@@ -27,3 +27,6 @@ My notes for the course CS736: Medical Image Computing have been linked below. T
 - [Lecture 2](/notes/cs736/Lec2)
 - [Lecture 3](/notes/cs736/Lec3)
 
+### Week 3
+- [Lecture 4](/notes/cs736/Lec4)
+
