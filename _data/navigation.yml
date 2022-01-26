@@ -15,6 +15,46 @@ main:
      description: "Enter the giveaways that are hosted by me, on a monthly basis!" 
      url: https://www.youtube.com/watch?v=y7_HBLng2jc
 
+#MA214 Notes Sidebar
+notes_ma214:
+  - title: Introduction to Numerical Analysis
+    url: /notes/ma214/intro_to_num
+    children:
+      - title: Finite Digit Arithmetic
+        url: /notes/ma214/intro_to_num#finite-digit-arithmetic
+      - title: Floating Point Representation
+        url: /notes/ma214/intro_to_num#floating-point-representation
+      - title: Errors caused by Finite Digit Arithmetic
+        url: /notes/ma214/intro_to_num#errors-caused-by-finite-digit-arithmetic
+  - title: Equations in One Variable
+    url: /notes/ma214/eq_in_one_var
+    children:
+      - title: Bisection Method
+        url: /notes/ma214/eq_in_one_var#bisection-method
+      - title: Fixed Point Iteration
+        url: /notes/ma214/eq_in_one_var#fixed-point-iteration
+      - title: Newton Raphson Method
+        url: /notes/ma214/eq_in_one_var#newton-raphson-method
+      - title: Secant Method
+        url: /notes/ma214/eq_in_one_var#secant-method
+      - title: Order of Convergence
+        url: /notes/ma214/eq_in_one_var#order-of-convergence
+      - title: Modified Newton Raphson Method
+        url: /notes/ma214/eq_in_one_var#modified-newton-raphson-method
+      - title: Aitken's Method of Accelerating Convergence
+        url: /notes/ma214/eq_in_one_var#aitkens-method-of-accelerating-convergence
+  - title: Interpolation
+    url: /notes/ma214/interp
+    children:
+      - title: Lagrange's Interpolating Polynomials
+        url: /notes/ma214/interp#lagrange-interpolating-polynomials
+      - title: Neville's Cumulative Computation
+        url: /notes/ma214/interp#nevilles-formula---cumulative-computation
+      - title: Divided Differences
+        url: /notes/ma214/interp#divided-differences
+      - title: Difference as a function
+        url: /notes/ma214/interp#newtons-difference-as-a-function
+
 # CS736 Notes Sidebar
 notes_cs736:
    - title: Lecture 1

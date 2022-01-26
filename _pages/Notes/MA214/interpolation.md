@@ -3,8 +3,8 @@ title: Interpolation
 permalink: /notes/ma214/interp
 classes: wide
 author_profile: false
-# sidebar:
-#     nav: "notes_cs337"
+sidebar:
+    nav: "notes_ma214"
 
 
 ---
@@ -195,5 +195,4 @@ We can now extend this base case to get the general function as shown in the bel
 $$
 f[x_0, \ldots, x_{n-1}, x] = f[x_0,\ldots,x,x_{n-1} ] = \frac{f[x_0,\ldots,x] - f[x_1, \ldots, x, x_{n-1}]}{x_0 - x_{n-1}}
 $$
-
 
