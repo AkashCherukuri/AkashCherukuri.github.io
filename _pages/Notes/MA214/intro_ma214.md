@@ -3,8 +3,8 @@ title: Numerical Analysis
 permalink: /notes/ma214
 classes: wide
 author_profile: false
-# sidebar:
-#     nav: "notes_cs736"
+sidebar:
+    nav: "notes_ma214"
 ---
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 

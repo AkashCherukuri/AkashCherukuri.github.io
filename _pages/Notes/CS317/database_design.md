@@ -81,3 +81,15 @@ A way of treating a relationship set like an entity set to eliminate redundancy.
 ![image-20220125112427080](../../../assets/images/typora/image-20220125112427080.png)
 
 The primary key for this relation would be the union of primary keys of `instructor`, `project` and `student` entity sets.
+
+
+
+*missed 10 minutes of lecture on 27th*
+
+
+
+## Converting Non Binary Relations
+
+If the database does not support ternary relationships, we can convert it into a trio of binary relationships  plus a weak entity set as shown below.
+
+![image-20220127114134016](../../../assets/images/typora/image-20220127114134016.png)
