@@ -72,7 +72,7 @@ Here, we say that `type idlist` derives `integer idlist, id;`.
 
 ### Sentential Forms
 
-A string $\alpha\in (N\cup T)^*$ that is derivable from the start state itself is called a **sentential form** of the CFG $G$. That  is, $S\overset{*}{\implies} \alpha$ . Note that every sentence is a sentential form but not the other way around. 
+A string $\alpha\in (N\cup T)^{\*}$ that is derivable from the start state itself is called a **sentential form** of the CFG $G$. That  is, $S\overset{\*}{\implies} \alpha$ . Note that every sentence is a sentential form but not the other way around. 
 
 > A sentential form is “on its way” towards becoming a sentence
 
