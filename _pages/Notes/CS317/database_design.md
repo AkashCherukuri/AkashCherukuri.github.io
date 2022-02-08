@@ -93,3 +93,8 @@ The primary key for this relation would be the union of primary keys of `instruc
 If the database does not support ternary relationships, we can convert it into a trio of binary relationships  plus a weak entity set as shown below.
 
 ![image-20220127114134016](../../../assets/images/typora/image-20220127114134016.png)
+
+
+
+&nbsp;
+

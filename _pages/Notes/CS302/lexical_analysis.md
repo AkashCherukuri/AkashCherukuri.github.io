@@ -32,3 +32,23 @@ A pass over the string `int int32=5;` using the above DFA looks like follows:
 
 
 &nbsp;
+
+This entire DFA can be represented using only 4 arrays, as `default` `base` `next` and `check`.
+
+Essentially, each of the states is ranked, and each of the alphabet is also assigned a rank. `next` stores all the transitions, and `base` tells us where the transitions of a particular state start out. This is essentially the same as having a 2d array.
+
+Now, we can remove all redundant transitions to save on space. `default` contains such transitions, and `check` is an array for seeing if the transition is present in `default` array or the `next` array. Note that the `check[state]=state` if transition is present in `next` array.
+
+```python
+# current state          : state
+# input character        : character
+# state after transition : next_state
+
+def nextState(state, character):
+    if check[state] == state:
+        return next[ base[state] + character ]
+    else:
+        return nextState(default[state], character)
+```
+
+It is not guaranteed that the representation obtained this way would be minimal, but it is guaranteed that it would take less than $mn$ space.

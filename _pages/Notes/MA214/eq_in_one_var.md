@@ -140,11 +140,13 @@ Let $\{p_n\}$ be a sequence that converges to $p$ with $p_n\neq p$ for any $n$. 
 $$
 \lim_{n\to\infty}\frac{\vert p_{n+1} - p \vert}{\vert p_n - p \vert^\alpha}  = \lambda
 $$
+
 An iterative technique $p_n = g(p_{n-1})$ is said to be of order $\alpha$ if the sequence converges with order $\alpha$.
 
 A sequence is said to be linearly convergent if $\alpha =1 $ **AND** $\lambda < 1$. Similarly, a sequence is said to be quadratically convergent if $\alpha=2$.
 
-It can be seen quite easily from the Mean Value Theorem that Fixed Point Iteration converges *linearly* if $f’(p)\neq 0$. This implies that we need $f'(p)=0$ for higher order of convergence.{: .notice--info}
+It can be seen quite easily from the Mean Value Theorem that Fixed Point Iteration converges *linearly* if $f’(p)\neq 0$. This implies that we need $f'(p)=0$ for higher order of convergence.
+{: .notice--info}
 
 > **Theorem**
 >
@@ -171,7 +173,8 @@ g(x) = (x-p)^mq(x)
 $$
 
 
-Newton Raphson method works well when $g$ has a simple zero at $p$, however, it **may not** converge quadratically when the order of zero is greater than 1.{: .notice--info}
+Newton Raphson method works well when $g$ has a simple zero at $p$, however, it **may not** converge quadratically when the order of zero is greater than 1.
+{: .notice--info}
 
 &nbsp;
 
