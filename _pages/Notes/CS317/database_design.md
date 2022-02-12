@@ -13,7 +13,11 @@ We will be looking at the **Entity Relationship model** in this chapter. An *ent
 $$
 \{ (e_1, \cdots, e_n) \vert e_1\in E_1, \ldots, e_n\in E_n\}
 $$
+An entity set may be related to itself, as seen in the case of `pre_req` relation. Such relations are called as “Recursive Relations.”
+
 The occurrence of an entity set plays a role in the relationship. This is denoted by labeling the line connecting the set and the relationship set. The number of entity sets involved denotes the degree of the relationship set. (not the attributes!) Relationships with degree > 2 is very rare, however.
+
+**Descriptive Attributes** are defined for attributes specially, to add more “spice” to the information conveyed by a relationship. By default, the value of the descriptive attribute must be unique for the set of entities involved. For example, if $A, B$ are the involved entity sets with $C$ being the descriptive attribute; $(a,c_1,b)$ and $(a,c_2,b)$ are not allowed! (unless the attribute is defined to be Multivalued as well)
 
 **Composite Attributes** allow us to divide them into subparts. They are represented by indenting the underlying attributes.
 
@@ -24,6 +28,14 @@ The occurrence of an entity set plays a role in the relationship. This is denote
 
 
 **Total Participation** is indicated by a double line, and means that every entity in the entity set must participate in the relationship at least once. **Partial Participation** is depicted by a single line and means that no such constraint exists. Moreover, a label of form $x..y$ indicates that every entity is associated with atleast $x$ and atmost $y$ relations. $*$ indicates no limit.
+
+
+
+![image-20220209191134784](../../../assets/images/typora/image-20220209191134784.png)
+
+==THIS RELATIONSHIP IS ONE-MANY, and not many-one as you would expect!==
+
+We permit a single arrow out of a nonbinary relationship set.  Multiple arrows have different interpretations and tend to be avoided.
 
 
 
@@ -50,9 +62,7 @@ course(course_id, title, credits);
 
 Entity sets which are not weak are said to be strong. A weak entity set must relate to a strong entity set (it is **existence dependent** on the identifying entity set), and the strong entity set is said to **own** the weak entity set. The relationship is called as an **identifying relationship**.
 
-
-
-*redundancy of schemas?*
+A good database tries to have minimal redundancy of data.
 
 
 

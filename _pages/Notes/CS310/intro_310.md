@@ -26,3 +26,8 @@ My notes for the course CS310: Automata Theory are linked below. They are on a p
 - [Lecture 2](/notes/cs310/lec2)
 - [Lecture 3](/notes/cs310/lec3)
 - [Lecture 4](/notes/cs310/lec4)
+
+
+
+- [Regular Languages](/notes/cs310/reg)
+- [Context Free Languages](/notes/cs310/cfl)

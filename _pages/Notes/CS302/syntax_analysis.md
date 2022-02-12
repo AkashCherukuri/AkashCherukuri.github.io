@@ -120,7 +120,7 @@ There are 4 basic actions of the shift-reduce parser;
 3. **Accept** - The parser accepts the string when the input buffer is empty and the start symbol $S$ is the only symbol present on the stack
 4. **Error** - An error is thrown in all other cases, with the string being rejected
 
-This method is also called as LR(0) parsing. Note that $\$$ is used to represent the bottom of the stack and the end of the input buffer string.
+This method is also called as LR(0) parsing. Note that $ is used to represent the bottom of the stack and the end of the input buffer string.
 
 #### SLR Parsing
 

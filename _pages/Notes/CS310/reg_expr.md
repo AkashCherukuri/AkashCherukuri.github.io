@@ -1,4 +1,34 @@
-# Regular Expressions
+---
+title: Regular Languages
+permalink: /notes/cs310/reg
+classes: wide
+author_profile: false
+# sidebar:
+#     nav: "notes_cs310"
+
+---
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
+
+<!-- Notes Begin from here -->
+
+Regular languages are the languages that can be defined using an automata or equivalently a regular expression. This section talks about regular expressions and then about the properties of regular languages.
+
+&nbsp;
+
+
+
+## Regular Expressions
 
 Inductively describe languages. If $E$ is a regular expression, $L(E)$ is the language that it describes.
 
@@ -37,12 +67,18 @@ A set of languages is called as a Language Class, and Language classes have two 
 **Decision Property** for a class takes the formal description of a language to see if a property holds. (Formal description - using DFA)
 
 **Closure Properties** are used to prove if a language is regular or not. For example, $L_1=\{0^n1^n\}$ is not a regular language. However, proving $L_2=\{\text{equal number of 0's and 1's}\}$  to not be regular is tougher. Closure can be used as follows, if $L_2$ was regular, then RHS should be regular as well (contradiction!)
+
+
 $$
 L_2 \cap L(0^*1^*)= L_1
 $$
-==**Pumping Lemma** is used to show that $a^nb^n$ cannot be expressed by a DFA.==
 
 
+
+
+{: .notice--info}
+
+**Pumping Lemma** is used to show that $a^nb^n$ cannot be expressed by a DFA.
 
 *Membership problem* is checking if a word $w\in L$. The problem is said to be **decidable** iff the algorithm used for solving it has the following two properties:
 
