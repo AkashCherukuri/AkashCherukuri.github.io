@@ -55,13 +55,13 @@ This is a method of representing the rules of CFG in a programming way.
 
 | CFG Part                          | BNF Representation                           | Example                                  |
 | --------------------------------- | -------------------------------------------- | ---------------------------------------- |
-| Variable                          | \<word\>                                     | \<statement\>                            |
+| Variable                          | \<word\>                                     | \<state\>                                |
 | Terminals                         | multicharacter strings in bold or underlined | while, **while**, <u>while</u>           |
 | $\rightarrow$ in rule definitions | $::=$                                        | \<state\> ::= a                          |
 | “or” in rule definitions          | $\vert$                                      | \<state\> ::= a$\vert$b                  |
 | (not) Kleene Closure ($a^+$)      | “...”                                        | \<state\> ::= \<\state>...               |
 | Optional Elements                 | [...]                                        | \<state\> ::= \<statea\> [or \<stateb\>] |
-| Grouping $(ab)^*$                 | {...}                                        | \<state\> :== {\<statea\>\<stateb\>}..   |
+| Grouping $(ab)^*$                 | {...}                                        | \<state\> :== {\<statea\>\<stateb\>}...  |
 
 
 
@@ -104,7 +104,7 @@ For example, consider grammar with the following rule. Two parse trees exist for
 $$
 S\rightarrow SS\vert (S)\vert ()
 $$
- 
+
 
 
 
@@ -130,7 +130,9 @@ $$
 
 Grammar such as the above example, where we can figure out the production to use in a leftmost derivation by looking at the string left-to-right and looking at the next one symbol is called $LL(1)$ grammar. **L**eftmost derivation, **L**eft-to-right scan, **1** symbol of lookahead.
 
-$LL(1)$ grammars are never ambiguous. {: .notice--info}
+$LL(1)$ grammars are never ambiguous. 
+
+{: .notice--info}
 
 Note that some languages are **inherently ambiguous**, meaning that there does not exist an unambiguous grammar that accepts the CFL’s language. For example, $\{0^i1^j2^k\vert i=j\text{ or }j=k\}$ is inherently ambiguous. This can be understood intuitively by looking at $0^n1^n2^n$, which could have been obtained from either the first check or the second check.
 
@@ -146,6 +148,8 @@ Useless symbols are of two kinds:
 
 1. Symbols which do not derive a terminal string
 2. Symbols which are not reachable from the start
+3. Nullable Symbols
+4. Unit productions
 
 We shall look at methods for elimination of such symbols.
 
@@ -187,7 +191,7 @@ For a given set of rules, we perform the above induction and mark all the variab
 The symbols which are unreachable from the starting symbol are said to be *unreachable*. We can remove all rules which involve such strings as they are not relevant. The algorithm for removing unreachable symbols is similar to the algorithm for eliminating the symbols that do not derive a terminal string;
 
 - Mark the start state, and iterate by marking all the variables that are derivable by the start state
-- Rules involving unmarked states can be eliminated
+- Rules involving unmarked variables can be eliminated
 
 
 
@@ -243,6 +247,44 @@ A CFG is said to be in CNF iff every production in the grammar is one of these t
 
 
 
+#### Converting CFG to CNF
+
+1. “Clean” the grammar by removing the previously mentioned four kinds of “useless” variables
+2. For each of the rules where the RHS isn’t a terminal, convert the RHS to be all variables. For example, $A\rightarrow Ab$ can be written as $A\rightarrow AA_b, A_b\rightarrow b$.
+3. In right sides of length larger than 2, write them as a “chain” of rules. That is, consider $A\rightarrow BCD$. This can be rewritten as $A\rightarrow B E, E\rightarrow CD$.
+
+
+
+&nbsp;
+
+# Push Down Automata
+
+PDA is defined by a 7-sized tuple:
+
+
+$$
+(Q, \Sigma, \Gamma, \delta, q_0, Z_0, F)
+$$
+
+
+| Symbol   | Meaning             |
+| -------- | ------------------- |
+| $Q$      | States              |
+| $\Sigma$ | Input alphabet      |
+| $\Gamma$ | Stack alphabet      |
+| $\delta$ | Transition function |
+| $q_0$    | Start state         |
+| $Z_0$    | Start symbol        |
+| $F$      | Set of final states |
+
+The transition function takes three inputs; NFA state, input alphabet and the top of the stack and it outputs the resulting NFA state and the action to be performed on the stack. The actions available on the stack are either pushing multiple stack variables onto the stack, or popping the top of the stack.
+
+**Instantaneous Descriptions (ID)** of a stack are given by the triplet mentioned above. Note that the stack variables are written in a top-first manner (top of the stack is at the left and the bottom is at the right).
+
+$ID_1 \vdash ID_2$ is read as “ID1 goes to ID2”, and means that one transition rule has been applied. This can be extended to define $\vdash^*$ to mean application of zero or more transition rules.
+
+
+
 &nbsp;
 
 
@@ -267,3 +309,56 @@ Let $n$ be the corresponding constant for $L$. Consider the string $0^n10^n10^n$
 2. $v,x$ contains at least one $0$. Because $\vert vwx\vert \leq n$, it is too short to extend to all the three blocks, and is localized to the middle block. Therefore, $uv^iwx^iy$ would not have equal number of $0$s in all blocks and is thus not in the language as well.
 
 Shown that $0^n10^n10^n$ is cannot satisfy Pumping Lemma in mutually exclusive and exhaustive cases. Therefore, $L$ is not a Context-Free Language and cannot be represented by a CFG.
+
+
+
+&nbsp;
+
+## Decision Properties of CFL
+
+The same drill as what we had seen previously with regular languages. However, there exist many questions that were decidable for regular languages but are not for CFLs.
+
+> Are two CFLs the same?
+>
+> Are two CFLs disjoint?
+
+The above questions are decidable for regular languages, but there exists no algorithm in the case of context free languages. 
+
+
+
+### Testing Emptiness
+
+This is easy enough, we just eliminate all the variables which do not create a terminal string. If the start symbol is one such variable then the CFL is empty.
+
+
+
+### Testing Membership - CYK Algorithm
+
+CYK algorithm runs in $\mathcal{O}(n^3)$ time, and uses dynamic programming, where $n=\vert w\vert$. We assume that the provided grammar is in CNF form. The working of the algorithm is given below.
+
+1. Construct a $n\times n$ triangular array, called $X$. $X_{ij} = \{A\vert A\overset*\implies w_iw_{i+1}\ldots w_j \}$ That is, it contains the set of all variables that derive this substring.
+2. The basis would be filling up all $X_{ii}$ with the variables that can generate that letter.
+3. Induction: $X_{ij}=\{A\vert \exists A\rightarrow BC, k\text{ where } i\leq k<j\text{ such that } B\text{ is in }X_{ik}\text{ and }C\text{ is in}X_{k+1,j}\}$
+4. After induction, check if $S\in X_{1n}$
+
+![image-20220219172113658](../../../assets/images/typora/image-20220219172113658.png)
+
+
+
+### Testing Infiniteness
+
+This is quite similar to the idea for regular languages. If there exists a string in $L$ of length in between $n$ and $2n-1$, then the language is infinite; otherwise not.
+
+
+
+&nbsp;
+
+
+
+## Closure Properties of CFL
+
+Note that CFLs are closed under union, concatenation and the Kleene closure. Moreover, they are closed under reversal, homomorphism and inverse homomorphisms. 
+
+However, CFLs are NOT closed under intersection, difference and complement!
+
+{: notice--info}
