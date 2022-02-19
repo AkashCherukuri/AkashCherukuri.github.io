@@ -17,9 +17,11 @@ Bias field introduces new problems to be tackled with respect to image segmentat
 At voxel $i$, let the intensity be $x_i$ and the bias field be $b_i$. Let the noise model used be an additive zero mean gaussian. Therefore, the observed intensity $y_i$ would be:
 
 
+
 $$
 y_i = x_ib_i + \eta_i \qquad \text{where }\eta_i\sim\mathcal{N}(0,1)
 $$
+
 
 
 We make the following two assumptions:
@@ -30,17 +32,21 @@ We make the following two assumptions:
 Therefore, consider a voxel $i$ whose neighboring voxel $j$ belongs to the class $k$;
 
 
+
 $$
 x_jb_j \approx c_kb_i
 $$
 
+
+
+This follows from the assumption that the bias field is smooth and changes in it are not vert significant. This approximation will obviously fall apart if the neighbors of a point are defined to be at a large distance from voxel $i$.
 
 ### Strategy
 
 The Euclidean distance between the observed intensity $y_i$ and the predicted intensity $x_ib_i$ is used as the basis of the objective function. Two weighting parameters are involved too;
 
 1. We do not know the class which voxel $j$ belongs to, so we weight the distance with membership parameter $u_{jk}^q$.
-2. The approximation $x_jb_j \approx c_kb_i$ is less accurate the further apart the two voxels are, so we add a new weight $w_{ij}$ based upon this.
+2. The approximation $x_jb_j \approx c_kb_i$ is less accurate the further apart the two voxels are, so we add a new weight $w_{ij}$ based upon this. Note that the weights sum to 1.
 
 The objective function thus turns out to be;
 

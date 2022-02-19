@@ -45,7 +45,7 @@ This is a method of analyzing the performance of clustering. It leads to a visua
 
 For each data point $x_i$ assigned to cluster $A$, let $a_i$ be the average of distances between $x_i$ and all points in the same cluster. Similarly, let $b_i$ be the average of distances between $x_i$ and datapoints in a different cluster $B$.
 
-Also define $s_i$ as follows. We want the value of $s_i$ to be large, preferably $>0.5$.
+Also define $s_i$ for each datum as follows. We want the value of $s_i$ to be large, preferably $>0.5$.
 
 
 $$
@@ -68,5 +68,51 @@ $$
 $$
 
 
-The approach used for solving this optimization problem is **The method of Lagrange multipliers**.
+The approach used for solving this optimization problem is **The method of Lagrange multipliers**. This approach is chosen because a non-linear type objective function ($f$) is being optimized using an equation ($g=c$) as a constraint. At the optimal point $(x^*, y^*)$, it can be seen that the gradients of both the functions are parallel (in the xy plane).
 
+![image-20220219191847223](../../../assets/images/typora/image-20220219191847223.png)
+
+
+$$
+\exists \lambda \text{ such that }\nabla_{x,y}f = -\lambda \nabla_{x,y} g
+$$
+Introduce a new function called the **Lagrangian**;
+
+
+$$
+L(x,y,\lambda) = f(x,y) + \lambda (g(x,y)-c)
+$$
+ 
+
+At the optimum, the partial derivatives wrt each of $x,y,\lambda$ must be 0. Therefore, we have three equations and three unknowns. These equations can be solved to get the optimum. For example, the Lagrangian for the FCM case would be given by:
+
+
+$$
+L(\{u_{jk}\}, \{c_k\}, \{\lambda_j\}) = \sum_{j=1}^N\sum_{k=1}^K u^q_{jk}(y_j - c_k)^2 + \lambda_j \left( \sum_k u_{jk} - 1 \right)
+$$
+
+
+#### Algorithm
+
+1. Start with an initial estimate for the memberships
+
+2. Fix the memberships and solve for the cluster means 
+
+   The cluster means would be the weighted average of all points with their membership power $q$ as weights
+
+3. Fix the cluster means and solve for memberships
+
+   Use the above mentioned Lagrangian function to solve for the memberships
+
+4. Repeat from step 2 
+
+
+
+The memberships obtained in step 3 after solving the Lagrangian function would be:
+
+
+$$
+u_{jk} = \frac{\left(\frac{1}{d_{jk}}\right)^{\frac{1}{q-1}}}{\sum_k \left(\frac{1}{d_{jk}}\right)^{\frac{1}{q-1}}}
+\qquad
+d_{jk} := (y_j - c_k)^2
+$$
