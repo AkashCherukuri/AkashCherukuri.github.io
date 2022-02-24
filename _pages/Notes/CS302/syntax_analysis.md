@@ -139,7 +139,7 @@ The only difference between SLR parsing and LR parsing is the parsing table. Fol
 
 ![image-20220223215901825](../../../assets/images/typora/image-20220223215901825.png)
 
-Now, we shall look at ways to construct this table to be able to “formalize” shift-reduce parsing. Firstly, make sure to take note of precedence and associativity rules inherent in the grammar. (That is, $a+b+c$ would be expanded as $(a+b)+c$, and $a+b*c$ would be expanded as $a+(b*c)$)
+Now, we shall look at ways to construct this table to be able to “formalize” shift-reduce parsing. Firstly, make sure to take note of precedence and associativity rules inherent in the grammar. (That is, $a+b+c$ would be expanded as $(a+b)+c$, and $a+b\*c$ would be expanded as $a+(b\*c)$)
 
 *Viable Prefix* - A prefix of the right sentential form that doesn’t extend beyond the current handle. It is either a string with no handle, or a string that ends with a handle.
 
@@ -198,14 +198,11 @@ $$
 $$
 
 
-*doubtful about valid items for* $E+E$
-
-
 
 #### Computing LR(0) item sets for grammar
 
 1. Add a new start state $E'$ which points to the original start state. The start state of the DFA is constructed by putting a dot before the original start state, and take its closure. ($E'→· E$)
-2. For all the states remaining which have a rule of form $· \text{<non-terminal>}$, take its closure and make a new state. Link back if such a state has been previously created. Repeat this step until all states’ rules have been dealt with.
+2. For all the states remaining which have a rule of form $· E$ where $E$ is a non terminal, take its closure and make a new state. Link back if such a state has been previously created. Repeat this step until all states’ rules have been dealt with.
 
 ![image-20220223225055942](../../../assets/images/typora/image-20220223225055942.png) 
 
@@ -217,13 +214,13 @@ Certain transitions are removed from this to enforce associativity and precedenc
 
 $\text{FIRST}(\beta)$ contains the **terminals** that may begin a string derivable from $\beta$. If $\beta$ derives $\epsilon$, then $\epsilon\in \text{FIRST}(\beta)$.
 
-Consider the rule $A\to X_1\ldots X_k$. Obviously, $\text{FIRST}(X_1)\sube \text{FIRST}(A)$. If $A$ could derive $\epsilon$ (that is, if $\epsilon\in\text{FIRST}(X_1)$), then we could also say that $\text{FIRST}(X_2)\sube\text{FIRST}(A)$. (and if $X_2$ derived $\epsilon$ we say the same thing about $X_3$ and so on)
+Consider the rule $A\to X_1\ldots X_k$. Obviously, $\text{FIRST}(X_1)\subseteq \text{FIRST}(A)$. If $A$ could derive $\epsilon$ (that is, if $\epsilon\in\text{FIRST}(X_1)$), then we could also say that $\text{FIRST}(X_2)\subseteq\text{FIRST}(A)$. (and if $X_2$ derived $\epsilon$ we say the same thing about $X_3$ and so on)
 
 
 
 $\text{FOLLOW}(A)$ contains the **terminals** that follow $A$ in some right sentential form. If $A$ is the start symbol, then $\$\in\text{FOLLOW}(A)$.
 
-Consider the rule $A\to\alpha B\beta$. It can be said that $\text{FIRST}(\beta)-\{\epsilon\}\sube \text{FOLLOW}(B)$ (obviously!). Moreover, if $\beta$ can derive $\epsilon$ then $\text{FOLLOW}(A)\sube\text{FOLLOW}(B)$ (also obviously because $B$ is the rightmost variable in this derivation). 
+Consider the rule $A\to\alpha B\beta$. It can be said that $\text{FIRST}(\beta)-\{\epsilon\}\subseteq \text{FOLLOW}(B)$ (obviously!). Moreover, if $\beta$ can derive $\epsilon$ then $\text{FOLLOW}(A)\subseteq\text{FOLLOW}(B)$ (also obviously because $B$ is the rightmost variable in this derivation). 
 
 
 
@@ -263,7 +260,7 @@ Rules are of form $A\to \alpha\cdot\beta,a$ meaning that the rule is valid when 
 
 
 
-Generating the table is exactly the same as the SLR(1) 
+Generating the table is exactly the same as the SLR(1), except at the reduce step. Instead of looking at the $\text{FOLLOW}$ sets, we look at the look-ahead for the corresponding reduction in the DFA and reduce only for those terminals. 
 
 
 
