@@ -18,10 +18,14 @@ author_profile: false
 </script>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
 
-
 <!-- Notes Begin from here -->
-My notes for the course CS302: Implementation of Programming Languages are linked below. They are on a per-lecture basis.
+My notes for the course CS302: Implementation of Programming Languages are linked below. They are on a ~~per-lecture~~ topic basis.
 
 - [Lecture 1](/notes/cs302/lec1)
 - [Lecture 2](/notes/cs302/lec2)
 - [Lecture 3](/notes/cs302/lec3)
+
+
+
+- [Lexical Analysis]()
+- [Syntax Analysis](/notes/cs302/synt)
