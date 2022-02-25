@@ -68,7 +68,7 @@ $$
 
 
 
-We can say that a unique interpolation polynomial of degree $\leq n$ exists for a given set of $n$ points.
+We can say that a unique interpolation polynomial of degree $\leq n$ exists for a given set of $n+1$ points.
 
 
 
@@ -154,17 +154,17 @@ Writing the recurrence relation in the nested form allows for efficient computat
 
 ### Newton’s Difference as a function
 
-**Theorem**
-
-If $f$ is $n$-times continuously differentiable on $[a,b]$ then
-
-
-$$
-f[x_0, \ldots, x_n] = \frac{f^{(n)}(\xi)}{n!}
-$$
-
-
-for some $\xi\in[a,b]$
+> **Theorem**
+>
+> If $f$ is $n$-times continuously differentiable on $[a,b]$ then
+>
+>
+> $$
+> f[x_0, \ldots, x_n] = \frac{f^{(n)}(\xi)}{n!}
+> $$
+>
+>
+> for some $\xi\in[a,b]$
 
 
 
@@ -182,10 +182,10 @@ From the above theorem (extended MVT) and applying $\lim_{x\to x_0}$ we get the 
 $$
 f[x_0, x] = 
 \begin{cases}
-\frac{f(x_0) - x}{x_0 - x} & x\neq x_0 \\
+\frac{f(x_0) - x}{x_0 - x} & x\neq x_0 
+\qquad \text{ base case}\\
 f'(x_0) & x = x_0
 \end{cases}
-\qquad \text{ base case}
 $$
 
 
@@ -193,6 +193,80 @@ We can now extend this base case to get the general function as shown in the bel
 
 
 $$
-f[x_0, \ldots, x_{n-1}, x] = f[x_0,\ldots,x,x_{n-1} ] = \frac{f[x_0,\ldots,x] - f[x_1, \ldots, x, x_{n-1}]}{x_0 - x_{n-1}}
+f[x_0, \ldots, x_{n-1}, x] = f[x_0,\ldots,x,x_{n-1} ] = \frac{f[x_0,\ldots,x_{n-2}, x] - f[x_1, \ldots, x_{n-1}, x]}{x_0 - x_{n-1}}
 $$
+
+&nbsp;
+
+## Hermite Polynomials
+
+Given data points $x_0, x_1 \ldots x_n$ we wish to find an interpolating polynomial ($H_{2n+1}$) such that both the function values and the derivatives of the interpolating polynomial equals the actual function.
+
+Define $H_i(x)$ and $\hat{H}_i(x)$ as follows, note that $L$ corresponds to the Lagrangian polynomial;
+
+
+$$
+\begin{align*}
+	H_i(x) &= [1-2(x-x_i)L_i'(x_i)]L_i^2(x) \\
+	\hat{H}_i(x) &= (x-x_i)L_i^2(x) \\
+	\implies H_{2n+1}(x) &= \sum_i f(x_i)H_i(x) + \sum_i f'(x_i)\hat{H}_i(x) \\
+\end{align*}
+$$
+ 
+
+The error for such an interpolation has a similar form to that of the normal interpolation, and is given below;
+
+$$
+f(x) = H_{2n+1}(x) + \frac{(x-x_0)^2(x-x_1)^2\ldots(x-x_n)^2}{(2n+2)!}f^{(2n+2)}(\xi(x)) \qquad \forall x-in[a,b], \xi(x)\in(a,b)
+$$
+
+
+Note that $H_{2n+1}$ can be computed using the Divided differences function that was defined by us earlier. Define a new set $Z = \{ z_0, z_1\ldots z_{2n+1} \}$ where $z_{2t} = x_t$ and $z_{2t+1} = z_{2t}$. It can be thus computed using the following formula similar to the one used for computing $P$;
+
+
+$$
+H_{2n+1}(x) = f[z_0] + \sum_{i=1}^{2n+1} f[z_0,\ldots z_i](x-x_0)\ldots(x-x_{i-1})
+$$
+
+
+![image-20220225215103967](../../../assets/images/typora/image-20220225215103967.png)
+
+
+
+&nbsp;
+
+## Splines
+
+Our methods for finding the interpolating polynomial fail because the order of the polynomial depends upon the number of datapoints, and a large degree polynomial usually is a bad idea as it is very sensitive to outliers. 
+
+Splines use a piecewise polynomial function instead to estimate the function $f(x)$, and tend to be more accurate and representative of the underlying function.
+
+A **cubic spline** is the most simplest case because we have four equations that need to be satisfied, and a cubic equation has four variables that can be adjusted. The following constraints need to be satisfied for a given set of data points $\{x_0, x_1, \ldots x_n \}$;
+
+1. $S_j(x)$ is a polynomial defined on each $[x_j, x_{j+1}]$
+2. $S_j(x_j) = f(x_j)$ and $S_j(x_{j+1}) = f(x_{j+1})$ 
+3. $S_j'(x_{j+1}) = S_{j+1}'(x_{j+1})$ and $S_j''(x_{j+1}) = S_{j+1}''(x_{j+1})$
+
+Moreover, there are two kinds of boundary conditions that may be imposed. Clamped boundary conditions are usually the better option, but natural boundaries are usually used because the derivative information is not available.
+
+1. Natural or Free boundary:  $S''(x_0) = S''(x_n) = 0$
+2. Clamped Boundary: $S'(x_0) = f'(x_0)$ and $S'(x_n) = f'(x_n)$
+
+
+
+The cubic equation for the interval $[x_i, x_{i+1}]$ is usually written in the following manner;
+
+
+$$
+S_i(x) = a_i + b_i(x-x_i) + c_i(x-x_i)^2 + d_i(x-x_i)^3
+$$
+
+
+The **error** for clamped boundary condition is given by the following equation. The error for clamped is of the fourth order as well, but is more difficult to express because the clamped case is more prone to errors.
+
+
+$$
+\vert f(x)-S(x) \vert \leq \frac{5M}{384}\max_j(x_{j+1}-x_j)^4 \qquad M=\max_{a\leq x\leq b}\vert f^{(4)}(x)\vert
+$$
+
 
