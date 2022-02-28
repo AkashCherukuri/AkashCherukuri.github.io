@@ -87,3 +87,45 @@ ffs
 
 
 
+*oh for fuck’s sake I have no idea wwhat happened here*
+
+&nbsp;
+
+## Bulk Synchronous Processing
+
+One of the 2 methods of handling huge graph networks. It has low overheads compared to the `map-reduce` paradigms.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
