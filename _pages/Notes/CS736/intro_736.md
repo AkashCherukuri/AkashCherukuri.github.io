@@ -30,3 +30,5 @@ My notes for the course CS736: Medical Image Computing have been linked below. T
 ### Week 3
 - [Lecture 4](/notes/cs736/Lec4)
 
+
+[**Image Segmentation Part 2**](/pdfs/CS736_img_segm.pdf)
