@@ -118,7 +118,7 @@ Note that $A^{(n)}$ is an upper triangular matrix, and is the $U$ in the factori
 
 $$
 \begin{align*}
-A = LU &= \left( L^{(1)}L^{(2)}\ldots L^{(n-1)} \right)\left( M^{(n-1)}M^{(n-2)}\ldots L^{(1)} A\right) \\
+A = LU &= \left( L^{(1)}L^{(2)}\ldots L^{(n-1)} \right)\left( M^{(n-1)}M^{(n-2)}\ldots M^{(1)} A\right) \\
 L^{(k)} &= \left( M^{(k)} \right)^{-1}
 \end{align*}
 $$

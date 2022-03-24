@@ -54,6 +54,44 @@ notes_ma214:
         url: /notes/ma214/interp#divided-differences
       - title: Difference as a function
         url: /notes/ma214/interp#newtons-difference-as-a-function
+  - title: Composite Integration
+    url: /notes/ma214/comp_int
+    children:
+      - title: Composite Trapezoidal Rule
+        url: /notes/ma214/comp_int#composite-trapezoidal-rule
+      - title: Adaptive Quadrature Method
+        url: /notes/ma214/comp_int#adaptive-quadrature-method
+      - title: Gaussian Quadrature Method
+        url: /notes/ma214/comp_int#gaussian-quadrature
+      - title: Improper Integrals
+        url: /notes/ma214/comp_int#improper-integrals
+  - title: Ordinary Differential Equations
+    url: /notes/ma214/ode
+    children:
+      - title: Lipschitz Condition
+        url: /notes/ma214/ode#lipschitz-condition
+      - title: Euler's Method
+        url: /notes/ma214/ode#eulers-method
+      - title: Local Truncation Error
+        url: /notes/ma214/ode#local-truncation-error
+      - title: Runge-Kutta Method of Order 2
+        url: /notes/ma214/ode#runge-kutta-methods-of-order-2
+      - title: Higher order Runge-Kutta Methods
+        url: /notes/ma214/ode#higher-order-runge-kutta-methods
+      - title: Error Control
+        url: /notes/ma214/ode#error-control
+      - title: Multi Step Methods
+        url: /notes/ma214/ode#multi-step-methods
+  - title: Linear Equations
+    url: /notes/ma214/lin
+    children:
+      - title: Gauss Elimination Method
+        url: /notes/ma214/lin#gauss-elimination-method-gem
+      - title: (P)LU Decomposition
+        url: /notes/ma214/lin#lu-decomposition
+      - title: Special Matrices
+        url: /notes/ma214/lin#special-matrices
+
 
 # CS736 Notes Sidebar
 notes_cs736:
