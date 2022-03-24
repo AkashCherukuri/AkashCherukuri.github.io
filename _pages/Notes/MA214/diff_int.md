@@ -1,4 +1,13 @@
-# Numerical Differentiation
+---
+title: Numerical Differentiation and Integration
+permalink: /notes/ma214/diff_int
+classes: wide
+author_profile: false
+sidebar:
+    nav: "notes_ma214"
+
+
+---
 
 One of the simplest and easiest ways to approximate the value of $f’(x_0)$ would be to use the definition of derivative.
 

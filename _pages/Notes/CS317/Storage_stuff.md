@@ -32,3 +32,9 @@ Access Time - Seek Time (avg = 0.5worst, 0.333worst if all tracks have same numb
 *how does remapping help with making it more efficient*
 
 *parity blocks?????*
+
+&nbsp;
+
+&nbsp;
+
+7 Hash functions and 10 bits apparently give the best performance, probabilistically speaking.

@@ -24,3 +24,9 @@ My notes for the course MA214: Numerical Analysis have been linked below. The no
 - [Introduction to Numerical Analysis](/notes/ma214/intro_to_num)
 - [Equations in One Variable](/notes/ma214/eq_in_one_var)
 - [Interpolation](/notes/ma214/interp)
+- [Numerical Differentiation and Integration](/notes/ma214/diff_int)
+
+#### Post Midsem, Quiz2 Syllabus
+- [Composite Integration](/notes/ma214/comp_int)
+- [Ordinary Differential Equations](/notes/ma214/ode)
+- [Linear Equations](/notes/ma214/lin)
