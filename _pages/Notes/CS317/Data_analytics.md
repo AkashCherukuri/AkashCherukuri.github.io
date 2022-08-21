@@ -1,4 +1,4 @@
-Chapter 11 is not going to be covered in class.. just for notation and terminology and stuff
+Chapter 11 is not going to be covered in class.. just for notation and terminology and stuff (more importantly this isn’t there for the test)
 
 
 

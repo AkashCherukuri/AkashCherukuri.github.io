@@ -35,9 +35,11 @@ Access Time (time between request issuance and data transfer starting) = Seek Ti
 
 NAND flash is cheaper than NOR Flash and doesn’t have a big difference between sequential and random read. However, pages can be written ONLY ONCE, and must be erased to allow rewriting them.
 
-Erase happens in units of **erase blocks** where in the logical page address is remapped to a different free physical page address. This remapping is tracked by the **Flash Translation Table**, and this is carried out by the **Flash Translation Layer**.
+Erase happens in units of **erase blocks** where in the logical page address is remapped to a different free physical page address. Note that en erase block is much larger than a logical page. This remapping is tracked by the **Flash Translation Table**, and this is carried out by the **Flash Translation Layer**.
 
-Note that after $\sim 10^5$ erases, the erase block becomes unreliable and cannot be used. (Never full up an SSD to nearly full)
+Note that after $\sim 10^5$ erases, the erase block becomes unreliable and cannot be used. (Never fill up an SSD to nearly full)
+
+SSDs alaso support parallel reads.
 
 &nbsp;
 

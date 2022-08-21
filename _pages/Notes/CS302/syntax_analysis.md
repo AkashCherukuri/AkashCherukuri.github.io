@@ -157,7 +157,7 @@ E&→ \text{id}\\
 $$
 
 
-A “tree” is constructed to construct all the viable prefixes, from the most basic case ($\epsilon$). Remember that a handle doesn’t necessarily need to be reduced once it is noticed, it is possible that the next token prioritizes shifting. Example, $E+E*E$ 
+A “tree” is constructed to generate all viable prefixes, from the most basic case ($\epsilon$). Remember that a handle doesn’t necessarily need to be reduced once it is noticed, it is possible that the next token prioritizes shifting. Example, $E+E*E$ 
 
 ![image-20220223222400036](../../../assets/images/typora/image-20220223222400036.png)
 
@@ -201,7 +201,7 @@ $$
 
 #### Computing LR(0) item sets for grammar
 
-1. Add a new start state $E'$ which points to the original start state. The start state of the DFA is constructed by putting a dot before the original start state, and take its closure. ($E'→· E$)
+1. **Add a new start state** $E'$ which points to the original start state. The start state of the DFA is constructed by putting a dot before the original start state, and take its closure. ($E'→· E$)
 2. For all the states remaining which have a rule of form $· E$ where $E$ is a non terminal, take its closure and make a new state. Link back if such a state has been previously created. Repeat this step until all states’ rules have been dealt with.
 
 ![image-20220223225055942](../../../assets/images/typora/image-20220223225055942.png) 
@@ -274,5 +274,5 @@ Note that we do not construct LR(1) sets and merge for LALR(1). Instead, we can 
 
 The expressive power of parsing is
 $$
-\text{SLR(0)} <\text{SLR(1)} <\text{LALR(1)} <\text{LR(1)} 
+\text{SLR(0)} <\text{SLR(1)} <\text{LALR(1)} <\text{LR(1)}
 $$

@@ -93,7 +93,15 @@ ffs
 
 ## Bulk Synchronous Processing
 
-One of the 2 methods of handling huge graph networks. It has low overheads compared to the `map-reduce` paradigms.
+One of the 2 methods of handling huge graph networks. It has low overheads compared to the `map-reduce` paradigms. Each node of the graph has data (state) associated with it. Computation involves multiple iterations (**supersteps**) where a node sends/receives messages to/from neighboring nodes.
+
+In every superstep:
+
+- Nodes process the received messages
+- Update state
+- Send messages or vote to halt. The computation ends when all nodes have voted to halt and there are no more pending messages.
+
+
 
 
 
