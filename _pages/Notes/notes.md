@@ -16,6 +16,10 @@ I am aware that the notes might have many typos which might've been missed by me
 
 ## Class-Notes
 
+- [CS6001 - Introduction to Game Theory](/notes/cs6001)
+
+---
+
 - [CS736 - Medical Image Computing](/notes/cs736)
 - [CS310 - Automata Theory](/notes/cs310)
 - [CS302 - Implementation of Programming Languages](/notes/cs302)
