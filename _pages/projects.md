@@ -5,6 +5,8 @@ permalink: /projects/
 
 Page under construction, check back later.
 
+Look at the cool donut while you're here I guess, weee!
+
 <pre id="donut" style="text-align: center;"></pre>
 
 <script>
