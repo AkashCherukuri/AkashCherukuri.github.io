@@ -2,18 +2,18 @@
 main:
    - title: "Home"
      url: /
-   - title: "My Notes"
+   - title: "Projects"
+     description: "Interesting projects that I've worked on so far, official and otherwise"
+     url: /projects/
+   - title: "Notes"
      description: "Notes that I've written."
      url: /notes/
    - title: "Reviews"
      description: "Reviews of games that I've played recently."
      url: /reviews/ 
-   - title: "Feedback & Contact Me"
+   - title: "Contact Me"
      url: /feedback/
      description: "Anonymously send feedback to me."
-   - title: "Enter Giveaway"
-     description: "Enter the giveaways that are hosted by me, on a monthly basis!" 
-     url: https://www.youtube.com/watch?v=y7_HBLng2jc
 
 #MA214 Notes Sidebar
 notes_ma214:
