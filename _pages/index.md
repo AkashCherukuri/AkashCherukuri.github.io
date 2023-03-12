@@ -105,7 +105,7 @@ Welcome to my website, hope you enjoy your stay. <br> I work on this site whenev
 
 I am proficient in multiple programming languages including <span style="color: #9be3c3;">C++</span> and <span style="color: #9be3c3;">Python</span>. <br> As a passionate machine learning enthusiast, I am eager to explore the diverse range of applications this field has to offer across various industries and domains.
 <br>
-I have experience working with various frontend technologies including <span style="color: #9be3c3;">ReactJS</span>, <span style="color: #9be3c3;">Angular</span>, and <span style="color: #9be3c3;">Django</span>, among others. You can find the projects that I have worked on so far in the [Projects](/notes/projects) tab above.
+I have experience working with various frontend technologies including <span style="color: #9be3c3;">ReactJS</span>, <span style="color: #9be3c3;">Angular</span>, and <span style="color: #9be3c3;">Django</span>, among others. You can find the projects that I have worked on so far in the [Projects](/projects) tab above.
 
 <br>
 <div style="color: #f21368;">
