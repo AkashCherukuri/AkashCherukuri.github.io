@@ -145,7 +145,7 @@ I have experience working with various frontend technologies including <span sty
 <hr>
 <div style="text-align: center; padding-top: 40px;">
   That's all for now. Feel free to <a href="/feedback">contact me</a> if you wanna get in touch or just chat. <br>
-  <img id="skull_anim" style="max-height: 40vh; padding-top: 40px;">
+  <img id="skull_anim" style="max-height: 40vh; max-width: 50wh; padding-top: 40px;">
 </div>
 
 <script>
