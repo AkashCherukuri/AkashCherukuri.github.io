@@ -4,8 +4,6 @@ layout: splash
 sitemap: false
 header:
   overlay_image: /assets/images/Home/home_head.jpg
-  overlay_color: "#141010"
-  overlay_filter: 0.6
   actions:
     - label: Github
       url: https://github.com/AkashCherukuri
@@ -19,6 +17,7 @@ intro1:
 {% include feature_row id="intro1" type="center" %}
 
 <!-- Okay so the background image. I've been trying for two years on and off trying to get the image to scroll less compared to the foreground for a much cooler depth effect. I swear I've gone thorugh the stages of grief multiple times over this one thing before learning to let go -->
+
 
 <!-- In case you do know how to do this, I beg of you to let me know, I will literally give you a shoutout here -->
 
@@ -42,13 +41,11 @@ intro1:
 
 <script>
   const languages = ["Machine Learning Enthusiast",
-                     "Supportive and Inclusive",
                      "Proactive and self-motivated worker",
                      "Constantly learning and exploring",
                      "Open Source Enthusiast",
                      "Experimental and Adventurous",
                      "Detail-oriented and Perfectionist",
-                     "Effective communicator and listener",
                      "Software Engineer at Samsung Korea"];
   let langIndex = 0;
   let charIndex = 0;

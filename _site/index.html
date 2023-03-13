@@ -180,8 +180,8 @@
 
 
 
-<div class="page__hero--overlay rellax"
-  style="background-color: #141010; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/Home/home_head.jpg');"
+<div id="page-hero-overlay" class="page__hero--overlay rellax"
+  style=" background-image: url('/assets/images/Home/home_head.jpg');"
 >
 
   
@@ -210,6 +210,17 @@
   
   
 </div>
+
+<script>
+  let splash_img = document.getElementById("page-hero-overlay")
+
+  window.addEventListener("scroll", function(){
+    let scrollPos = window.scrollY;
+    splash_img.style.backgroundPositionY = "-"  + scrollPos/3 + "px";
+    // console.log(window.scrollY);
+  });
+  
+</script>
 
 
 <div id="main" role="main">
@@ -265,13 +276,11 @@
 
 <script>
   const languages = ["Machine Learning Enthusiast",
-                     "Supportive and Inclusive",
                      "Proactive and self-motivated worker",
                      "Constantly learning and exploring",
                      "Open Source Enthusiast",
                      "Experimental and Adventurous",
                      "Detail-oriented and Perfectionist",
-                     "Effective communicator and listener",
                      "Software Engineer at Samsung Korea"];
   let langIndex = 0;
   let charIndex = 0;
@@ -386,7 +395,6 @@ I have experience working with various frontend technologies including <span sty
     </section>
   </article>
 </div>
-
     </div>
 
     

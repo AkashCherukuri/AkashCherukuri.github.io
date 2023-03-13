@@ -180,7 +180,7 @@
 
 
 
-<div class="page__hero--overlay rellax"
+<div id="page-hero-overlay" class="page__hero--overlay rellax"
   style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/KatanaZero/kz_1.png');"
 >
 
@@ -212,6 +212,17 @@
   
   
 </div>
+
+<script>
+  let splash_img = document.getElementById("page-hero-overlay")
+
+  window.addEventListener("scroll", function(){
+    let scrollPos = window.scrollY;
+    splash_img.style.backgroundPositionY = "-"  + scrollPos/3 + "px";
+    // console.log(window.scrollY);
+  });
+  
+</script>
 
 
 

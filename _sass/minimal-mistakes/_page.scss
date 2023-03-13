@@ -290,7 +290,7 @@ body {
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    // background-position: center;
     background-attachment: fixed;
     height: 110vh;
     -webkit-animation: $intro-transition;
@@ -702,4 +702,31 @@ body {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.image-button {
+  background-size: cover;
+  padding: 3em 4em;
+  border-radius: 10%;
+  cursor: pointer;
+  filter: grayscale(100%);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: filter 0.5s ease-out, transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.image-button:hover {
+  filter: grayscale(0%);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+}
+.image-button:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.button-text {
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
 }

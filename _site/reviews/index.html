@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Video Game Reviews - Akash Cherukuri</title>
-<meta name="description" content="">
+<meta name="description" content="I plan on writing the reviews for a few games I enjoy here.">
 
 
   <meta name="author" content="Akash Cherukuri">
@@ -23,11 +23,11 @@
 <meta property="og:url" content="http://localhost:4000/reviews/">
 
 
-  <meta property="og:description" content="">
+  <meta property="og:description" content="I plan on writing the reviews for a few games I enjoy here.">
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/Home/home_head.jpg">
+  <meta property="og:image" content="http://localhost:4000/assets/images/Reviews/voli.jpg">
 
 
 
@@ -113,7 +113,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--splash">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -170,186 +170,76 @@
 
     <div class="initial-content">
       
+  
 
+
+
+
+
+
+
+
+
+<div id="page-hero-overlay" class="page__hero--overlay rellax"
+  style=" background-image: url('/assets/images/Reviews/voli.jpg');"
+>
+
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Video Game Reviews
+
+        
+      </h1>
+      
+        <p class="page__lead">I plan on writing the reviews for a few games I enjoy here.
+</p>
+      
+      
+
+
+      
+      
+        <p>
+        
+          <a href="/reviews/about/" class="btn btn--light-outline btn--large">Guide</a>
+        
+      
+    </div>
+  
+  
+</div>
+
+<script>
+  let splash_img = document.getElementById("page-hero-overlay")
+
+  window.addEventListener("scroll", function(){
+    let scrollPos = window.scrollY;
+    splash_img.style.backgroundPositionY = "-"  + scrollPos/3 + "px";
+    // console.log(window.scrollY);
+  });
+  
+</script>
 
 
 <div id="main" role="main">
-  
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person">
-
-  
-    <div class="author__avatar">
-      
-        <img src="/assets/logo.png" alt="Akash Cherukuri" itemprop="image">
-      
-    </div>
-  
-
-  <div class="author__content">
-    
-      <h3 class="author__name" itemprop="name">Akash Cherukuri</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
-        <p>An Undergraduate at the Indian Institute of Technology, Bombay.</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Hyderabad, Telangana</span>
-        </li>
-      
-
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            <li><a href="https://github.com/AkashCherukuri" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-          
-        
-      
-
-      
-
-      
-        <li>
-          <a href="mailto:190050009@iitb.ac.in">
-            <meta itemprop="email" content="190050009@iitb.ac.in" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
-
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Video Game Reviews">
+    <meta itemprop="description" content="I plan on writing the reviews for a few games I enjoy here.">
     
     
-    
 
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">Video Game Reviews
-</h1>
-          
-
-
-        </header>
-      
-
-      <section class="page__content" itemprop="text">
-        
-        <p>I plan on writing the reviews for a few games I enjoy here, as practice. I might divide them up based on their genre later, once there’s too many. I will try to follow a similar fashion for all the reviews, to maintain uniformity. Clicking on the hyperlinks below will take you to the respective review.</p>
-
-<p>The rating guide, my biases, and why I’ve decided to put reviews up here has been discussed <a href="/reviews/about/">here</a>.</p>
-
-<ul>
-  <li><a href="/reviews/KatanaZero">Katana Zero</a></li>
-</ul>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-
-      </footer>
-
-      
-
-      
-    </div>
-
-    
-  </article>
-
-  
-  
+    <section class="page__content" itemprop="text">
+      <div style="text-align: center;">
+    <button class="image-button" style="background-image: url(/assets/images/KatanaZero/kz_but_disp.jpg);" onclick="location.href = '/reviews/KatanaZero';">
+        <span class="button-text">Katana Zero</span>
+    </button>
 </div>
 
+    </section>
+  </article>
+</div>
     </div>
 
     
