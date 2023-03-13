@@ -48,7 +48,8 @@ intro1:
                      "Open Source Enthusiast",
                      "Experimental and Adventurous",
                      "Detail-oriented and Perfectionist",
-                     "Effective communicator and listener"];
+                     "Effective communicator and listener",
+                     "Software Engineer at Samsung Korea"];
   let langIndex = 0;
   let charIndex = 0;
   const element = document.getElementById('prof');
@@ -100,7 +101,6 @@ intro1:
 <div style="color: #f21368;">
 <h1>Sup.</h1>
 </div>
-
 Welcome to my website, hope you enjoy your stay. <br> I work on this site whenever inspiration strikes me, so you can expect occasional updates to keep it fresh and relevant.
 
 I am proficient in multiple programming languages including <span style="color: #9be3c3;">C++</span> and <span style="color: #9be3c3;">Python</span>. <br> As a passionate machine learning enthusiast, I am eager to explore the diverse range of applications this field has to offer across various industries and domains.
@@ -108,28 +108,53 @@ I am proficient in multiple programming languages including <span style="color: 
 I have experience working with various frontend technologies including <span style="color: #9be3c3;">ReactJS</span>, <span style="color: #9be3c3;">Angular</span>, and <span style="color: #9be3c3;">Django</span>, among others. You can find the projects that I have worked on so far in the [Projects](/projects) tab above.
 
 <br>
-<div style="color: #f21368;">
-<h1>Hobbies.</h1>
+<div style="color: #f21368; margin-bottom: 35px;">
+<h1>Hobbies and Interests.</h1>
 </div>
-
-
-
+<!-- DND Stuff here -->
 <div class="container">
   <div class="image">
     <img src="/assets/images/dnd.jpg" style="opacity: 0.75; border-radius: 10%;">
   </div>
   <div class="text" style="text-align: left;">
     <p>
-      I am interested in Dungeons and Dragons, and I participate in sessions with friends when we all are free. 
+      I am interested in <span style="color: #9be3c3;">Dungeons and Dragons</span>, and I participate in sessions with friends when we all are free. 
     </p>
     <p>
-      Recently, I've been exploring the world of 3D printing and modeling as a way to create unique figurines and other captivating trinkets to enhance our gaming campaigns.
+      Recently, I've been exploring the world of <span style="color: #9be3c3;">3D printing</span> and modeling as a way to create unique figurines and other captivating trinkets to enhance our gaming campaigns.
     </p>
     <p>
-      After a few months of self-guided learning, I've gained proficiency in both <span style="color: #9be3c3;">Fusion360</span> and <span style="color: #9be3c3;">Blender</span>, which has allowed me to bring my imaginative designs to life.
-    </p>
-    <p>
-      There's a picture of us playing DnD together!
+      There's a picture of us playing DnD together in my room!
     </p>
   </div>
 </div>
+
+<!-- More generic stuff here, music/games/sketching/drums/music prod/board games -->
+<div class="container">
+  <div class="text" style="text-align: left;">
+    <p>After a few months of self-guided learning, I've gained proficiency in both <span style="color: #9be3c3;">Fusion360</span> and <span style="color: #9be3c3;">Blender</span>, which has allowed me to bring my imaginative designs to life.</p>
+    <p>I occasionally sketch, and am currently attempting to wrap my head around using my ipad for digital art. </p>
+    <p>I enjoy listening to music with a blend of <span style="color: #9be3c3;">synthwave</span>, <span style="color: #9be3c3;">heavy metal</span> and <span style="color: #9be3c3;">electronic</span>. I listen to numerous artists, but <a href="https://open.spotify.com/artist/1l2oLiukA9i5jEtIyNWIEP?si=YP0UdcQkR2GvrFpOwVdIQQ">Carpenter Brut</a>'s distinctive style has struck a particular chord with me and currently stands out as my favorite.</p>
+    <p>I cherish playing video games that have <span style="color: #9be3c3;">great storylines</span>, <span style="color: #9be3c3;">unique gameplay mechanics</span>, or are just really <span style="color: #9be3c3;">fun to play</span>. I'm so into them that I even made a special tab at the top! If you're interested, feel free to <a href="/reviews">check it out</a>!</p>
+  </div>
+  <div class="image">
+    <img src="/assets/images/Home/cb.png" style="opacity: 0.75; border-radius: 10%;">
+  </div>
+</div>
+
+<hr>
+<div style="text-align: center; padding-top: 40px;">
+  That's all for now. Feel free to <a href="/feedback">contact me</a> if you wanna get in touch or just chat. <br>
+  <img id="skull_anim" style="max-height: 40vh; padding-top: 40px;">
+</div>
+
+<script>
+  const images = ["assets/images/Home/uk_frames/frame1.png", "assets/images/Home/uk_frames/frame2.png"];
+  const delay = [800, 650];
+  const skull_elem = document.getElementById("skull_anim");
+  let sk_idx = images.length-1;
+  setInterval(function(){
+    sk_idx = (sk_idx+1)%(images.length);
+    skull_elem.src = images[sk_idx];
+  }, delay[sk_idx]);
+</script>
