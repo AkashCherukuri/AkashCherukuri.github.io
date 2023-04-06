@@ -1,7 +1,10 @@
 ---
 title: "Projects"
 permalink: /projects/
+layout: splash
 ---
+
+# Projects.
 
 Page under construction, check back later.
 
@@ -9,6 +12,16 @@ Look at the cool donut while you're here I guess, weee!
 
 <pre id="donut" style="text-align: center;"></pre>
 
+<!-- Okay so having twitch-esque cards from Hyperplexed might be fun here -->
+<!-- Or instead, having tiles for each project done so far. "Expand" the tile upon click to show project summary? -->
+
+<!-- <div class="projects">
+  <div class="projCard">Test 1</div>
+  <div class="projCard">Test 2</div>
+  <div class="projCard">Test 3</div>
+</div> -->
+
+<!-- This is the code for the rotating donut -->
 <script>
 function multiplyMatrix(mat1, mat2) {
   // dimensions of matrices
@@ -130,7 +143,7 @@ let Rot_X = 0;
 
 function print_tor(){
   draw_torus(Rot_X);
-  Rot_X += 0.04;
+  Rot_X -= 0.04;
   if (Rot_X > (2*Math.PI)){
     Rot_X = Rot_X - 2*Math.PI;
   }
@@ -138,3 +151,5 @@ function print_tor(){
 
 setInterval(print_tor, 17);
 </script>
+
+

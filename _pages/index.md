@@ -11,7 +11,7 @@ excerpt: >
   I am Akash Cherukuri, a senior undergraduate in the Computer Science and Engineering department of IIT Bombay.
 permalink: /
 intro1:
-  - excerpt: Feel free to go through the content on my website through the tabs located at the top. You can also search for anything specific. <br> Keep scrolling to learn more about me.
+  - excerpt: Feel free to go through the content on my website through the tabs located at the top. You can also search for anything specific.
 ---
 
 {% include feature_row id="intro1" type="center" %}
@@ -26,20 +26,51 @@ intro1:
 <!-- Okay I gotta figure out how to add a cursor that blinks, that would be suepr cool imo -->
 
 
-
 <div class="container">
-  <div class="text">
-    <h1>
-    <span id="prof" style="color: #f21368;"></span>_
-    </h1>
+<!-- Hyperplexed twitch hover eff -->
+  <div class="twitchbod">
+    <div class="card">
+      <div class="card-content">
+        <h3 class="card-title">My academic and professional portfolio</h3>
+        <h4 class="card-subtitle"></h4>
+      </div>
+    </div>
   </div>
-  <div class="image">
+  <div class="dp">
     <img src="/assets/images/me.jpeg" style="opacity: 0.75; border-radius: 10%;">
   </div>
 </div>
 
+<script>
+const subtitle = document.getElementsByClassName("card-subtitle")[0];
+
+const createWord = (text, index) => {
+  const word = document.createElement("span");
+  
+  word.innerHTML = `${text} `;
+  
+  word.classList.add("card-subtitle-word");
+  
+  word.style.transitionDelay = `${index * 40}ms`;
+  
+  return word;
+}
+
+const addWord = (text, index) => subtitle.appendChild(createWord(text, index));
+
+const createSubtitle = text => text.split(" ").map(addWord);
+
+createSubtitle("Click to be redirected, or keep scrolling to know a little more about me");
+</script>
 
 <script>
+  document.querySelector('.container').addEventListener('click', function(e) {
+    window.location.href = '/projects';
+  }, false);
+</script>
+
+<!-- This is the script for the cycling typing text effect -->
+<!-- <script>
   const languages = ["Machine Learning Enthusiast",
                      "Proactive and self-motivated worker",
                      "Constantly learning and exploring",
@@ -90,7 +121,7 @@ intro1:
   }
   
   setInterval(typestuff, back_delay);
-</script>
+</script> -->
 
 
 <!-- This is me talking about myself and being all happy happy -->
@@ -102,7 +133,7 @@ Welcome to my website, hope you enjoy your stay. <br> I work on this site whenev
 
 I am proficient in multiple programming languages including <span style="color: #9be3c3;">C++</span> and <span style="color: #9be3c3;">Python</span>. <br> As a passionate machine learning enthusiast, I am eager to explore the diverse range of applications this field has to offer across various industries and domains.
 <br>
-I have experience working with various frontend technologies including <span style="color: #9be3c3;">ReactJS</span>, <span style="color: #9be3c3;">Angular</span>, and <span style="color: #9be3c3;">Django</span>, among others. You can find the projects that I have worked on so far in the [Projects](/projects) tab above.
+I have experience working with various frontend technologies including <span style="color: #9be3c3;">ReactJS</span>, <span style="color: #9be3c3;">Angular</span>, and <span style="color: #9be3c3;">Django</span>, among others.
 
 <br>
 <div style="color: #f21368; margin-bottom: 35px;">

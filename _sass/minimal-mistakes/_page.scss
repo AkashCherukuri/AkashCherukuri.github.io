@@ -681,8 +681,8 @@ body {
 
 
 
+/////////////////////// MY CUSTOM STUFF! ///////////////////////
 
-// MY CUSTOM STUFF!
 .container {
   display: flex;
   flex-direction: row;
@@ -693,6 +693,15 @@ body {
   width: 50%;
   padding: 10px;
   text-align: center;
+}
+
+.container .dp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .container .image {
@@ -729,4 +738,23 @@ body {
   font-size: 1.3em;
   font-weight: bold;
   text-shadow: 1px 1px #000000;
+}
+
+// BEGIN:
+// Code for project tiles stuff
+
+.projects {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.projCard {
+  text-align: center center;
+  background-color: #372b2b;
+  width: 20vw;
+  height: 300%;
+  border-radius: 20%;
+  border-width: 5px;
+  padding-top: 10px;
 }
