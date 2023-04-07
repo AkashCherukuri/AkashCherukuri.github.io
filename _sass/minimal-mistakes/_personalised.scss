@@ -90,10 +90,15 @@
     margin: 0px;
   }
   
-  .card-title {
+  .card:hover .card-title{
     font-size: 6vmin;
   }
-  
+
+  .card-title {
+    font-size: 5.7vmin;
+    transition: font-size 350ms ease;
+  }
+
   .card-subtitle {
     font-size: 3vmin;
     margin-top: 2vmin;
