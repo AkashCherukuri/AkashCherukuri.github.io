@@ -114,6 +114,10 @@
   </head>
 
   <body class="layout--single wide">
+    
+
+
+    <div id="blob"></div>
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -167,6 +171,24 @@
   </div>
 </div>
 
+
+    <script>
+      const blob = document.getElementById("blob");
+      // document.body.onpointermove = event => {
+      //   const { clientX, clientY } = event;
+
+      //   blob.style.left = `${clientX}px`;
+      //   blob.style.top = `${clientY}px`;
+      // }
+      document.addEventListener('mousemove', function(event) {
+        var x = event.clientX + window.pageXOffset;
+        var y = event.clientY + window.pageYOffset;
+        blob.animate({
+          left: `${x}px`,
+          top:  `${y}px`
+        }, {duration: 3000, fill: "forwards"});
+      });
+    </script>
 
     <div class="initial-content">
       

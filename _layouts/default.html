@@ -15,9 +15,31 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    
+
+
+    <div id="blob"></div>
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
     {% include_cached masthead.html %}
+
+    <script>
+      const blob = document.getElementById("blob");
+      // document.body.onpointermove = event => {
+      //   const { clientX, clientY } = event;
+
+      //   blob.style.left = `${clientX}px`;
+      //   blob.style.top = `${clientY}px`;
+      // }
+      document.addEventListener('mousemove', function(event) {
+        var x = event.clientX + window.pageXOffset;
+        var y = event.clientY + window.pageYOffset;
+        blob.animate({
+          left: `${x}px`,
+          top:  `${y}px`
+        }, {duration: 3000, fill: "forwards"});
+      });
+    </script>
 
     <div class="initial-content">
       {{ content }}
