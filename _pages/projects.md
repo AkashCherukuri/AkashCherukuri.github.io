@@ -4,23 +4,40 @@ permalink: /projects/
 layout: splash
 ---
 
-# Projects.
+<!-- divs for the header page -->
+<div id="right" class="side">
+  <div class="title">
+    Getting things done 
+    <span id="fancy">right.</span>   
+  </div>
+</div>
+<div id="left" class="side">
+  <div class="title">
+    Getting things done 
+    <span id="fancy">quick.</span>   
+  </div>
+</div>
 
+<script>
+  const left = document.getElementById("left");
+
+  const onMove = e => {
+    const perc = e.clientX / window.innerWidth * 100;
+
+    left.style.width = `${perc}%`;
+  }
+
+  document.onmousemove = e => onMove(e);
+  document.ontouchmove = e => onMove(e.touches[0]);
+</script>
+
+<div style="padding-top: 110vh;">
 Page under construction, check back later.
 
 Look at the cool donut while you're here I guess, weee!
 
 <pre id="donut" style="text-align: center;"></pre>
-
-<!-- Okay so having twitch-esque cards from Hyperplexed might be fun here -->
-<!-- Or instead, having tiles for each project done so far. "Expand" the tile upon click to show project summary? -->
-
-<!-- <div class="projects">
-  <div class="projCard">Test 1</div>
-  <div class="projCard">Test 2</div>
-  <div class="projCard">Test 3</div>
-</div> -->
-
+</div>
 <!-- This is the code for the rotating donut -->
 <script>
 function multiplyMatrix(mat1, mat2) {
@@ -151,5 +168,3 @@ function print_tor(){
 
 setInterval(print_tor, 17);
 </script>
-
-

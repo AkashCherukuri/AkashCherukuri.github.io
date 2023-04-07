@@ -133,14 +133,15 @@
       #f21368
     );
     animation: rotate 20s infinite;
-    height: 400px;
+    height: 200px;
     aspect-ratio: 1;
     position: absolute;
     left: 50%;
     top: 50%;
     translate: -50% -50%;
     border-radius: 50%;
-    filter: blur(300px);
+    filter: blur(200px);
+    overflow: scroll;
   }
 
   @keyframes rotate{

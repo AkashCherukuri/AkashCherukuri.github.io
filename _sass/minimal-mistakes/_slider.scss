@@ -1,0 +1,68 @@
+:root{
+    // Color variables and stuff for the fancy text and the slider backgrounds
+    --back-left:  #1f020d ;
+    --font-left: #f21368;
+    --back-right: #1a2521;
+    --font-right: #9be3c3;
+}
+
+.side{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    overflow: hidden;
+    border-bottom: 1px solid mix(#fff, $background-color, 20%);
+}
+
+.side .title{
+    font-size: $type-size-1;
+    font-family: "Roboto";
+    font-weight: bolder;
+    margin: 0px 20vw;
+    width: 60vw;
+    text-align: left;
+    position: absolute;
+    left: 0;
+}
+
+#left{
+    background: linear-gradient(
+        180deg,
+        #141010,
+        var(--back-left),
+        #141010
+    )
+}
+
+#right{    
+    background: linear-gradient(
+        180deg,
+        #141010,
+        var(--back-right),
+        #141010
+    )
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(/assets/fonts/Lobster.ttf);
+  }
+
+.side #fancy{
+    font-size: 1.15em;
+    padding-left: 5px;
+    font-family: "Lobster";
+}
+
+#left #fancy{
+    color: var(--font-left);
+}
+
+#right #fancy{
+    color: var(--font-right);
+}
