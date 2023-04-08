@@ -31,8 +31,41 @@ layout: splash
   document.ontouchmove = e => onMove(e.touches[0]);
 </script>
 
-<div style="padding-top: 110vh;">
-Page under construction, check back later.
+<div id="prj-body" style="padding-top: 110vh;">
+
+<!-- Cards for projects and stuff -->
+<div id="pcard-body">
+  <div class="pcard">
+    <div class="pcard-content">Test 1</div>
+  </div>
+  <div class="pcard">
+    <div class="pcard-content">Test 2</div>
+  </div>
+  <div class="pcard">
+    <div class="pcard-content">Test 3</div>
+  </div>
+  <div class="pcard">
+    <div class="pcard-content">Test 4</div>
+  </div>
+</div>
+
+<!-- Handle the effect for changing the highlights of card -->
+<script>
+document.getElementById("main").onmousemove = e => {
+  for(const card of document.getElementsByClassName("pcard")) {
+    const rect = card.getBoundingClientRect(),
+          x = e.clientX - rect.left,
+          y = e.clientY - rect.top;
+
+    card.style.setProperty("--mouse-x", `${x}px`);
+    card.style.setProperty("--mouse-y", `${y}px`);
+  };
+}
+</script>
+
+
+
+  Page under construction, check back later.
 
 Look at the cool donut while you're here I guess, weee!
 

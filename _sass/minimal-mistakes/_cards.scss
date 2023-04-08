@@ -1,0 +1,70 @@
+#pcard-body{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding-bottom: 1em;
+    gap: 8px;
+}
+
+.pcard:nth-child(1){
+    grid-area: 1/2/2/3;
+}
+.pcard:nth-child(2){
+    grid-area: 2/1/3/2;
+}
+.pcard:nth-child(3){
+    grid-area: 2/2/3/3;
+}
+.pcard:nth-child(4){
+    grid-area: 2/3/3/4;
+}
+
+.pcard{
+    width: 100%;
+    aspect-ratio:  1.6/1;
+    background-color: mix(#fff, $background-color, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    background: radial-gradient(
+        400px circle at var(--mouse-x) var(--mouse-y),
+        rgba(242, 19, 104, 0.5),
+        transparent 40%
+    );
+}
+
+.pcard > .pcard-content{
+    width: calc(100% - 3px);
+    height: calc(100% - 3px);
+    margin: 1.5px;
+    background-color: rgb(26, 20, 20);
+    border-radius: inherit;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pcard-content::before{
+    border-radius: inherit;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: opacity 500ms;
+    opacity: 0;
+    background: radial-gradient(
+        800px circle at var(--mouse-x) var(--mouse-y),
+        rgba(242, 19, 104, 0.06),
+        transparent 40%
+    );
+}
+
+.pcard-content:hover::before{
+    opacity: 1;
+}
