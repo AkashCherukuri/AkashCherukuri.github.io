@@ -29,7 +29,7 @@ excerpt: >
     </button>
   </div>
   <div class="summ" style="color: #ff7d25; font-weight: bold;">
-    Interstellar Archeology, Timeloop Nihilism, and inevitability of death. <br>
+    Interstellar archeology, timeloop nihilism, and inevitability of death. <br>
     You explore a solar system trying to uncover its mysteries while fighting against the flow of time. <br>
     It is an experience like none other, and I often wish I could play it again for the first time. <br>
   </div>
