@@ -36,7 +36,7 @@ layout: splash
 <!-- Cards for projects and stuff -->
 <div id="pcard-body">
   <div class="pcard">
-    <div class="pcard-content">Test 1</div>
+    <div class="pcard-content">Offered a Pre-Placement Offer at Samsung Korea for exceptional performance!</div>
   </div>
   <div class="pcard">
     <div class="pcard-content">Test 2</div>

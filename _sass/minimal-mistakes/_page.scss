@@ -759,3 +759,26 @@ body {
   border-width: 5px;
   padding-top: 10px;
 }
+
+// Style for moving review
+.gameSumm{
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.buttonBox{
+  box-sizing: border-box;
+  text-align: center;
+  transition: width 0.3s;
+  width: 100%;
+}
+
+.summ{ 
+  display: none;
+  width: 0;
+  height: 25vh;
+  opacity: 0;
+  transition: width 0.3s, opacity 0.5s;
+}
