@@ -58,4 +58,5 @@ This website uses [Jekyll](https://jekyllrb.com/) and is primarily based on the 
 ## Contribution Workflow
 - **Branching**: Always create a new feature branch for changes (e.g., `git checkout -b feature/name`).
 - **Commits**: Make granular commits for each distinct feature or fix.
+- **Verification**: ALWAYS ask the user to verify changes (by running the site locally) **before** pushing/committing to the remote.
 - **Persistence**: Update this document (`agents.md`) if workflow usage changes.
