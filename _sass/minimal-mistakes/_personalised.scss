@@ -1,158 +1,188 @@
 :root {
-    --border: #f21368;
-    
-    --g1: rgb(98, 0, 234);
-    --g2: rgb(236, 64, 122);
-    --g3: rgb(253, 216, 53);
-  }
-  
-  .twitchbod {
-    // background-color: rgb(10, 10, 10);
-    display: grid;
-    place-items: center;
-    width: 100%;
-    padding: 3%;
-  }
-  
-  .card {
-    aspect-ratio: 1.05/ 1;
-    cursor: pointer;
-    position: relative;
-    width: 95%;
-    border-radius: 7%;
-    border: 0.5vmin solid var(--border);
-  }
-  
-  .card:hover:before {
-    background-position: 100% 100%;
-    transform: scale(1.08, 1.03);
-  }
-  
-  .card:hover > .card-content {
-    background-position: -10% 0%;
-  }
-  
-  .card:hover > .card-icon {
-    color: white; 
-  }
-  
-  .card:hover > .card-content > .card-subtitle > .card-subtitle-word {  
-    opacity: 1;
-    transform: translateY(0%);
-    transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
-  }
-  
-  .card:before {
-    background: linear-gradient(
-      130deg, 
-      transparent 0% 33%, 
-      var(--g1) 66%, 
-      var(--g2) 83.5%, 
-      var(--g3) 100%
-    );
-    background-position: 0% 0%;
-    background-size: 300% 300%;
-    border-radius: 7%;
-    content: "";
-    height: 100%;
-    left: 0px;
-    pointer-events: none;
-    position: absolute;
-    top: 0px;
-    transition: background-position 350ms ease, transform 350ms ease;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  .card:active {
-    transform: translateY(3px);
-  }
+  --border: #f21368;
 
-  .card-content {
-    background-image: radial-gradient(
-      rgba(255, 255, 255, 0.2) 8%, 
-      transparent 5%
-    );
-    background-position: 0% 0%;
-    background-size: 5vmin 5vmin;
-    height: 100%;
-    padding: 5vmin;
-    position: relative;
-    transition: background-position 350ms ease;
-    width: 100%;
-    z-index: 2;
-  }
-  
-  .card-title,
-  .card-subtitle {
-    color: white;
-    font-weight: 400;
-    margin: 0px;
-  }
-  
-  .card:hover .card-title{
-    font-size: 6vmin;
-  }
+  --g1: rgb(98, 0, 234);
+  --g2: rgb(236, 64, 122);
+  --g3: rgb(253, 216, 53);
+}
 
-  .card-title {
-    font-size: 5.7vmin;
-    transition: font-size 350ms ease;
-  }
+.twitchbod {
+  // background-color: rgb(10, 10, 10);
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding: 3%;
+}
 
-  .card-subtitle {
-    font-size: 3vmin;
-    margin-top: 2vmin;
-    padding-top: 3%;
-  }
-  
-  .card-subtitle-word {
-    display: inline-block;
-    margin: 0vmin 0.3vmin;
-    opacity: 0;
-    position: relative;  
-    transform: translateY(40%);
-    transition: none;
-  }
-  
-  .card-icon {
-    bottom: 0px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 7vmin;
-    left: 0px;
-    margin: 5vmin;
-    position: absolute;
-    transition: color 250ms ease;
-    z-index: 2;
-  }
+.card {
+  aspect-ratio: 1.05/ 1;
+  cursor: pointer;
+  position: relative;
+  width: 95%;
+  border-radius: 7%;
+  border: 0.5vmin solid var(--border);
+}
 
-  #blob{
-    content: "";
-    background: linear-gradient(
-      0deg,
+.card:hover:before {
+  background-position: 100% 100%;
+  transform: scale(1.08, 1.03);
+}
+
+.card:hover>.card-content {
+  background-position: -10% 0%;
+}
+
+.card:hover>.card-icon {
+  color: white;
+}
+
+.card:hover>.card-content>.card-subtitle>.card-subtitle-word {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
+}
+
+.card:before {
+  background: linear-gradient(130deg,
+      transparent 0% 33%,
+      var(--g1) 66%,
+      var(--g2) 83.5%,
+      var(--g3) 100%);
+  background-position: 0% 0%;
+  background-size: 300% 300%;
+  border-radius: 7%;
+  content: "";
+  height: 100%;
+  left: 0px;
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  transition: background-position 350ms ease, transform 350ms ease;
+  width: 100%;
+  z-index: 1;
+}
+
+.card:active {
+  transform: translateY(3px);
+}
+
+.card-content {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.2) 8%,
+      transparent 5%);
+  background-position: 0% 0%;
+  background-size: 5vmin 5vmin;
+  height: 100%;
+  padding: 5vmin;
+  position: relative;
+  transition: background-position 350ms ease;
+  width: 100%;
+  z-index: 2;
+}
+
+.card-title,
+.card-subtitle {
+  color: white;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.card:hover .card-title {
+  font-size: 6vmin;
+}
+
+.card-title {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  transition: font-size 350ms ease;
+}
+
+.card-subtitle {
+  font-size: 3vmin;
+  margin-top: 2vmin;
+  padding-top: 3%;
+}
+
+.card-subtitle-word {
+  display: inline-block;
+  margin: 0vmin 0.3vmin;
+  opacity: 0;
+  position: relative;
+  transform: translateY(40%);
+  transition: none;
+}
+
+.card-icon {
+  bottom: 0px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 7vmin;
+  left: 0px;
+  margin: 5vmin;
+  position: absolute;
+  transition: color 250ms ease;
+  z-index: 2;
+}
+
+#blob {
+  content: "";
+  background: linear-gradient(0deg,
       #9be3c3,
-      #f21368
-    );
-    animation: rotate 20s infinite;
-    height: 200px;
-    aspect-ratio: 1;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    translate: -50% -50%;
-    border-radius: 50%;
-    filter: blur(200px);
-    overflow: scroll;
+      #f21368);
+  animation: rotate 20s infinite;
+  height: 200px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  filter: blur(200px);
+  overflow: scroll;
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
   }
 
-  @keyframes rotate{
-    from{
-      rotate: 0deg;
-    }
-    50% {
-      scale: 1 1.5;
-    }
-    to{
-      rotate: 360deg;
-    }
+  50% {
+    scale: 1 1.5;
   }
 
+  to {
+    rotate: 360deg;
+  }
+}
+
+// Game Summary Hover Effects (Pure CSS)
+.gameSumm {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%; // Ensure it takes full height of container
+  overflow: hidden; // Prevent spillover during transition
+}
+
+.buttonBox {
+  width: 100%;
+  transition: width 300ms ease;
+  will-change: width;
+}
+
+.summ {
+  width: 0;
+  opacity: 0;
+  display: block; // Always layout, just hidden width/opacity
+  overflow: hidden;
+  white-space: normal;
+  transition: width 300ms ease, opacity 300ms ease;
+  will-change: width, opacity;
+}
+
+// Hover state
+.gameSumm:hover .buttonBox {
+  width: 40%;
+}
+
+.gameSumm:hover .summ {
+  width: 60%;
+  opacity: 1;
+}
